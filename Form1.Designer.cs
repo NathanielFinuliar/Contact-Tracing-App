@@ -28,45 +28,47 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ContactTracing));
             this.Sbmt = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.ContactTracingLbl = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // Sbmt
             // 
-            this.Sbmt.Location = new System.Drawing.Point(546, 345);
+            this.Sbmt.Location = new System.Drawing.Point(2293, 790);
+            this.Sbmt.Margin = new System.Windows.Forms.Padding(13, 7, 13, 7);
             this.Sbmt.Name = "Sbmt";
-            this.Sbmt.Size = new System.Drawing.Size(148, 70);
+            this.Sbmt.Size = new System.Drawing.Size(568, 160);
             this.Sbmt.TabIndex = 0;
             this.Sbmt.Text = "Submit";
             this.Sbmt.UseVisualStyleBackColor = true;
             this.Sbmt.Click += new System.EventHandler(this.Sbmt_Click);
             // 
-            // label1
+            // ContactTracingLbl
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(72, 82);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "label1";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(146, 82);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(247, 20);
-            this.textBox1.TabIndex = 2;
+            this.ContactTracingLbl.AutoSize = true;
+            this.ContactTracingLbl.BackColor = System.Drawing.Color.GhostWhite;
+            this.ContactTracingLbl.Font = new System.Drawing.Font("Gobold Blocky", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ContactTracingLbl.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.ContactTracingLbl.Location = new System.Drawing.Point(227, 58);
+            this.ContactTracingLbl.Margin = new System.Windows.Forms.Padding(13, 0, 13, 0);
+            this.ContactTracingLbl.Name = "ContactTracingLbl";
+            this.ContactTracingLbl.Size = new System.Drawing.Size(286, 54);
+            this.ContactTracingLbl.TabIndex = 1;
+            this.ContactTracingLbl.Text = "CONTACT TRACING";
             // 
             // ContactTracing
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(23F, 30F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label1);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(779, 529);
+            this.Controls.Add(this.ContactTracingLbl);
             this.Controls.Add(this.Sbmt);
+            this.Font = new System.Drawing.Font("SF Sports Night Alternate", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(13, 7, 13, 7);
             this.Name = "ContactTracing";
             this.Text = "Contact Tracing";
             this.ResumeLayout(false);
@@ -77,8 +79,7 @@
         #endregion
 
         private System.Windows.Forms.Button Sbmt;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label ContactTracingLbl;
     }
 }
 
