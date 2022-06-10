@@ -20,8 +20,8 @@ namespace Contact_Tracing_App
 
         private void Sbmt_Click(object sender, EventArgs e)
         {
-            StreamWriter file = new StreamWriter(@"C:\Users\nathan\contact-tracing\Contact-Tracing.txt");
-            file.WriteLine("hehe...try lang muna");
+            StreamWriter file = new StreamWriter(@"C:\Users\nathan\contact-tracing\Contact-Tracing.txt", true);
+            file.WriteLine("");
             file.Close();
         }
     }
