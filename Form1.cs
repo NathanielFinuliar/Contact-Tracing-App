@@ -37,6 +37,7 @@ namespace Contact_Tracing_App
             file.WriteLine("Barangay: " + BrgyTxtBox.Text);
             file.WriteLine("City: " + CityTxtBox.Text);
             file.WriteLine("Province: " + PrvnceTxtBox.Text);
+            file.WriteLine("Seating/TableNo./Location " + LtnTxtBox.Text);
             file.Close();
         }
         private void ContactTracing_Load(object sender, EventArgs e)
