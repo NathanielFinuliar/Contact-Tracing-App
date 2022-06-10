@@ -25,6 +25,9 @@ namespace Contact_Tracing_App
             file.WriteLine("Middle Name: " + MNTxtBox.Text);
             file.WriteLine("Last Name: " + LNTxtBox.Text);
             file.WriteLine("Suffix: " + SFTxtBox.Text);
+            file.WriteLine("MM: " + MMTxtBox.Text);
+            file.WriteLine("DD: " + DDTxtBox.Text);
+            file.WriteLine("YY: " + YYTxtBox.Text);
             file.Close();
         }
         private void ContactTracing_Load(object sender, EventArgs e)
