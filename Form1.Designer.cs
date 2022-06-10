@@ -128,7 +128,7 @@
             this.NameLabl.AutoSize = true;
             this.NameLabl.BackColor = System.Drawing.Color.Transparent;
             this.NameLabl.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NameLabl.ForeColor = System.Drawing.Color.White;
+            this.NameLabl.ForeColor = System.Drawing.Color.Black;
             this.NameLabl.Location = new System.Drawing.Point(36, 184);
             this.NameLabl.Name = "NameLabl";
             this.NameLabl.Size = new System.Drawing.Size(105, 24);
@@ -153,7 +153,7 @@
             this.FNLabl.AutoSize = true;
             this.FNLabl.BackColor = System.Drawing.Color.Transparent;
             this.FNLabl.Font = new System.Drawing.Font("Circular Std Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FNLabl.ForeColor = System.Drawing.Color.White;
+            this.FNLabl.ForeColor = System.Drawing.Color.Black;
             this.FNLabl.Location = new System.Drawing.Point(77, 238);
             this.FNLabl.Name = "FNLabl";
             this.FNLabl.Size = new System.Drawing.Size(89, 20);
@@ -165,7 +165,7 @@
             this.MNLabl.AutoSize = true;
             this.MNLabl.BackColor = System.Drawing.Color.Transparent;
             this.MNLabl.Font = new System.Drawing.Font("Circular Std Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MNLabl.ForeColor = System.Drawing.Color.White;
+            this.MNLabl.ForeColor = System.Drawing.Color.Black;
             this.MNLabl.Location = new System.Drawing.Point(251, 238);
             this.MNLabl.Name = "MNLabl";
             this.MNLabl.Size = new System.Drawing.Size(109, 20);
@@ -177,7 +177,7 @@
             this.LNLabl.AutoSize = true;
             this.LNLabl.BackColor = System.Drawing.Color.Transparent;
             this.LNLabl.Font = new System.Drawing.Font("Circular Std Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LNLabl.ForeColor = System.Drawing.Color.White;
+            this.LNLabl.ForeColor = System.Drawing.Color.Black;
             this.LNLabl.Location = new System.Drawing.Point(430, 238);
             this.LNLabl.Name = "LNLabl";
             this.LNLabl.Size = new System.Drawing.Size(88, 20);
@@ -189,7 +189,7 @@
             this.SufLabl.AutoSize = true;
             this.SufLabl.BackColor = System.Drawing.Color.Transparent;
             this.SufLabl.Font = new System.Drawing.Font("Circular Std Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SufLabl.ForeColor = System.Drawing.Color.White;
+            this.SufLabl.ForeColor = System.Drawing.Color.Black;
             this.SufLabl.Location = new System.Drawing.Point(563, 238);
             this.SufLabl.Name = "SufLabl";
             this.SufLabl.Size = new System.Drawing.Size(52, 20);
@@ -225,7 +225,7 @@
             this.DtVstLabl.AutoSize = true;
             this.DtVstLabl.BackColor = System.Drawing.Color.Transparent;
             this.DtVstLabl.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DtVstLabl.ForeColor = System.Drawing.Color.White;
+            this.DtVstLabl.ForeColor = System.Drawing.Color.Black;
             this.DtVstLabl.Location = new System.Drawing.Point(671, 185);
             this.DtVstLabl.Name = "DtVstLabl";
             this.DtVstLabl.Size = new System.Drawing.Size(125, 24);
@@ -237,7 +237,7 @@
             this.mdyLabl.AutoSize = true;
             this.mdyLabl.BackColor = System.Drawing.Color.Transparent;
             this.mdyLabl.Font = new System.Drawing.Font("Circular Std Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mdyLabl.ForeColor = System.Drawing.Color.White;
+            this.mdyLabl.ForeColor = System.Drawing.Color.Black;
             this.mdyLabl.Location = new System.Drawing.Point(675, 252);
             this.mdyLabl.Name = "mdyLabl";
             this.mdyLabl.Size = new System.Drawing.Size(115, 20);
@@ -249,7 +249,7 @@
             this.tmvstLabl.AutoSize = true;
             this.tmvstLabl.BackColor = System.Drawing.Color.Transparent;
             this.tmvstLabl.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tmvstLabl.ForeColor = System.Drawing.Color.White;
+            this.tmvstLabl.ForeColor = System.Drawing.Color.Black;
             this.tmvstLabl.Location = new System.Drawing.Point(677, 287);
             this.tmvstLabl.Name = "tmvstLabl";
             this.tmvstLabl.Size = new System.Drawing.Size(128, 24);
@@ -269,7 +269,7 @@
             this.CurrentAddLabl.AutoSize = true;
             this.CurrentAddLabl.BackColor = System.Drawing.Color.Transparent;
             this.CurrentAddLabl.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CurrentAddLabl.ForeColor = System.Drawing.Color.White;
+            this.CurrentAddLabl.ForeColor = System.Drawing.Color.Black;
             this.CurrentAddLabl.Location = new System.Drawing.Point(36, 292);
             this.CurrentAddLabl.Name = "CurrentAddLabl";
             this.CurrentAddLabl.Size = new System.Drawing.Size(258, 24);
@@ -289,7 +289,7 @@
             this.HNLabl.AutoSize = true;
             this.HNLabl.BackColor = System.Drawing.Color.Transparent;
             this.HNLabl.Font = new System.Drawing.Font("Circular Std Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.HNLabl.ForeColor = System.Drawing.Color.White;
+            this.HNLabl.ForeColor = System.Drawing.Color.Black;
             this.HNLabl.Location = new System.Drawing.Point(34, 356);
             this.HNLabl.Name = "HNLabl";
             this.HNLabl.Size = new System.Drawing.Size(85, 20);
@@ -309,7 +309,7 @@
             this.StrtLabl.AutoSize = true;
             this.StrtLabl.BackColor = System.Drawing.Color.Transparent;
             this.StrtLabl.Font = new System.Drawing.Font("Circular Std Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.StrtLabl.ForeColor = System.Drawing.Color.White;
+            this.StrtLabl.ForeColor = System.Drawing.Color.Black;
             this.StrtLabl.Location = new System.Drawing.Point(157, 356);
             this.StrtLabl.Name = "StrtLabl";
             this.StrtLabl.Size = new System.Drawing.Size(55, 20);
@@ -329,7 +329,7 @@
             this.BrgyLabl.AutoSize = true;
             this.BrgyLabl.BackColor = System.Drawing.Color.Transparent;
             this.BrgyLabl.Font = new System.Drawing.Font("Circular Std Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BrgyLabl.ForeColor = System.Drawing.Color.White;
+            this.BrgyLabl.ForeColor = System.Drawing.Color.Black;
             this.BrgyLabl.Location = new System.Drawing.Point(285, 356);
             this.BrgyLabl.Name = "BrgyLabl";
             this.BrgyLabl.Size = new System.Drawing.Size(47, 20);
@@ -349,7 +349,7 @@
             this.CityLabl.AutoSize = true;
             this.CityLabl.BackColor = System.Drawing.Color.Transparent;
             this.CityLabl.Font = new System.Drawing.Font("Circular Std Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CityLabl.ForeColor = System.Drawing.Color.White;
+            this.CityLabl.ForeColor = System.Drawing.Color.Black;
             this.CityLabl.Location = new System.Drawing.Point(363, 356);
             this.CityLabl.Name = "CityLabl";
             this.CityLabl.Size = new System.Drawing.Size(138, 20);
@@ -369,7 +369,7 @@
             this.ProvLabl.AutoSize = true;
             this.ProvLabl.BackColor = System.Drawing.Color.Transparent;
             this.ProvLabl.Font = new System.Drawing.Font("Circular Std Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ProvLabl.ForeColor = System.Drawing.Color.White;
+            this.ProvLabl.ForeColor = System.Drawing.Color.Black;
             this.ProvLabl.Location = new System.Drawing.Point(541, 356);
             this.ProvLabl.Name = "ProvLabl";
             this.ProvLabl.Size = new System.Drawing.Size(74, 20);
@@ -389,7 +389,7 @@
             this.PhonenoLabl.AutoSize = true;
             this.PhonenoLabl.BackColor = System.Drawing.Color.Transparent;
             this.PhonenoLabl.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PhonenoLabl.ForeColor = System.Drawing.Color.White;
+            this.PhonenoLabl.ForeColor = System.Drawing.Color.Black;
             this.PhonenoLabl.Location = new System.Drawing.Point(36, 406);
             this.PhonenoLabl.Name = "PhonenoLabl";
             this.PhonenoLabl.Size = new System.Drawing.Size(221, 24);
@@ -401,7 +401,7 @@
             this.EAddLabl.AutoSize = true;
             this.EAddLabl.BackColor = System.Drawing.Color.Transparent;
             this.EAddLabl.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.EAddLabl.ForeColor = System.Drawing.Color.White;
+            this.EAddLabl.ForeColor = System.Drawing.Color.Black;
             this.EAddLabl.Location = new System.Drawing.Point(34, 488);
             this.EAddLabl.Name = "EAddLabl";
             this.EAddLabl.Size = new System.Drawing.Size(143, 24);
@@ -421,7 +421,7 @@
             this.LocationLabl.AutoSize = true;
             this.LocationLabl.BackColor = System.Drawing.Color.Transparent;
             this.LocationLabl.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LocationLabl.ForeColor = System.Drawing.Color.White;
+            this.LocationLabl.ForeColor = System.Drawing.Color.Black;
             this.LocationLabl.Location = new System.Drawing.Point(285, 406);
             this.LocationLabl.Name = "LocationLabl";
             this.LocationLabl.Size = new System.Drawing.Size(256, 24);
@@ -449,8 +449,8 @@
             this.BdTemptLabl.AutoSize = true;
             this.BdTemptLabl.BackColor = System.Drawing.Color.Transparent;
             this.BdTemptLabl.Font = new System.Drawing.Font("Circular Std Bold", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BdTemptLabl.ForeColor = System.Drawing.Color.White;
-            this.BdTemptLabl.Location = new System.Drawing.Point(656, 369);
+            this.BdTemptLabl.ForeColor = System.Drawing.Color.Black;
+            this.BdTemptLabl.Location = new System.Drawing.Point(669, 369);
             this.BdTemptLabl.Name = "BdTemptLabl";
             this.BdTemptLabl.Size = new System.Drawing.Size(164, 34);
             this.BdTemptLabl.TabIndex = 38;
@@ -480,13 +480,13 @@
             // 
             this.SbmtBttn.BackColor = System.Drawing.Color.White;
             this.SbmtBttn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.SbmtBttn.Font = new System.Drawing.Font("Anton", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SbmtBttn.Font = new System.Drawing.Font("Alphakind", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SbmtBttn.ImageAlign = System.Drawing.ContentAlignment.TopRight;
             this.SbmtBttn.Location = new System.Drawing.Point(714, 515);
             this.SbmtBttn.Name = "SbmtBttn";
             this.SbmtBttn.Size = new System.Drawing.Size(106, 45);
             this.SbmtBttn.TabIndex = 42;
-            this.SbmtBttn.Text = "Submit";
+            this.SbmtBttn.Text = "SUBMIT";
             this.SbmtBttn.UseVisualStyleBackColor = false;
             this.SbmtBttn.Click += new System.EventHandler(this.SbmtBttn_Click);
             // 
