@@ -40,31 +40,31 @@
             this.MNLabl = new System.Windows.Forms.Label();
             this.LNLabl = new System.Windows.Forms.Label();
             this.SufLabl = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.MMTxtBox = new System.Windows.Forms.TextBox();
+            this.DDTxtBox = new System.Windows.Forms.TextBox();
+            this.YYTxtBox = new System.Windows.Forms.TextBox();
             this.DtVstLabl = new System.Windows.Forms.Label();
             this.mdyLabl = new System.Windows.Forms.Label();
             this.tmvstLabl = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.ToVTxtBox = new System.Windows.Forms.TextBox();
             this.CurrentAddLabl = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.HNTxtBox = new System.Windows.Forms.TextBox();
             this.HNLabl = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.StrtTxtBox = new System.Windows.Forms.TextBox();
             this.StrtLabl = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.BrgyTxtBox = new System.Windows.Forms.TextBox();
             this.BrgyLabl = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.CityTxtBox = new System.Windows.Forms.TextBox();
             this.CityLabl = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.PrvnceTxtBox = new System.Windows.Forms.TextBox();
             this.ProvLabl = new System.Windows.Forms.Label();
-            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.MblNTxtBox = new System.Windows.Forms.TextBox();
             this.PhonenoLabl = new System.Windows.Forms.Label();
             this.EAddLabl = new System.Windows.Forms.Label();
-            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.EmlAddTxtBox = new System.Windows.Forms.TextBox();
             this.LocationLabl = new System.Windows.Forms.Label();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.LtnTxtBox = new System.Windows.Forms.TextBox();
+            this.BodTempTxtBox = new System.Windows.Forms.TextBox();
             this.BdTemptLabl = new System.Windows.Forms.Label();
             this.athrzeLabl = new System.Windows.Forms.RichTextBox();
             this.ChckBxLabl = new System.Windows.Forms.CheckBox();
@@ -186,29 +186,29 @@
             this.SufLabl.TabIndex = 12;
             this.SufLabl.Text = "Suffix";
             // 
-            // textBox1
+            // MMTxtBox
             // 
-            this.textBox1.Font = new System.Drawing.Font("Tahoma", 10F);
-            this.textBox1.Location = new System.Drawing.Point(679, 214);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(33, 24);
-            this.textBox1.TabIndex = 13;
+            this.MMTxtBox.Font = new System.Drawing.Font("Tahoma", 10F);
+            this.MMTxtBox.Location = new System.Drawing.Point(679, 214);
+            this.MMTxtBox.Name = "MMTxtBox";
+            this.MMTxtBox.Size = new System.Drawing.Size(33, 24);
+            this.MMTxtBox.TabIndex = 13;
             // 
-            // textBox2
+            // DDTxtBox
             // 
-            this.textBox2.Font = new System.Drawing.Font("Tahoma", 10F);
-            this.textBox2.Location = new System.Drawing.Point(716, 214);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(38, 24);
-            this.textBox2.TabIndex = 14;
+            this.DDTxtBox.Font = new System.Drawing.Font("Tahoma", 10F);
+            this.DDTxtBox.Location = new System.Drawing.Point(716, 214);
+            this.DDTxtBox.Name = "DDTxtBox";
+            this.DDTxtBox.Size = new System.Drawing.Size(38, 24);
+            this.DDTxtBox.TabIndex = 14;
             // 
-            // textBox3
+            // YYTxtBox
             // 
-            this.textBox3.Font = new System.Drawing.Font("Tahoma", 10F);
-            this.textBox3.Location = new System.Drawing.Point(760, 214);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(34, 24);
-            this.textBox3.TabIndex = 15;
+            this.YYTxtBox.Font = new System.Drawing.Font("Tahoma", 10F);
+            this.YYTxtBox.Location = new System.Drawing.Point(760, 214);
+            this.YYTxtBox.Name = "YYTxtBox";
+            this.YYTxtBox.Size = new System.Drawing.Size(34, 24);
+            this.YYTxtBox.TabIndex = 15;
             // 
             // DtVstLabl
             // 
@@ -246,13 +246,13 @@
             this.tmvstLabl.TabIndex = 18;
             this.tmvstLabl.Text = "Time of Visit:";
             // 
-            // textBox4
+            // ToVTxtBox
             // 
-            this.textBox4.Font = new System.Drawing.Font("Tahoma", 10F);
-            this.textBox4.Location = new System.Drawing.Point(692, 305);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(92, 24);
-            this.textBox4.TabIndex = 19;
+            this.ToVTxtBox.Font = new System.Drawing.Font("Tahoma", 10F);
+            this.ToVTxtBox.Location = new System.Drawing.Point(692, 305);
+            this.ToVTxtBox.Name = "ToVTxtBox";
+            this.ToVTxtBox.Size = new System.Drawing.Size(92, 24);
+            this.ToVTxtBox.TabIndex = 19;
             // 
             // CurrentAddLabl
             // 
@@ -266,13 +266,13 @@
             this.CurrentAddLabl.TabIndex = 20;
             this.CurrentAddLabl.Text = "Complete Current Address:";
             // 
-            // textBox5
+            // HNTxtBox
             // 
-            this.textBox5.Font = new System.Drawing.Font("Tahoma", 10F);
-            this.textBox5.Location = new System.Drawing.Point(58, 320);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(39, 24);
-            this.textBox5.TabIndex = 21;
+            this.HNTxtBox.Font = new System.Drawing.Font("Tahoma", 10F);
+            this.HNTxtBox.Location = new System.Drawing.Point(58, 320);
+            this.HNTxtBox.Name = "HNTxtBox";
+            this.HNTxtBox.Size = new System.Drawing.Size(39, 24);
+            this.HNTxtBox.TabIndex = 21;
             // 
             // HNLabl
             // 
@@ -286,13 +286,13 @@
             this.HNLabl.TabIndex = 22;
             this.HNLabl.Text = "House No.";
             // 
-            // textBox6
+            // StrtTxtBox
             // 
-            this.textBox6.Font = new System.Drawing.Font("Tahoma", 10F);
-            this.textBox6.Location = new System.Drawing.Point(119, 320);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(151, 24);
-            this.textBox6.TabIndex = 23;
+            this.StrtTxtBox.Font = new System.Drawing.Font("Tahoma", 10F);
+            this.StrtTxtBox.Location = new System.Drawing.Point(119, 320);
+            this.StrtTxtBox.Name = "StrtTxtBox";
+            this.StrtTxtBox.Size = new System.Drawing.Size(151, 24);
+            this.StrtTxtBox.TabIndex = 23;
             // 
             // StrtLabl
             // 
@@ -306,13 +306,13 @@
             this.StrtLabl.TabIndex = 24;
             this.StrtLabl.Text = "Street";
             // 
-            // textBox7
+            // BrgyTxtBox
             // 
-            this.textBox7.Font = new System.Drawing.Font("Tahoma", 10F);
-            this.textBox7.Location = new System.Drawing.Point(286, 320);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(50, 24);
-            this.textBox7.TabIndex = 25;
+            this.BrgyTxtBox.Font = new System.Drawing.Font("Tahoma", 10F);
+            this.BrgyTxtBox.Location = new System.Drawing.Point(286, 320);
+            this.BrgyTxtBox.Name = "BrgyTxtBox";
+            this.BrgyTxtBox.Size = new System.Drawing.Size(50, 24);
+            this.BrgyTxtBox.TabIndex = 25;
             // 
             // BrgyLabl
             // 
@@ -326,13 +326,13 @@
             this.BrgyLabl.TabIndex = 26;
             this.BrgyLabl.Text = "Brgy.";
             // 
-            // textBox8
+            // CityTxtBox
             // 
-            this.textBox8.Font = new System.Drawing.Font("Tahoma", 10F);
-            this.textBox8.Location = new System.Drawing.Point(354, 320);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(151, 24);
-            this.textBox8.TabIndex = 27;
+            this.CityTxtBox.Font = new System.Drawing.Font("Tahoma", 10F);
+            this.CityTxtBox.Location = new System.Drawing.Point(354, 320);
+            this.CityTxtBox.Name = "CityTxtBox";
+            this.CityTxtBox.Size = new System.Drawing.Size(151, 24);
+            this.CityTxtBox.TabIndex = 27;
             // 
             // CityLabl
             // 
@@ -346,13 +346,13 @@
             this.CityLabl.TabIndex = 28;
             this.CityLabl.Text = "Municipality/City";
             // 
-            // textBox9
+            // PrvnceTxtBox
             // 
-            this.textBox9.Font = new System.Drawing.Font("Tahoma", 10F);
-            this.textBox9.Location = new System.Drawing.Point(522, 320);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(124, 24);
-            this.textBox9.TabIndex = 29;
+            this.PrvnceTxtBox.Font = new System.Drawing.Font("Tahoma", 10F);
+            this.PrvnceTxtBox.Location = new System.Drawing.Point(522, 320);
+            this.PrvnceTxtBox.Name = "PrvnceTxtBox";
+            this.PrvnceTxtBox.Size = new System.Drawing.Size(124, 24);
+            this.PrvnceTxtBox.TabIndex = 29;
             // 
             // ProvLabl
             // 
@@ -366,13 +366,13 @@
             this.ProvLabl.TabIndex = 30;
             this.ProvLabl.Text = "Province";
             // 
-            // textBox10
+            // MblNTxtBox
             // 
-            this.textBox10.Font = new System.Drawing.Font("Tahoma", 10F);
-            this.textBox10.Location = new System.Drawing.Point(44, 424);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(151, 24);
-            this.textBox10.TabIndex = 31;
+            this.MblNTxtBox.Font = new System.Drawing.Font("Tahoma", 10F);
+            this.MblNTxtBox.Location = new System.Drawing.Point(44, 424);
+            this.MblNTxtBox.Name = "MblNTxtBox";
+            this.MblNTxtBox.Size = new System.Drawing.Size(151, 24);
+            this.MblNTxtBox.TabIndex = 31;
             // 
             // PhonenoLabl
             // 
@@ -398,13 +398,13 @@
             this.EAddLabl.TabIndex = 33;
             this.EAddLabl.Text = "Email Address:";
             // 
-            // textBox11
+            // EmlAddTxtBox
             // 
-            this.textBox11.Font = new System.Drawing.Font("Tahoma", 10F);
-            this.textBox11.Location = new System.Drawing.Point(42, 506);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(192, 24);
-            this.textBox11.TabIndex = 34;
+            this.EmlAddTxtBox.Font = new System.Drawing.Font("Tahoma", 10F);
+            this.EmlAddTxtBox.Location = new System.Drawing.Point(42, 506);
+            this.EmlAddTxtBox.Name = "EmlAddTxtBox";
+            this.EmlAddTxtBox.Size = new System.Drawing.Size(192, 24);
+            this.EmlAddTxtBox.TabIndex = 34;
             // 
             // LocationLabl
             // 
@@ -418,21 +418,21 @@
             this.LocationLabl.TabIndex = 35;
             this.LocationLabl.Text = "Seating/Table No/Location:";
             // 
-            // textBox12
+            // LtnTxtBox
             // 
-            this.textBox12.Font = new System.Drawing.Font("Tahoma", 10F);
-            this.textBox12.Location = new System.Drawing.Point(338, 424);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(151, 24);
-            this.textBox12.TabIndex = 36;
+            this.LtnTxtBox.Font = new System.Drawing.Font("Tahoma", 10F);
+            this.LtnTxtBox.Location = new System.Drawing.Point(338, 424);
+            this.LtnTxtBox.Name = "LtnTxtBox";
+            this.LtnTxtBox.Size = new System.Drawing.Size(151, 24);
+            this.LtnTxtBox.TabIndex = 36;
             // 
-            // textBox13
+            // BodTempTxtBox
             // 
-            this.textBox13.Font = new System.Drawing.Font("Tahoma", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox13.Location = new System.Drawing.Point(679, 397);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(131, 50);
-            this.textBox13.TabIndex = 37;
+            this.BodTempTxtBox.Font = new System.Drawing.Font("Tahoma", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BodTempTxtBox.Location = new System.Drawing.Point(679, 397);
+            this.BodTempTxtBox.Name = "BodTempTxtBox";
+            this.BodTempTxtBox.Size = new System.Drawing.Size(131, 50);
+            this.BodTempTxtBox.TabIndex = 37;
             // 
             // BdTemptLabl
             // 
@@ -490,31 +490,31 @@
             this.Controls.Add(this.ChckBxLabl);
             this.Controls.Add(this.athrzeLabl);
             this.Controls.Add(this.BdTemptLabl);
-            this.Controls.Add(this.textBox13);
-            this.Controls.Add(this.textBox12);
+            this.Controls.Add(this.BodTempTxtBox);
+            this.Controls.Add(this.LtnTxtBox);
             this.Controls.Add(this.LocationLabl);
-            this.Controls.Add(this.textBox11);
+            this.Controls.Add(this.EmlAddTxtBox);
             this.Controls.Add(this.EAddLabl);
             this.Controls.Add(this.PhonenoLabl);
-            this.Controls.Add(this.textBox10);
+            this.Controls.Add(this.MblNTxtBox);
             this.Controls.Add(this.ProvLabl);
-            this.Controls.Add(this.textBox9);
+            this.Controls.Add(this.PrvnceTxtBox);
             this.Controls.Add(this.CityLabl);
-            this.Controls.Add(this.textBox8);
+            this.Controls.Add(this.CityTxtBox);
             this.Controls.Add(this.BrgyLabl);
-            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.BrgyTxtBox);
             this.Controls.Add(this.StrtLabl);
-            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.StrtTxtBox);
             this.Controls.Add(this.HNLabl);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.HNTxtBox);
             this.Controls.Add(this.CurrentAddLabl);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.ToVTxtBox);
             this.Controls.Add(this.tmvstLabl);
             this.Controls.Add(this.mdyLabl);
             this.Controls.Add(this.DtVstLabl);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.YYTxtBox);
+            this.Controls.Add(this.DDTxtBox);
+            this.Controls.Add(this.MMTxtBox);
             this.Controls.Add(this.SufLabl);
             this.Controls.Add(this.LNLabl);
             this.Controls.Add(this.MNLabl);
@@ -549,31 +549,31 @@
         private System.Windows.Forms.Label MNLabl;
         private System.Windows.Forms.Label LNLabl;
         private System.Windows.Forms.Label SufLabl;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox MMTxtBox;
+        private System.Windows.Forms.TextBox DDTxtBox;
+        private System.Windows.Forms.TextBox YYTxtBox;
         private System.Windows.Forms.Label DtVstLabl;
         private System.Windows.Forms.Label mdyLabl;
         private System.Windows.Forms.Label tmvstLabl;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox ToVTxtBox;
         private System.Windows.Forms.Label CurrentAddLabl;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox HNTxtBox;
         private System.Windows.Forms.Label HNLabl;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox StrtTxtBox;
         private System.Windows.Forms.Label StrtLabl;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox BrgyTxtBox;
         private System.Windows.Forms.Label BrgyLabl;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox CityTxtBox;
         private System.Windows.Forms.Label CityLabl;
-        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox PrvnceTxtBox;
         private System.Windows.Forms.Label ProvLabl;
-        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.TextBox MblNTxtBox;
         private System.Windows.Forms.Label PhonenoLabl;
         private System.Windows.Forms.Label EAddLabl;
-        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.TextBox EmlAddTxtBox;
         private System.Windows.Forms.Label LocationLabl;
-        private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.TextBox textBox13;
+        private System.Windows.Forms.TextBox LtnTxtBox;
+        private System.Windows.Forms.TextBox BodTempTxtBox;
         private System.Windows.Forms.Label BdTemptLabl;
         private System.Windows.Forms.RichTextBox athrzeLabl;
         private System.Windows.Forms.CheckBox ChckBxLabl;
