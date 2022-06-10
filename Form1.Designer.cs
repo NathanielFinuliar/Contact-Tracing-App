@@ -205,7 +205,7 @@
             // MMTxtBox
             // 
             this.MMTxtBox.Font = new System.Drawing.Font("Tahoma", 10F);
-            this.MMTxtBox.Location = new System.Drawing.Point(675, 223);
+            this.MMTxtBox.Location = new System.Drawing.Point(677, 223);
             this.MMTxtBox.Name = "MMTxtBox";
             this.MMTxtBox.Size = new System.Drawing.Size(33, 24);
             this.MMTxtBox.TabIndex = 4;
@@ -213,7 +213,7 @@
             // DDTxtBox
             // 
             this.DDTxtBox.Font = new System.Drawing.Font("Tahoma", 10F);
-            this.DDTxtBox.Location = new System.Drawing.Point(712, 223);
+            this.DDTxtBox.Location = new System.Drawing.Point(714, 223);
             this.DDTxtBox.Name = "DDTxtBox";
             this.DDTxtBox.Size = new System.Drawing.Size(38, 24);
             this.DDTxtBox.TabIndex = 5;
@@ -221,7 +221,7 @@
             // YYTxtBox
             // 
             this.YYTxtBox.Font = new System.Drawing.Font("Tahoma", 10F);
-            this.YYTxtBox.Location = new System.Drawing.Point(756, 223);
+            this.YYTxtBox.Location = new System.Drawing.Point(758, 223);
             this.YYTxtBox.Name = "YYTxtBox";
             this.YYTxtBox.Size = new System.Drawing.Size(34, 24);
             this.YYTxtBox.TabIndex = 6;
@@ -232,7 +232,7 @@
             this.DtVstLabl.BackColor = System.Drawing.Color.Transparent;
             this.DtVstLabl.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DtVstLabl.ForeColor = System.Drawing.Color.Black;
-            this.DtVstLabl.Location = new System.Drawing.Point(671, 185);
+            this.DtVstLabl.Location = new System.Drawing.Point(675, 196);
             this.DtVstLabl.Name = "DtVstLabl";
             this.DtVstLabl.Size = new System.Drawing.Size(125, 24);
             this.DtVstLabl.TabIndex = 16;
@@ -244,7 +244,7 @@
             this.mdyLabl.BackColor = System.Drawing.Color.Transparent;
             this.mdyLabl.Font = new System.Drawing.Font("Circular Std Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mdyLabl.ForeColor = System.Drawing.Color.Black;
-            this.mdyLabl.Location = new System.Drawing.Point(675, 252);
+            this.mdyLabl.Location = new System.Drawing.Point(677, 252);
             this.mdyLabl.Name = "mdyLabl";
             this.mdyLabl.Size = new System.Drawing.Size(115, 20);
             this.mdyLabl.TabIndex = 17;
@@ -256,7 +256,7 @@
             this.tmvstLabl.BackColor = System.Drawing.Color.Transparent;
             this.tmvstLabl.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tmvstLabl.ForeColor = System.Drawing.Color.Black;
-            this.tmvstLabl.Location = new System.Drawing.Point(671, 287);
+            this.tmvstLabl.Location = new System.Drawing.Point(675, 290);
             this.tmvstLabl.Name = "tmvstLabl";
             this.tmvstLabl.Size = new System.Drawing.Size(128, 24);
             this.tmvstLabl.TabIndex = 18;
@@ -265,7 +265,7 @@
             // ToVTxtBox
             // 
             this.ToVTxtBox.Font = new System.Drawing.Font("Tahoma", 10F);
-            this.ToVTxtBox.Location = new System.Drawing.Point(675, 314);
+            this.ToVTxtBox.Location = new System.Drawing.Point(677, 317);
             this.ToVTxtBox.Name = "ToVTxtBox";
             this.ToVTxtBox.Size = new System.Drawing.Size(92, 24);
             this.ToVTxtBox.TabIndex = 7;
@@ -276,7 +276,7 @@
             this.CurrentAddLabl.BackColor = System.Drawing.Color.Transparent;
             this.CurrentAddLabl.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CurrentAddLabl.ForeColor = System.Drawing.Color.Black;
-            this.CurrentAddLabl.Location = new System.Drawing.Point(31, 369);
+            this.CurrentAddLabl.Location = new System.Drawing.Point(34, 369);
             this.CurrentAddLabl.Name = "CurrentAddLabl";
             this.CurrentAddLabl.Size = new System.Drawing.Size(258, 24);
             this.CurrentAddLabl.TabIndex = 20;
@@ -408,7 +408,7 @@
             this.EAddLabl.BackColor = System.Drawing.Color.Transparent;
             this.EAddLabl.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.EAddLabl.ForeColor = System.Drawing.Color.Black;
-            this.EAddLabl.Location = new System.Drawing.Point(43, 323);
+            this.EAddLabl.Location = new System.Drawing.Point(34, 323);
             this.EAddLabl.Name = "EAddLabl";
             this.EAddLabl.Size = new System.Drawing.Size(143, 24);
             this.EAddLabl.TabIndex = 33;
@@ -428,7 +428,7 @@
             this.LocationLabl.BackColor = System.Drawing.Color.Transparent;
             this.LocationLabl.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LocationLabl.ForeColor = System.Drawing.Color.Black;
-            this.LocationLabl.Location = new System.Drawing.Point(31, 480);
+            this.LocationLabl.Location = new System.Drawing.Point(34, 480);
             this.LocationLabl.Name = "LocationLabl";
             this.LocationLabl.Size = new System.Drawing.Size(174, 48);
             this.LocationLabl.TabIndex = 35;
@@ -438,7 +438,7 @@
             // LtnTxtBox
             // 
             this.LtnTxtBox.Font = new System.Drawing.Font("Tahoma", 10F);
-            this.LtnTxtBox.Location = new System.Drawing.Point(35, 531);
+            this.LtnTxtBox.Location = new System.Drawing.Point(54, 531);
             this.LtnTxtBox.Name = "LtnTxtBox";
             this.LtnTxtBox.Size = new System.Drawing.Size(151, 24);
             this.LtnTxtBox.TabIndex = 18;
@@ -446,7 +446,7 @@
             // BodTempTxtBox
             // 
             this.BodTempTxtBox.Font = new System.Drawing.Font("Tahoma", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BodTempTxtBox.Location = new System.Drawing.Point(675, 387);
+            this.BodTempTxtBox.Location = new System.Drawing.Point(677, 387);
             this.BodTempTxtBox.Name = "BodTempTxtBox";
             this.BodTempTxtBox.Size = new System.Drawing.Size(131, 50);
             this.BodTempTxtBox.TabIndex = 8;
@@ -455,11 +455,11 @@
             // 
             this.BdTemptLabl.AutoSize = true;
             this.BdTemptLabl.BackColor = System.Drawing.Color.Transparent;
-            this.BdTemptLabl.Font = new System.Drawing.Font("Circular Std Bold", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BdTemptLabl.Font = new System.Drawing.Font("Circular Std Bold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BdTemptLabl.ForeColor = System.Drawing.Color.Black;
-            this.BdTemptLabl.Location = new System.Drawing.Point(669, 350);
+            this.BdTemptLabl.Location = new System.Drawing.Point(674, 359);
             this.BdTemptLabl.Name = "BdTemptLabl";
-            this.BdTemptLabl.Size = new System.Drawing.Size(164, 34);
+            this.BdTemptLabl.Size = new System.Drawing.Size(121, 25);
             this.BdTemptLabl.TabIndex = 38;
             this.BdTemptLabl.Text = "Body Temp:";
             // 
