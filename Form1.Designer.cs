@@ -64,6 +64,8 @@
             this.textBox11 = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.textBox12 = new System.Windows.Forms.TextBox();
+            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // Sbmt
@@ -421,6 +423,26 @@
             this.textBox12.Size = new System.Drawing.Size(151, 24);
             this.textBox12.TabIndex = 36;
             // 
+            // textBox13
+            // 
+            this.textBox13.Font = new System.Drawing.Font("Tahoma", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox13.Location = new System.Drawing.Point(659, 416);
+            this.textBox13.Name = "textBox13";
+            this.textBox13.Size = new System.Drawing.Size(131, 50);
+            this.textBox13.TabIndex = 37;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.BackColor = System.Drawing.Color.Transparent;
+            this.label12.Font = new System.Drawing.Font("Circular Std Bold", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.ForeColor = System.Drawing.Color.White;
+            this.label12.Location = new System.Drawing.Point(639, 375);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(164, 34);
+            this.label12.TabIndex = 38;
+            this.label12.Text = "Body Temp:";
+            // 
             // ContactTracing
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(23F, 30F);
@@ -428,6 +450,8 @@
             this.BackColor = System.Drawing.SystemColors.ControlDark;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(851, 615);
+            this.Controls.Add(this.label12);
+            this.Controls.Add(this.textBox13);
             this.Controls.Add(this.textBox12);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.textBox11);
@@ -510,6 +534,8 @@
         private System.Windows.Forms.TextBox textBox11;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.TextBox textBox13;
+        private System.Windows.Forms.Label label12;
     }
 }
 
