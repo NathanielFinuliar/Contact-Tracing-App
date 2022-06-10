@@ -74,11 +74,11 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.AgeTxtBox = new System.Windows.Forms.TextBox();
             this.AgeLabl = new System.Windows.Forms.Label();
             this.GndrTxtBox = new System.Windows.Forms.TextBox();
             this.GndrLabl = new System.Windows.Forms.Label();
             this.EMTxtBox = new System.Windows.Forms.TextBox();
+            this.AgeTxtBox = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -546,14 +546,6 @@
             this.pictureBox5.TabIndex = 47;
             this.pictureBox5.TabStop = false;
             // 
-            // AgeTxtBox
-            // 
-            this.AgeTxtBox.Font = new System.Drawing.Font("Tahoma", 10F);
-            this.AgeTxtBox.Location = new System.Drawing.Point(96, 276);
-            this.AgeTxtBox.Name = "AgeTxtBox";
-            this.AgeTxtBox.Size = new System.Drawing.Size(31, 24);
-            this.AgeTxtBox.TabIndex = 9;
-            // 
             // AgeLabl
             // 
             this.AgeLabl.AutoSize = true;
@@ -594,6 +586,14 @@
             this.EMTxtBox.Size = new System.Drawing.Size(249, 24);
             this.EMTxtBox.TabIndex = 12;
             // 
+            // AgeTxtBox
+            // 
+            this.AgeTxtBox.Font = new System.Drawing.Font("Tahoma", 10F);
+            this.AgeTxtBox.Location = new System.Drawing.Point(104, 276);
+            this.AgeTxtBox.Name = "AgeTxtBox";
+            this.AgeTxtBox.Size = new System.Drawing.Size(45, 24);
+            this.AgeTxtBox.TabIndex = 9;
+            // 
             // ContactTracing
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(23F, 30F);
@@ -602,11 +602,11 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(851, 615);
+            this.Controls.Add(this.AgeTxtBox);
             this.Controls.Add(this.EMTxtBox);
             this.Controls.Add(this.GndrLabl);
             this.Controls.Add(this.GndrTxtBox);
             this.Controls.Add(this.AgeLabl);
-            this.Controls.Add(this.AgeTxtBox);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
@@ -715,11 +715,11 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.TextBox AgeTxtBox;
         private System.Windows.Forms.Label AgeLabl;
         private System.Windows.Forms.TextBox GndrTxtBox;
         private System.Windows.Forms.Label GndrLabl;
         private System.Windows.Forms.TextBox EMTxtBox;
+        private System.Windows.Forms.TextBox AgeTxtBox;
     }
 }
 

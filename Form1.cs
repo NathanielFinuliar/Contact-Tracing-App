@@ -28,6 +28,10 @@ namespace Contact_Tracing_App
             file.WriteLine("Date of Visit: " + MMTxtBox.Text + DDTxtBox.Text + YYTxtBox.Text);
             file.WriteLine("Time of Visit: " + ToVTxtBox.Text);
             file.WriteLine("Body Temperature: " + BodTempTxtBox.Text);
+            file.WriteLine("Age: " + AgeTxtBox.Text);
+            file.WriteLine("Gender: " + GndrTxtBox.Text);
+            file.WriteLine("Mobile Number: " + MblNTxtBox.Text);
+            file.WriteLine("Email Address: " + EMTxtBox);
             file.Close();
         }
         private void ContactTracing_Load(object sender, EventArgs e)
