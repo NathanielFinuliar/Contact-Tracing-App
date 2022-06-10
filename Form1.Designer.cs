@@ -66,7 +66,7 @@
             this.LtnTxtBox = new System.Windows.Forms.TextBox();
             this.BodTempTxtBox = new System.Windows.Forms.TextBox();
             this.BdTemptLabl = new System.Windows.Forms.Label();
-            this.athrzeLabl = new System.Windows.Forms.RichTextBox();
+            this.AthrzeLabl = new System.Windows.Forms.RichTextBox();
             this.ChckBxLabl = new System.Windows.Forms.CheckBox();
             this.SbmtBttn = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -419,7 +419,7 @@
             this.EmlAddTxtBox.Location = new System.Drawing.Point(470, 495);
             this.EmlAddTxtBox.Name = "EmlAddTxtBox";
             this.EmlAddTxtBox.Size = new System.Drawing.Size(192, 24);
-            this.EmlAddTxtBox.TabIndex = 15;
+            this.EmlAddTxtBox.TabIndex = 37;
             // 
             // LocationLabl
             // 
@@ -462,14 +462,16 @@
             this.BdTemptLabl.TabIndex = 38;
             this.BdTemptLabl.Text = "Body Temp:";
             // 
-            // athrzeLabl
+            // AthrzeLabl
             // 
-            this.athrzeLabl.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.athrzeLabl.Location = new System.Drawing.Point(255, 480);
-            this.athrzeLabl.Name = "athrzeLabl";
-            this.athrzeLabl.Size = new System.Drawing.Size(429, 104);
-            this.athrzeLabl.TabIndex = 40;
-            this.athrzeLabl.Text = resources.GetString("athrzeLabl.Text");
+            this.AthrzeLabl.BackColor = System.Drawing.SystemColors.Window;
+            this.AthrzeLabl.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AthrzeLabl.Location = new System.Drawing.Point(255, 480);
+            this.AthrzeLabl.Name = "AthrzeLabl";
+            this.AthrzeLabl.ReadOnly = true;
+            this.AthrzeLabl.Size = new System.Drawing.Size(429, 104);
+            this.AthrzeLabl.TabIndex = 40;
+            this.AthrzeLabl.Text = resources.GetString("AthrzeLabl.Text");
             // 
             // ChckBxLabl
             // 
@@ -614,7 +616,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.SbmtBttn);
             this.Controls.Add(this.ChckBxLabl);
-            this.Controls.Add(this.athrzeLabl);
+            this.Controls.Add(this.AthrzeLabl);
             this.Controls.Add(this.BdTemptLabl);
             this.Controls.Add(this.BodTempTxtBox);
             this.Controls.Add(this.LtnTxtBox);
@@ -707,7 +709,7 @@
         private System.Windows.Forms.TextBox LtnTxtBox;
         private System.Windows.Forms.TextBox BodTempTxtBox;
         private System.Windows.Forms.Label BdTemptLabl;
-        private System.Windows.Forms.RichTextBox athrzeLabl;
+        private System.Windows.Forms.RichTextBox AthrzeLabl;
         private System.Windows.Forms.CheckBox ChckBxLabl;
         private System.Windows.Forms.Button SbmtBttn;
         private System.Windows.Forms.PictureBox pictureBox1;
