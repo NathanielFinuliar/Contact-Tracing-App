@@ -73,5 +73,13 @@ namespace Contact_Tracing_App
         {
             SbmtBttn.Enabled = ChckBxLabl.Checked;
         }
+
+        private void AbtBttn_Click(object sender, EventArgs e)
+        {
+            {
+                MessageBox.Show("Nathaniel Finuliar makes this Contact Tracing Form. This Contacting Trace is inclusively for Visitors who enter Harbor Point by Ayala Malls.",
+                    "What is this Contact Tracing Form?", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }
     }
 }

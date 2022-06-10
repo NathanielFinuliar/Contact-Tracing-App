@@ -79,6 +79,7 @@
             this.GndrLabl = new System.Windows.Forms.Label();
             this.EMTxtBox = new System.Windows.Forms.TextBox();
             this.AgeTxtBox = new System.Windows.Forms.TextBox();
+            this.AbtBttn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -149,9 +150,9 @@
             this.CTLabl.ForeColor = System.Drawing.Color.Brown;
             this.CTLabl.Location = new System.Drawing.Point(139, 124);
             this.CTLabl.Name = "CTLabl";
-            this.CTLabl.Size = new System.Drawing.Size(569, 44);
+            this.CTLabl.Size = new System.Drawing.Size(550, 44);
             this.CTLabl.TabIndex = 7;
-            this.CTLabl.Text = "VISITOR CONTRACT TRACING FORM";
+            this.CTLabl.Text = "VISITOR CONTACT TRACING FORM";
             // 
             // FNLabl
             // 
@@ -487,7 +488,7 @@
             // SbmtBttn
             // 
             this.SbmtBttn.BackColor = System.Drawing.Color.White;
-            this.SbmtBttn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.SbmtBttn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.SbmtBttn.Font = new System.Drawing.Font("Alphakind", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SbmtBttn.ImageAlign = System.Drawing.ContentAlignment.TopRight;
             this.SbmtBttn.Location = new System.Drawing.Point(714, 515);
@@ -596,6 +597,20 @@
             this.AgeTxtBox.Size = new System.Drawing.Size(45, 24);
             this.AgeTxtBox.TabIndex = 9;
             // 
+            // AbtBttn
+            // 
+            this.AbtBttn.BackColor = System.Drawing.Color.White;
+            this.AbtBttn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.AbtBttn.Font = new System.Drawing.Font("Alphakind", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AbtBttn.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.AbtBttn.Location = new System.Drawing.Point(714, 33);
+            this.AbtBttn.Name = "AbtBttn";
+            this.AbtBttn.Size = new System.Drawing.Size(106, 42);
+            this.AbtBttn.TabIndex = 52;
+            this.AbtBttn.Text = "ABOUT";
+            this.AbtBttn.UseVisualStyleBackColor = false;
+            this.AbtBttn.Click += new System.EventHandler(this.AbtBttn_Click);
+            // 
             // ContactTracing
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(23F, 30F);
@@ -604,6 +619,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(851, 615);
+            this.Controls.Add(this.AbtBttn);
             this.Controls.Add(this.AgeTxtBox);
             this.Controls.Add(this.EMTxtBox);
             this.Controls.Add(this.GndrLabl);
@@ -722,6 +738,7 @@
         private System.Windows.Forms.Label GndrLabl;
         private System.Windows.Forms.TextBox EMTxtBox;
         private System.Windows.Forms.TextBox AgeTxtBox;
+        private System.Windows.Forms.Button AbtBttn;
     }
 }
 
