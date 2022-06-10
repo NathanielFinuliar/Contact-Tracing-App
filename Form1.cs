@@ -20,14 +20,13 @@ namespace Contact_Tracing_App
 
         private void SbmtBttn_Click(object sender, EventArgs e)
         {
-            StreamWriter file = new StreamWriter(@"C:\Users\nathan\contact-tracing\Contact-Tracing.txt", true);
+            StreamWriter file = new StreamWriter(@"C:\Users\nathan\contact-tracing\Contact-Tracing.txt");
             file.WriteLine("First Name: " + FNTxtBox.Text);
             file.WriteLine("Middle Name: " + MNTxtBox.Text);
             file.WriteLine("Last Name: " + LNTxtBox.Text);
             file.WriteLine("Suffix: " + SFTxtBox.Text);
-            file.WriteLine("MM: " + MMTxtBox.Text);
-            file.WriteLine("DD: " + DDTxtBox.Text);
-            file.WriteLine("YY: " + YYTxtBox.Text);
+            file.WriteLine("Date of Visit: " + MMTxtBox.Text + DDTxtBox.Text + YYTxtBox.Text);
+            file.WriteLine("Time of Visit: " + ToVTxtBox.Text);
             file.Close();
         }
         private void ContactTracing_Load(object sender, EventArgs e)
