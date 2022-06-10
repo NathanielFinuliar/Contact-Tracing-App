@@ -32,6 +32,11 @@ namespace Contact_Tracing_App
             file.WriteLine("Gender: " + GndrTxtBox.Text);
             file.WriteLine("Mobile Number: " + MblNTxtBox.Text);
             file.WriteLine("Email Address: " + EMTxtBox);
+            file.WriteLine("House No.: " + HNTxtBox.Text);
+            file.WriteLine("Street: " + StrtTxtBox.Text);
+            file.WriteLine("Barangay: " + BrgyTxtBox.Text);
+            file.WriteLine("City: " + CityTxtBox.Text);
+            file.WriteLine("Province: " + PrvnceTxtBox.Text);
             file.Close();
         }
         private void ContactTracing_Load(object sender, EventArgs e)
