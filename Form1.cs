@@ -24,5 +24,17 @@ namespace Contact_Tracing_App
             file.WriteLine("");
             file.Close();
         }
+        private void ContactTracing_Load(object sender, EventArgs e)
+        {
+            Do_Checked();
+        }
+        private void ChckBxLabl_CheckedChanged(object sender, EventArgs e)
+        {
+            Do_Checked();
+        }
+        private void Do_Checked()
+        {
+            SbmtBttn.Enabled = ChckBxLabl.Checked;
+        }
     }
 }

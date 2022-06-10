@@ -69,6 +69,16 @@
             this.athrzeLabl = new System.Windows.Forms.RichTextBox();
             this.ChckBxLabl = new System.Windows.Forms.CheckBox();
             this.SbmtBttn = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.SuspendLayout();
             // 
             // Sbmt
@@ -84,7 +94,7 @@
             // FNTxtBox
             // 
             this.FNTxtBox.Font = new System.Drawing.Font("Tahoma", 10F);
-            this.FNTxtBox.Location = new System.Drawing.Point(42, 202);
+            this.FNTxtBox.Location = new System.Drawing.Point(38, 211);
             this.FNTxtBox.Name = "FNTxtBox";
             this.FNTxtBox.Size = new System.Drawing.Size(187, 24);
             this.FNTxtBox.TabIndex = 2;
@@ -92,7 +102,7 @@
             // MNTxtBox
             // 
             this.MNTxtBox.Font = new System.Drawing.Font("Tahoma", 10F);
-            this.MNTxtBox.Location = new System.Drawing.Point(235, 202);
+            this.MNTxtBox.Location = new System.Drawing.Point(231, 211);
             this.MNTxtBox.Name = "MNTxtBox";
             this.MNTxtBox.Size = new System.Drawing.Size(151, 24);
             this.MNTxtBox.TabIndex = 3;
@@ -100,7 +110,7 @@
             // LNTxtBox
             // 
             this.LNTxtBox.Font = new System.Drawing.Font("Tahoma", 10F);
-            this.LNTxtBox.Location = new System.Drawing.Point(392, 202);
+            this.LNTxtBox.Location = new System.Drawing.Point(388, 211);
             this.LNTxtBox.Name = "LNTxtBox";
             this.LNTxtBox.Size = new System.Drawing.Size(167, 24);
             this.LNTxtBox.TabIndex = 4;
@@ -108,7 +118,7 @@
             // SFTxtBox
             // 
             this.SFTxtBox.Font = new System.Drawing.Font("Tahoma", 10F);
-            this.SFTxtBox.Location = new System.Drawing.Point(565, 202);
+            this.SFTxtBox.Location = new System.Drawing.Point(561, 211);
             this.SFTxtBox.Name = "SFTxtBox";
             this.SFTxtBox.Size = new System.Drawing.Size(54, 24);
             this.SFTxtBox.TabIndex = 5;
@@ -119,7 +129,7 @@
             this.NameLabl.BackColor = System.Drawing.Color.Transparent;
             this.NameLabl.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.NameLabl.ForeColor = System.Drawing.Color.White;
-            this.NameLabl.Location = new System.Drawing.Point(40, 175);
+            this.NameLabl.Location = new System.Drawing.Point(36, 184);
             this.NameLabl.Name = "NameLabl";
             this.NameLabl.Size = new System.Drawing.Size(105, 24);
             this.NameLabl.TabIndex = 6;
@@ -128,11 +138,11 @@
             // CTLabl
             // 
             this.CTLabl.AutoSize = true;
-            this.CTLabl.BackColor = System.Drawing.SystemColors.Control;
+            this.CTLabl.BackColor = System.Drawing.Color.White;
             this.CTLabl.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.CTLabl.Font = new System.Drawing.Font("Alphakind", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CTLabl.ForeColor = System.Drawing.Color.Brown;
-            this.CTLabl.Location = new System.Drawing.Point(118, 98);
+            this.CTLabl.Location = new System.Drawing.Point(139, 124);
             this.CTLabl.Name = "CTLabl";
             this.CTLabl.Size = new System.Drawing.Size(569, 44);
             this.CTLabl.TabIndex = 7;
@@ -144,7 +154,7 @@
             this.FNLabl.BackColor = System.Drawing.Color.Transparent;
             this.FNLabl.Font = new System.Drawing.Font("Circular Std Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FNLabl.ForeColor = System.Drawing.Color.White;
-            this.FNLabl.Location = new System.Drawing.Point(81, 229);
+            this.FNLabl.Location = new System.Drawing.Point(77, 238);
             this.FNLabl.Name = "FNLabl";
             this.FNLabl.Size = new System.Drawing.Size(89, 20);
             this.FNLabl.TabIndex = 9;
@@ -156,7 +166,7 @@
             this.MNLabl.BackColor = System.Drawing.Color.Transparent;
             this.MNLabl.Font = new System.Drawing.Font("Circular Std Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MNLabl.ForeColor = System.Drawing.Color.White;
-            this.MNLabl.Location = new System.Drawing.Point(255, 229);
+            this.MNLabl.Location = new System.Drawing.Point(251, 238);
             this.MNLabl.Name = "MNLabl";
             this.MNLabl.Size = new System.Drawing.Size(109, 20);
             this.MNLabl.TabIndex = 10;
@@ -168,7 +178,7 @@
             this.LNLabl.BackColor = System.Drawing.Color.Transparent;
             this.LNLabl.Font = new System.Drawing.Font("Circular Std Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LNLabl.ForeColor = System.Drawing.Color.White;
-            this.LNLabl.Location = new System.Drawing.Point(434, 229);
+            this.LNLabl.Location = new System.Drawing.Point(430, 238);
             this.LNLabl.Name = "LNLabl";
             this.LNLabl.Size = new System.Drawing.Size(88, 20);
             this.LNLabl.TabIndex = 11;
@@ -180,7 +190,7 @@
             this.SufLabl.BackColor = System.Drawing.Color.Transparent;
             this.SufLabl.Font = new System.Drawing.Font("Circular Std Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SufLabl.ForeColor = System.Drawing.Color.White;
-            this.SufLabl.Location = new System.Drawing.Point(567, 229);
+            this.SufLabl.Location = new System.Drawing.Point(563, 238);
             this.SufLabl.Name = "SufLabl";
             this.SufLabl.Size = new System.Drawing.Size(52, 20);
             this.SufLabl.TabIndex = 12;
@@ -189,7 +199,7 @@
             // MMTxtBox
             // 
             this.MMTxtBox.Font = new System.Drawing.Font("Tahoma", 10F);
-            this.MMTxtBox.Location = new System.Drawing.Point(679, 214);
+            this.MMTxtBox.Location = new System.Drawing.Point(675, 223);
             this.MMTxtBox.Name = "MMTxtBox";
             this.MMTxtBox.Size = new System.Drawing.Size(33, 24);
             this.MMTxtBox.TabIndex = 13;
@@ -197,7 +207,7 @@
             // DDTxtBox
             // 
             this.DDTxtBox.Font = new System.Drawing.Font("Tahoma", 10F);
-            this.DDTxtBox.Location = new System.Drawing.Point(716, 214);
+            this.DDTxtBox.Location = new System.Drawing.Point(712, 223);
             this.DDTxtBox.Name = "DDTxtBox";
             this.DDTxtBox.Size = new System.Drawing.Size(38, 24);
             this.DDTxtBox.TabIndex = 14;
@@ -205,7 +215,7 @@
             // YYTxtBox
             // 
             this.YYTxtBox.Font = new System.Drawing.Font("Tahoma", 10F);
-            this.YYTxtBox.Location = new System.Drawing.Point(760, 214);
+            this.YYTxtBox.Location = new System.Drawing.Point(756, 223);
             this.YYTxtBox.Name = "YYTxtBox";
             this.YYTxtBox.Size = new System.Drawing.Size(34, 24);
             this.YYTxtBox.TabIndex = 15;
@@ -216,7 +226,7 @@
             this.DtVstLabl.BackColor = System.Drawing.Color.Transparent;
             this.DtVstLabl.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DtVstLabl.ForeColor = System.Drawing.Color.White;
-            this.DtVstLabl.Location = new System.Drawing.Point(675, 176);
+            this.DtVstLabl.Location = new System.Drawing.Point(671, 185);
             this.DtVstLabl.Name = "DtVstLabl";
             this.DtVstLabl.Size = new System.Drawing.Size(125, 24);
             this.DtVstLabl.TabIndex = 16;
@@ -228,7 +238,7 @@
             this.mdyLabl.BackColor = System.Drawing.Color.Transparent;
             this.mdyLabl.Font = new System.Drawing.Font("Circular Std Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mdyLabl.ForeColor = System.Drawing.Color.White;
-            this.mdyLabl.Location = new System.Drawing.Point(679, 243);
+            this.mdyLabl.Location = new System.Drawing.Point(675, 252);
             this.mdyLabl.Name = "mdyLabl";
             this.mdyLabl.Size = new System.Drawing.Size(115, 20);
             this.mdyLabl.TabIndex = 17;
@@ -240,7 +250,7 @@
             this.tmvstLabl.BackColor = System.Drawing.Color.Transparent;
             this.tmvstLabl.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tmvstLabl.ForeColor = System.Drawing.Color.White;
-            this.tmvstLabl.Location = new System.Drawing.Point(681, 278);
+            this.tmvstLabl.Location = new System.Drawing.Point(677, 287);
             this.tmvstLabl.Name = "tmvstLabl";
             this.tmvstLabl.Size = new System.Drawing.Size(128, 24);
             this.tmvstLabl.TabIndex = 18;
@@ -249,7 +259,7 @@
             // ToVTxtBox
             // 
             this.ToVTxtBox.Font = new System.Drawing.Font("Tahoma", 10F);
-            this.ToVTxtBox.Location = new System.Drawing.Point(692, 305);
+            this.ToVTxtBox.Location = new System.Drawing.Point(688, 314);
             this.ToVTxtBox.Name = "ToVTxtBox";
             this.ToVTxtBox.Size = new System.Drawing.Size(92, 24);
             this.ToVTxtBox.TabIndex = 19;
@@ -260,7 +270,7 @@
             this.CurrentAddLabl.BackColor = System.Drawing.Color.Transparent;
             this.CurrentAddLabl.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CurrentAddLabl.ForeColor = System.Drawing.Color.White;
-            this.CurrentAddLabl.Location = new System.Drawing.Point(40, 283);
+            this.CurrentAddLabl.Location = new System.Drawing.Point(36, 292);
             this.CurrentAddLabl.Name = "CurrentAddLabl";
             this.CurrentAddLabl.Size = new System.Drawing.Size(258, 24);
             this.CurrentAddLabl.TabIndex = 20;
@@ -269,7 +279,7 @@
             // HNTxtBox
             // 
             this.HNTxtBox.Font = new System.Drawing.Font("Tahoma", 10F);
-            this.HNTxtBox.Location = new System.Drawing.Point(58, 320);
+            this.HNTxtBox.Location = new System.Drawing.Point(54, 329);
             this.HNTxtBox.Name = "HNTxtBox";
             this.HNTxtBox.Size = new System.Drawing.Size(39, 24);
             this.HNTxtBox.TabIndex = 21;
@@ -280,7 +290,7 @@
             this.HNLabl.BackColor = System.Drawing.Color.Transparent;
             this.HNLabl.Font = new System.Drawing.Font("Circular Std Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.HNLabl.ForeColor = System.Drawing.Color.White;
-            this.HNLabl.Location = new System.Drawing.Point(38, 347);
+            this.HNLabl.Location = new System.Drawing.Point(34, 356);
             this.HNLabl.Name = "HNLabl";
             this.HNLabl.Size = new System.Drawing.Size(85, 20);
             this.HNLabl.TabIndex = 22;
@@ -289,7 +299,7 @@
             // StrtTxtBox
             // 
             this.StrtTxtBox.Font = new System.Drawing.Font("Tahoma", 10F);
-            this.StrtTxtBox.Location = new System.Drawing.Point(119, 320);
+            this.StrtTxtBox.Location = new System.Drawing.Point(115, 329);
             this.StrtTxtBox.Name = "StrtTxtBox";
             this.StrtTxtBox.Size = new System.Drawing.Size(151, 24);
             this.StrtTxtBox.TabIndex = 23;
@@ -300,7 +310,7 @@
             this.StrtLabl.BackColor = System.Drawing.Color.Transparent;
             this.StrtLabl.Font = new System.Drawing.Font("Circular Std Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.StrtLabl.ForeColor = System.Drawing.Color.White;
-            this.StrtLabl.Location = new System.Drawing.Point(161, 347);
+            this.StrtLabl.Location = new System.Drawing.Point(157, 356);
             this.StrtLabl.Name = "StrtLabl";
             this.StrtLabl.Size = new System.Drawing.Size(55, 20);
             this.StrtLabl.TabIndex = 24;
@@ -309,7 +319,7 @@
             // BrgyTxtBox
             // 
             this.BrgyTxtBox.Font = new System.Drawing.Font("Tahoma", 10F);
-            this.BrgyTxtBox.Location = new System.Drawing.Point(286, 320);
+            this.BrgyTxtBox.Location = new System.Drawing.Point(282, 329);
             this.BrgyTxtBox.Name = "BrgyTxtBox";
             this.BrgyTxtBox.Size = new System.Drawing.Size(50, 24);
             this.BrgyTxtBox.TabIndex = 25;
@@ -320,7 +330,7 @@
             this.BrgyLabl.BackColor = System.Drawing.Color.Transparent;
             this.BrgyLabl.Font = new System.Drawing.Font("Circular Std Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BrgyLabl.ForeColor = System.Drawing.Color.White;
-            this.BrgyLabl.Location = new System.Drawing.Point(289, 347);
+            this.BrgyLabl.Location = new System.Drawing.Point(285, 356);
             this.BrgyLabl.Name = "BrgyLabl";
             this.BrgyLabl.Size = new System.Drawing.Size(47, 20);
             this.BrgyLabl.TabIndex = 26;
@@ -329,7 +339,7 @@
             // CityTxtBox
             // 
             this.CityTxtBox.Font = new System.Drawing.Font("Tahoma", 10F);
-            this.CityTxtBox.Location = new System.Drawing.Point(354, 320);
+            this.CityTxtBox.Location = new System.Drawing.Point(350, 329);
             this.CityTxtBox.Name = "CityTxtBox";
             this.CityTxtBox.Size = new System.Drawing.Size(151, 24);
             this.CityTxtBox.TabIndex = 27;
@@ -340,7 +350,7 @@
             this.CityLabl.BackColor = System.Drawing.Color.Transparent;
             this.CityLabl.Font = new System.Drawing.Font("Circular Std Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CityLabl.ForeColor = System.Drawing.Color.White;
-            this.CityLabl.Location = new System.Drawing.Point(367, 347);
+            this.CityLabl.Location = new System.Drawing.Point(363, 356);
             this.CityLabl.Name = "CityLabl";
             this.CityLabl.Size = new System.Drawing.Size(138, 20);
             this.CityLabl.TabIndex = 28;
@@ -349,7 +359,7 @@
             // PrvnceTxtBox
             // 
             this.PrvnceTxtBox.Font = new System.Drawing.Font("Tahoma", 10F);
-            this.PrvnceTxtBox.Location = new System.Drawing.Point(522, 320);
+            this.PrvnceTxtBox.Location = new System.Drawing.Point(518, 329);
             this.PrvnceTxtBox.Name = "PrvnceTxtBox";
             this.PrvnceTxtBox.Size = new System.Drawing.Size(124, 24);
             this.PrvnceTxtBox.TabIndex = 29;
@@ -360,7 +370,7 @@
             this.ProvLabl.BackColor = System.Drawing.Color.Transparent;
             this.ProvLabl.Font = new System.Drawing.Font("Circular Std Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ProvLabl.ForeColor = System.Drawing.Color.White;
-            this.ProvLabl.Location = new System.Drawing.Point(545, 347);
+            this.ProvLabl.Location = new System.Drawing.Point(541, 356);
             this.ProvLabl.Name = "ProvLabl";
             this.ProvLabl.Size = new System.Drawing.Size(74, 20);
             this.ProvLabl.TabIndex = 30;
@@ -369,7 +379,7 @@
             // MblNTxtBox
             // 
             this.MblNTxtBox.Font = new System.Drawing.Font("Tahoma", 10F);
-            this.MblNTxtBox.Location = new System.Drawing.Point(44, 424);
+            this.MblNTxtBox.Location = new System.Drawing.Point(40, 433);
             this.MblNTxtBox.Name = "MblNTxtBox";
             this.MblNTxtBox.Size = new System.Drawing.Size(151, 24);
             this.MblNTxtBox.TabIndex = 31;
@@ -380,7 +390,7 @@
             this.PhonenoLabl.BackColor = System.Drawing.Color.Transparent;
             this.PhonenoLabl.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PhonenoLabl.ForeColor = System.Drawing.Color.White;
-            this.PhonenoLabl.Location = new System.Drawing.Point(40, 397);
+            this.PhonenoLabl.Location = new System.Drawing.Point(36, 406);
             this.PhonenoLabl.Name = "PhonenoLabl";
             this.PhonenoLabl.Size = new System.Drawing.Size(221, 24);
             this.PhonenoLabl.TabIndex = 32;
@@ -392,7 +402,7 @@
             this.EAddLabl.BackColor = System.Drawing.Color.Transparent;
             this.EAddLabl.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.EAddLabl.ForeColor = System.Drawing.Color.White;
-            this.EAddLabl.Location = new System.Drawing.Point(38, 479);
+            this.EAddLabl.Location = new System.Drawing.Point(34, 488);
             this.EAddLabl.Name = "EAddLabl";
             this.EAddLabl.Size = new System.Drawing.Size(143, 24);
             this.EAddLabl.TabIndex = 33;
@@ -401,7 +411,7 @@
             // EmlAddTxtBox
             // 
             this.EmlAddTxtBox.Font = new System.Drawing.Font("Tahoma", 10F);
-            this.EmlAddTxtBox.Location = new System.Drawing.Point(42, 506);
+            this.EmlAddTxtBox.Location = new System.Drawing.Point(38, 515);
             this.EmlAddTxtBox.Name = "EmlAddTxtBox";
             this.EmlAddTxtBox.Size = new System.Drawing.Size(192, 24);
             this.EmlAddTxtBox.TabIndex = 34;
@@ -412,7 +422,7 @@
             this.LocationLabl.BackColor = System.Drawing.Color.Transparent;
             this.LocationLabl.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LocationLabl.ForeColor = System.Drawing.Color.White;
-            this.LocationLabl.Location = new System.Drawing.Point(289, 397);
+            this.LocationLabl.Location = new System.Drawing.Point(285, 406);
             this.LocationLabl.Name = "LocationLabl";
             this.LocationLabl.Size = new System.Drawing.Size(256, 24);
             this.LocationLabl.TabIndex = 35;
@@ -421,7 +431,7 @@
             // LtnTxtBox
             // 
             this.LtnTxtBox.Font = new System.Drawing.Font("Tahoma", 10F);
-            this.LtnTxtBox.Location = new System.Drawing.Point(338, 424);
+            this.LtnTxtBox.Location = new System.Drawing.Point(334, 433);
             this.LtnTxtBox.Name = "LtnTxtBox";
             this.LtnTxtBox.Size = new System.Drawing.Size(151, 24);
             this.LtnTxtBox.TabIndex = 36;
@@ -429,7 +439,7 @@
             // BodTempTxtBox
             // 
             this.BodTempTxtBox.Font = new System.Drawing.Font("Tahoma", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BodTempTxtBox.Location = new System.Drawing.Point(679, 397);
+            this.BodTempTxtBox.Location = new System.Drawing.Point(675, 406);
             this.BodTempTxtBox.Name = "BodTempTxtBox";
             this.BodTempTxtBox.Size = new System.Drawing.Size(131, 50);
             this.BodTempTxtBox.TabIndex = 37;
@@ -440,7 +450,7 @@
             this.BdTemptLabl.BackColor = System.Drawing.Color.Transparent;
             this.BdTemptLabl.Font = new System.Drawing.Font("Circular Std Bold", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BdTemptLabl.ForeColor = System.Drawing.Color.White;
-            this.BdTemptLabl.Location = new System.Drawing.Point(660, 360);
+            this.BdTemptLabl.Location = new System.Drawing.Point(656, 369);
             this.BdTemptLabl.Name = "BdTemptLabl";
             this.BdTemptLabl.Size = new System.Drawing.Size(164, 34);
             this.BdTemptLabl.TabIndex = 38;
@@ -449,7 +459,7 @@
             // athrzeLabl
             // 
             this.athrzeLabl.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.athrzeLabl.Location = new System.Drawing.Point(269, 479);
+            this.athrzeLabl.Location = new System.Drawing.Point(265, 488);
             this.athrzeLabl.Name = "athrzeLabl";
             this.athrzeLabl.Size = new System.Drawing.Size(429, 104);
             this.athrzeLabl.TabIndex = 40;
@@ -459,11 +469,12 @@
             // 
             this.ChckBxLabl.AutoSize = true;
             this.ChckBxLabl.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.ChckBxLabl.Location = new System.Drawing.Point(248, 485);
+            this.ChckBxLabl.Location = new System.Drawing.Point(244, 494);
             this.ChckBxLabl.Name = "ChckBxLabl";
             this.ChckBxLabl.Size = new System.Drawing.Size(15, 14);
             this.ChckBxLabl.TabIndex = 41;
             this.ChckBxLabl.UseVisualStyleBackColor = true;
+            this.ChckBxLabl.CheckedChanged += new System.EventHandler(this.ChckBxLabl_CheckedChanged);
             // 
             // SbmtBttn
             // 
@@ -471,7 +482,7 @@
             this.SbmtBttn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.SbmtBttn.Font = new System.Drawing.Font("Anton", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SbmtBttn.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.SbmtBttn.Location = new System.Drawing.Point(718, 506);
+            this.SbmtBttn.Location = new System.Drawing.Point(714, 515);
             this.SbmtBttn.Name = "SbmtBttn";
             this.SbmtBttn.Size = new System.Drawing.Size(106, 45);
             this.SbmtBttn.TabIndex = 42;
@@ -479,13 +490,69 @@
             this.SbmtBttn.UseVisualStyleBackColor = false;
             this.SbmtBttn.Click += new System.EventHandler(this.SbmtBttn_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(189, 33);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(79, 72);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 43;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(274, 33);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(77, 72);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 44;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(357, 33);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(81, 72);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 45;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+            this.pictureBox4.Location = new System.Drawing.Point(447, 33);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(81, 72);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 46;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
+            this.pictureBox5.Location = new System.Drawing.Point(534, 33);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(81, 72);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 47;
+            this.pictureBox5.TabStop = false;
+            // 
             // ContactTracing
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(23F, 30F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.BackColor = System.Drawing.Color.SkyBlue;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(851, 615);
+            this.Controls.Add(this.pictureBox5);
+            this.Controls.Add(this.pictureBox4);
+            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.SbmtBttn);
             this.Controls.Add(this.ChckBxLabl);
             this.Controls.Add(this.athrzeLabl);
@@ -531,6 +598,12 @@
             this.Margin = new System.Windows.Forms.Padding(13, 7, 13, 7);
             this.Name = "ContactTracing";
             this.Text = "Contact Tracing";
+            this.Load += new System.EventHandler(this.ContactTracing_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -578,6 +651,11 @@
         private System.Windows.Forms.RichTextBox athrzeLabl;
         private System.Windows.Forms.CheckBox ChckBxLabl;
         private System.Windows.Forms.Button SbmtBttn;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pictureBox5;
     }
 }
 
