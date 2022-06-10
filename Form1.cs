@@ -27,6 +27,7 @@ namespace Contact_Tracing_App
             file.WriteLine("Suffix: " + SFTxtBox.Text);
             file.WriteLine("Date of Visit: " + MMTxtBox.Text + DDTxtBox.Text + YYTxtBox.Text);
             file.WriteLine("Time of Visit: " + ToVTxtBox.Text);
+            file.WriteLine("Body Temperature: " + BodTempTxtBox.Text);
             file.Close();
         }
         private void ContactTracing_Load(object sender, EventArgs e)
