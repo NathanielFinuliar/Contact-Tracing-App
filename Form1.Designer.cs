@@ -66,6 +66,8 @@
             this.textBox12 = new System.Windows.Forms.TextBox();
             this.textBox13 = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
+            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // Sbmt
@@ -443,6 +445,25 @@
             this.label12.TabIndex = 38;
             this.label12.Text = "Body Temp:";
             // 
+            // richTextBox2
+            // 
+            this.richTextBox2.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox2.Location = new System.Drawing.Point(401, 483);
+            this.richTextBox2.Name = "richTextBox2";
+            this.richTextBox2.Size = new System.Drawing.Size(429, 104);
+            this.richTextBox2.TabIndex = 40;
+            this.richTextBox2.Text = resources.GetString("richTextBox2.Text");
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.checkBox1.Location = new System.Drawing.Point(380, 489);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(15, 14);
+            this.checkBox1.TabIndex = 41;
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
             // ContactTracing
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(23F, 30F);
@@ -450,6 +471,8 @@
             this.BackColor = System.Drawing.SystemColors.ControlDark;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(851, 615);
+            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.richTextBox2);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.textBox13);
             this.Controls.Add(this.textBox12);
@@ -536,6 +559,8 @@
         private System.Windows.Forms.TextBox textBox12;
         private System.Windows.Forms.TextBox textBox13;
         private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.RichTextBox richTextBox2;
+        private System.Windows.Forms.CheckBox checkBox1;
     }
 }
 
