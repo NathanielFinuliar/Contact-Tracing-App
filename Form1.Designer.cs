@@ -99,34 +99,34 @@
             // 
             // FNTxtBox
             // 
-            this.FNTxtBox.Font = new System.Drawing.Font("Tahoma", 10F);
+            this.FNTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FNTxtBox.Location = new System.Drawing.Point(38, 211);
             this.FNTxtBox.Name = "FNTxtBox";
-            this.FNTxtBox.Size = new System.Drawing.Size(187, 24);
+            this.FNTxtBox.Size = new System.Drawing.Size(187, 23);
             this.FNTxtBox.TabIndex = 0;
             // 
             // MNTxtBox
             // 
-            this.MNTxtBox.Font = new System.Drawing.Font("Tahoma", 10F);
+            this.MNTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MNTxtBox.Location = new System.Drawing.Point(231, 211);
             this.MNTxtBox.Name = "MNTxtBox";
-            this.MNTxtBox.Size = new System.Drawing.Size(151, 24);
+            this.MNTxtBox.Size = new System.Drawing.Size(151, 23);
             this.MNTxtBox.TabIndex = 1;
             // 
             // LNTxtBox
             // 
-            this.LNTxtBox.Font = new System.Drawing.Font("Tahoma", 10F);
+            this.LNTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LNTxtBox.Location = new System.Drawing.Point(388, 211);
             this.LNTxtBox.Name = "LNTxtBox";
-            this.LNTxtBox.Size = new System.Drawing.Size(167, 24);
+            this.LNTxtBox.Size = new System.Drawing.Size(167, 23);
             this.LNTxtBox.TabIndex = 2;
             // 
             // SFTxtBox
             // 
-            this.SFTxtBox.Font = new System.Drawing.Font("Tahoma", 10F);
+            this.SFTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SFTxtBox.Location = new System.Drawing.Point(561, 211);
             this.SFTxtBox.Name = "SFTxtBox";
-            this.SFTxtBox.Size = new System.Drawing.Size(54, 24);
+            this.SFTxtBox.Size = new System.Drawing.Size(54, 23);
             this.SFTxtBox.TabIndex = 3;
             // 
             // NameLabl
@@ -204,26 +204,26 @@
             // 
             // MMTxtBox
             // 
-            this.MMTxtBox.Font = new System.Drawing.Font("Tahoma", 10F);
+            this.MMTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MMTxtBox.Location = new System.Drawing.Point(677, 223);
             this.MMTxtBox.Name = "MMTxtBox";
-            this.MMTxtBox.Size = new System.Drawing.Size(33, 24);
+            this.MMTxtBox.Size = new System.Drawing.Size(33, 23);
             this.MMTxtBox.TabIndex = 4;
             // 
             // DDTxtBox
             // 
-            this.DDTxtBox.Font = new System.Drawing.Font("Tahoma", 10F);
+            this.DDTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DDTxtBox.Location = new System.Drawing.Point(714, 223);
             this.DDTxtBox.Name = "DDTxtBox";
-            this.DDTxtBox.Size = new System.Drawing.Size(38, 24);
+            this.DDTxtBox.Size = new System.Drawing.Size(38, 23);
             this.DDTxtBox.TabIndex = 5;
             // 
             // YYTxtBox
             // 
-            this.YYTxtBox.Font = new System.Drawing.Font("Tahoma", 10F);
+            this.YYTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.YYTxtBox.Location = new System.Drawing.Point(758, 223);
             this.YYTxtBox.Name = "YYTxtBox";
-            this.YYTxtBox.Size = new System.Drawing.Size(34, 24);
+            this.YYTxtBox.Size = new System.Drawing.Size(34, 23);
             this.YYTxtBox.TabIndex = 6;
             // 
             // DtVstLabl
@@ -264,10 +264,10 @@
             // 
             // ToVTxtBox
             // 
-            this.ToVTxtBox.Font = new System.Drawing.Font("Tahoma", 10F);
+            this.ToVTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ToVTxtBox.Location = new System.Drawing.Point(677, 317);
             this.ToVTxtBox.Name = "ToVTxtBox";
-            this.ToVTxtBox.Size = new System.Drawing.Size(92, 24);
+            this.ToVTxtBox.Size = new System.Drawing.Size(92, 23);
             this.ToVTxtBox.TabIndex = 7;
             // 
             // CurrentAddLabl
@@ -284,10 +284,10 @@
             // 
             // HNTxtBox
             // 
-            this.HNTxtBox.Font = new System.Drawing.Font("Tahoma", 10F);
+            this.HNTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.HNTxtBox.Location = new System.Drawing.Point(54, 406);
             this.HNTxtBox.Name = "HNTxtBox";
-            this.HNTxtBox.Size = new System.Drawing.Size(39, 24);
+            this.HNTxtBox.Size = new System.Drawing.Size(39, 23);
             this.HNTxtBox.TabIndex = 13;
             // 
             // HNLabl
@@ -304,10 +304,10 @@
             // 
             // StrtTxtBox
             // 
-            this.StrtTxtBox.Font = new System.Drawing.Font("Tahoma", 10F);
+            this.StrtTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.StrtTxtBox.Location = new System.Drawing.Point(115, 406);
             this.StrtTxtBox.Name = "StrtTxtBox";
-            this.StrtTxtBox.Size = new System.Drawing.Size(151, 24);
+            this.StrtTxtBox.Size = new System.Drawing.Size(151, 23);
             this.StrtTxtBox.TabIndex = 14;
             // 
             // StrtLabl
@@ -324,10 +324,10 @@
             // 
             // BrgyTxtBox
             // 
-            this.BrgyTxtBox.Font = new System.Drawing.Font("Tahoma", 10F);
+            this.BrgyTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BrgyTxtBox.Location = new System.Drawing.Point(282, 406);
             this.BrgyTxtBox.Name = "BrgyTxtBox";
-            this.BrgyTxtBox.Size = new System.Drawing.Size(50, 24);
+            this.BrgyTxtBox.Size = new System.Drawing.Size(50, 23);
             this.BrgyTxtBox.TabIndex = 15;
             // 
             // BrgyLabl
@@ -344,10 +344,10 @@
             // 
             // CityTxtBox
             // 
-            this.CityTxtBox.Font = new System.Drawing.Font("Tahoma", 10F);
+            this.CityTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CityTxtBox.Location = new System.Drawing.Point(350, 406);
             this.CityTxtBox.Name = "CityTxtBox";
-            this.CityTxtBox.Size = new System.Drawing.Size(151, 24);
+            this.CityTxtBox.Size = new System.Drawing.Size(151, 23);
             this.CityTxtBox.TabIndex = 16;
             // 
             // CityLabl
@@ -364,10 +364,10 @@
             // 
             // PrvnceTxtBox
             // 
-            this.PrvnceTxtBox.Font = new System.Drawing.Font("Tahoma", 10F);
+            this.PrvnceTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PrvnceTxtBox.Location = new System.Drawing.Point(518, 406);
             this.PrvnceTxtBox.Name = "PrvnceTxtBox";
-            this.PrvnceTxtBox.Size = new System.Drawing.Size(124, 24);
+            this.PrvnceTxtBox.Size = new System.Drawing.Size(124, 23);
             this.PrvnceTxtBox.TabIndex = 17;
             // 
             // ProvLabl
@@ -384,10 +384,10 @@
             // 
             // MblNTxtBox
             // 
-            this.MblNTxtBox.Font = new System.Drawing.Font("Tahoma", 10F);
+            this.MblNTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MblNTxtBox.Location = new System.Drawing.Point(491, 276);
             this.MblNTxtBox.Name = "MblNTxtBox";
-            this.MblNTxtBox.Size = new System.Drawing.Size(151, 24);
+            this.MblNTxtBox.Size = new System.Drawing.Size(151, 23);
             this.MblNTxtBox.TabIndex = 11;
             // 
             // PhonenoLabl
@@ -437,18 +437,18 @@
             // 
             // LtnTxtBox
             // 
-            this.LtnTxtBox.Font = new System.Drawing.Font("Tahoma", 10F);
+            this.LtnTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LtnTxtBox.Location = new System.Drawing.Point(54, 531);
             this.LtnTxtBox.Name = "LtnTxtBox";
-            this.LtnTxtBox.Size = new System.Drawing.Size(151, 24);
+            this.LtnTxtBox.Size = new System.Drawing.Size(151, 23);
             this.LtnTxtBox.TabIndex = 18;
             // 
             // BodTempTxtBox
             // 
-            this.BodTempTxtBox.Font = new System.Drawing.Font("Tahoma", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BodTempTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BodTempTxtBox.Location = new System.Drawing.Point(677, 387);
             this.BodTempTxtBox.Name = "BodTempTxtBox";
-            this.BodTempTxtBox.Size = new System.Drawing.Size(131, 50);
+            this.BodTempTxtBox.Size = new System.Drawing.Size(131, 49);
             this.BodTempTxtBox.TabIndex = 8;
             // 
             // BdTemptLabl
@@ -563,10 +563,10 @@
             // 
             // GndrTxtBox
             // 
-            this.GndrTxtBox.Font = new System.Drawing.Font("Tahoma", 10F);
+            this.GndrTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.GndrTxtBox.Location = new System.Drawing.Point(244, 276);
             this.GndrTxtBox.Name = "GndrTxtBox";
-            this.GndrTxtBox.Size = new System.Drawing.Size(145, 24);
+            this.GndrTxtBox.Size = new System.Drawing.Size(145, 23);
             this.GndrTxtBox.TabIndex = 10;
             // 
             // GndrLabl
@@ -583,18 +583,18 @@
             // 
             // EMTxtBox
             // 
-            this.EMTxtBox.Font = new System.Drawing.Font("Tahoma", 10F);
+            this.EMTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.EMTxtBox.Location = new System.Drawing.Point(189, 323);
             this.EMTxtBox.Name = "EMTxtBox";
-            this.EMTxtBox.Size = new System.Drawing.Size(249, 24);
+            this.EMTxtBox.Size = new System.Drawing.Size(249, 23);
             this.EMTxtBox.TabIndex = 12;
             // 
             // AgeTxtBox
             // 
-            this.AgeTxtBox.Font = new System.Drawing.Font("Tahoma", 10F);
+            this.AgeTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AgeTxtBox.Location = new System.Drawing.Point(104, 276);
             this.AgeTxtBox.Name = "AgeTxtBox";
-            this.AgeTxtBox.Size = new System.Drawing.Size(45, 24);
+            this.AgeTxtBox.Size = new System.Drawing.Size(45, 23);
             this.AgeTxtBox.TabIndex = 9;
             // 
             // AbtBttn
