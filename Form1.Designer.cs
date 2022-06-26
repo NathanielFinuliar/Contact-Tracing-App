@@ -40,11 +40,7 @@
             this.MNLabl = new System.Windows.Forms.Label();
             this.LNLabl = new System.Windows.Forms.Label();
             this.SufLabl = new System.Windows.Forms.Label();
-            this.MMTxtBox = new System.Windows.Forms.TextBox();
-            this.DDTxtBox = new System.Windows.Forms.TextBox();
-            this.YYTxtBox = new System.Windows.Forms.TextBox();
             this.DtVstLabl = new System.Windows.Forms.Label();
-            this.mdyLabl = new System.Windows.Forms.Label();
             this.tmvstLabl = new System.Windows.Forms.Label();
             this.ToVTxtBox = new System.Windows.Forms.TextBox();
             this.CurrentAddLabl = new System.Windows.Forms.Label();
@@ -80,6 +76,7 @@
             this.EMTxtBox = new System.Windows.Forms.TextBox();
             this.AgeTxtBox = new System.Windows.Forms.TextBox();
             this.AbtBttn = new System.Windows.Forms.Button();
+            this.DteTmePcker = new System.Windows.Forms.DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -202,30 +199,6 @@
             this.SufLabl.TabIndex = 12;
             this.SufLabl.Text = "Suffix";
             // 
-            // MMTxtBox
-            // 
-            this.MMTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MMTxtBox.Location = new System.Drawing.Point(677, 223);
-            this.MMTxtBox.Name = "MMTxtBox";
-            this.MMTxtBox.Size = new System.Drawing.Size(33, 23);
-            this.MMTxtBox.TabIndex = 4;
-            // 
-            // DDTxtBox
-            // 
-            this.DDTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DDTxtBox.Location = new System.Drawing.Point(714, 223);
-            this.DDTxtBox.Name = "DDTxtBox";
-            this.DDTxtBox.Size = new System.Drawing.Size(38, 23);
-            this.DDTxtBox.TabIndex = 5;
-            // 
-            // YYTxtBox
-            // 
-            this.YYTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.YYTxtBox.Location = new System.Drawing.Point(758, 223);
-            this.YYTxtBox.Name = "YYTxtBox";
-            this.YYTxtBox.Size = new System.Drawing.Size(34, 23);
-            this.YYTxtBox.TabIndex = 6;
-            // 
             // DtVstLabl
             // 
             this.DtVstLabl.AutoSize = true;
@@ -238,25 +211,13 @@
             this.DtVstLabl.TabIndex = 16;
             this.DtVstLabl.Text = "Date of Visit:";
             // 
-            // mdyLabl
-            // 
-            this.mdyLabl.AutoSize = true;
-            this.mdyLabl.BackColor = System.Drawing.Color.Transparent;
-            this.mdyLabl.Font = new System.Drawing.Font("Circular Std Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mdyLabl.ForeColor = System.Drawing.Color.Black;
-            this.mdyLabl.Location = new System.Drawing.Point(677, 252);
-            this.mdyLabl.Name = "mdyLabl";
-            this.mdyLabl.Size = new System.Drawing.Size(115, 20);
-            this.mdyLabl.TabIndex = 17;
-            this.mdyLabl.Text = "MM  /DD  /YY";
-            // 
             // tmvstLabl
             // 
             this.tmvstLabl.AutoSize = true;
             this.tmvstLabl.BackColor = System.Drawing.Color.Transparent;
             this.tmvstLabl.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tmvstLabl.ForeColor = System.Drawing.Color.Black;
-            this.tmvstLabl.Location = new System.Drawing.Point(675, 290);
+            this.tmvstLabl.Location = new System.Drawing.Point(675, 275);
             this.tmvstLabl.Name = "tmvstLabl";
             this.tmvstLabl.Size = new System.Drawing.Size(128, 24);
             this.tmvstLabl.TabIndex = 18;
@@ -265,7 +226,7 @@
             // ToVTxtBox
             // 
             this.ToVTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ToVTxtBox.Location = new System.Drawing.Point(677, 317);
+            this.ToVTxtBox.Location = new System.Drawing.Point(677, 302);
             this.ToVTxtBox.Name = "ToVTxtBox";
             this.ToVTxtBox.Size = new System.Drawing.Size(92, 23);
             this.ToVTxtBox.TabIndex = 7;
@@ -417,7 +378,7 @@
             // EmlAddTxtBox
             // 
             this.EmlAddTxtBox.Font = new System.Drawing.Font("Tahoma", 10F);
-            this.EmlAddTxtBox.Location = new System.Drawing.Point(470, 495);
+            this.EmlAddTxtBox.Location = new System.Drawing.Point(470, 615);
             this.EmlAddTxtBox.Name = "EmlAddTxtBox";
             this.EmlAddTxtBox.Size = new System.Drawing.Size(192, 24);
             this.EmlAddTxtBox.TabIndex = 37;
@@ -446,7 +407,7 @@
             // BodTempTxtBox
             // 
             this.BodTempTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BodTempTxtBox.Location = new System.Drawing.Point(677, 387);
+            this.BodTempTxtBox.Location = new System.Drawing.Point(677, 372);
             this.BodTempTxtBox.Name = "BodTempTxtBox";
             this.BodTempTxtBox.Size = new System.Drawing.Size(131, 49);
             this.BodTempTxtBox.TabIndex = 8;
@@ -457,7 +418,7 @@
             this.BdTemptLabl.BackColor = System.Drawing.Color.Transparent;
             this.BdTemptLabl.Font = new System.Drawing.Font("Circular Std Bold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BdTemptLabl.ForeColor = System.Drawing.Color.Black;
-            this.BdTemptLabl.Location = new System.Drawing.Point(674, 359);
+            this.BdTemptLabl.Location = new System.Drawing.Point(674, 344);
             this.BdTemptLabl.Name = "BdTemptLabl";
             this.BdTemptLabl.Size = new System.Drawing.Size(121, 25);
             this.BdTemptLabl.TabIndex = 38;
@@ -467,7 +428,7 @@
             // 
             this.AthrzeLabl.BackColor = System.Drawing.SystemColors.Window;
             this.AthrzeLabl.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AthrzeLabl.Location = new System.Drawing.Point(255, 480);
+            this.AthrzeLabl.Location = new System.Drawing.Point(255, 600);
             this.AthrzeLabl.Name = "AthrzeLabl";
             this.AthrzeLabl.ReadOnly = true;
             this.AthrzeLabl.Size = new System.Drawing.Size(429, 104);
@@ -478,7 +439,7 @@
             // 
             this.ChckBxLabl.AutoSize = true;
             this.ChckBxLabl.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.ChckBxLabl.Location = new System.Drawing.Point(234, 492);
+            this.ChckBxLabl.Location = new System.Drawing.Point(234, 612);
             this.ChckBxLabl.Name = "ChckBxLabl";
             this.ChckBxLabl.Size = new System.Drawing.Size(15, 14);
             this.ChckBxLabl.TabIndex = 19;
@@ -491,7 +452,7 @@
             this.SbmtBttn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.SbmtBttn.Font = new System.Drawing.Font("Alphakind", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SbmtBttn.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.SbmtBttn.Location = new System.Drawing.Point(714, 515);
+            this.SbmtBttn.Location = new System.Drawing.Point(714, 636);
             this.SbmtBttn.Name = "SbmtBttn";
             this.SbmtBttn.Size = new System.Drawing.Size(106, 45);
             this.SbmtBttn.TabIndex = 20;
@@ -611,6 +572,17 @@
             this.AbtBttn.UseVisualStyleBackColor = false;
             this.AbtBttn.Click += new System.EventHandler(this.AbtBttn_Click);
             // 
+            // DteTmePcker
+            // 
+            this.DteTmePcker.CalendarFont = new System.Drawing.Font("Circular Std Bold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DteTmePcker.CustomFormat = "";
+            this.DteTmePcker.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DteTmePcker.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.DteTmePcker.Location = new System.Drawing.Point(666, 223);
+            this.DteTmePcker.Name = "DteTmePcker";
+            this.DteTmePcker.Size = new System.Drawing.Size(154, 30);
+            this.DteTmePcker.TabIndex = 53;
+            // 
             // ContactTracing
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(23F, 30F);
@@ -618,7 +590,8 @@
             this.BackColor = System.Drawing.Color.SkyBlue;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(851, 615);
+            this.ClientSize = new System.Drawing.Size(851, 749);
+            this.Controls.Add(this.DteTmePcker);
             this.Controls.Add(this.AbtBttn);
             this.Controls.Add(this.AgeTxtBox);
             this.Controls.Add(this.EMTxtBox);
@@ -654,11 +627,7 @@
             this.Controls.Add(this.CurrentAddLabl);
             this.Controls.Add(this.ToVTxtBox);
             this.Controls.Add(this.tmvstLabl);
-            this.Controls.Add(this.mdyLabl);
             this.Controls.Add(this.DtVstLabl);
-            this.Controls.Add(this.YYTxtBox);
-            this.Controls.Add(this.DDTxtBox);
-            this.Controls.Add(this.MMTxtBox);
             this.Controls.Add(this.SufLabl);
             this.Controls.Add(this.LNLabl);
             this.Controls.Add(this.MNLabl);
@@ -699,11 +668,7 @@
         private System.Windows.Forms.Label MNLabl;
         private System.Windows.Forms.Label LNLabl;
         private System.Windows.Forms.Label SufLabl;
-        private System.Windows.Forms.TextBox MMTxtBox;
-        private System.Windows.Forms.TextBox DDTxtBox;
-        private System.Windows.Forms.TextBox YYTxtBox;
         private System.Windows.Forms.Label DtVstLabl;
-        private System.Windows.Forms.Label mdyLabl;
         private System.Windows.Forms.Label tmvstLabl;
         private System.Windows.Forms.TextBox ToVTxtBox;
         private System.Windows.Forms.Label CurrentAddLabl;
@@ -739,6 +704,7 @@
         private System.Windows.Forms.TextBox EMTxtBox;
         private System.Windows.Forms.TextBox AgeTxtBox;
         private System.Windows.Forms.Button AbtBttn;
+        private System.Windows.Forms.DateTimePicker DteTmePcker;
     }
 }
 

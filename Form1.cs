@@ -25,7 +25,7 @@ namespace Contact_Tracing_App
             file.WriteLine("Middle Name: " + MNTxtBox.Text);
             file.WriteLine("Last Name: " + LNTxtBox.Text);
             file.WriteLine("Suffix: " + SFTxtBox.Text);
-            file.WriteLine("Date of Visit: " + MMTxtBox.Text + DDTxtBox.Text + YYTxtBox.Text);
+            file.WriteLine("Date of Visit: " + DteTmePcker.Text);
             file.WriteLine("Time of Visit: " + ToVTxtBox.Text);
             file.WriteLine("Body Temperature: " + BodTempTxtBox.Text);
             file.WriteLine("Age: " + AgeTxtBox.Text);
@@ -48,7 +48,7 @@ namespace Contact_Tracing_App
                     if (iSubmit == DialogResult.OK)
                     {
                         MessageBox.Show("Thankyou for answering", "Visitor Contact Tracing", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        FNTxtBox.Text = MNTxtBox.Text = LNTxtBox.Text = SFTxtBox.Text = MMTxtBox.Text = DDTxtBox.Text = YYTxtBox.Text =
+                        FNTxtBox.Text = MNTxtBox.Text = LNTxtBox.Text = SFTxtBox.Text = DteTmePcker.Text =
                         ToVTxtBox.Text = BodTempTxtBox.Text = AgeTxtBox.Text = GndrTxtBox.Text = MblNTxtBox.Text = EMTxtBox.Text =
                         HNTxtBox.Text = StrtTxtBox.Text = BrgyTxtBox.Text = CityTxtBox.Text = PrvnceTxtBox.Text = LtnTxtBox.Text = "";
                         this.Close();
