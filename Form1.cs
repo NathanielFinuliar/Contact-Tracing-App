@@ -24,12 +24,9 @@ namespace Contact_Tracing_App
             file.WriteLine("First Name: " + FNTxtBox.Text);
             file.WriteLine("Middle Name: " + MNTxtBox.Text);
             file.WriteLine("Last Name: " + LNTxtBox.Text);
-            file.WriteLine("Suffix: " + SFTxtBox.Text);
             file.WriteLine("Date of Visit: " + DteTmePcker.Text);
             file.WriteLine("Time of Visit: " + ToVTxtBox.Text);
             file.WriteLine("Body Temperature: " + BodTempTxtBox.Text);
-            file.WriteLine("Age: " + AgeTxtBox.Text);
-            file.WriteLine("Gender: " + GndrTxtBox.Text);
             file.WriteLine("Mobile Number: " + MblNTxtBox.Text);
             file.WriteLine("Email Address: " + EMTxtBox.Text);
             file.WriteLine("House No.: " + HNTxtBox.Text);
@@ -37,7 +34,6 @@ namespace Contact_Tracing_App
             file.WriteLine("Barangay: " + BrgyTxtBox.Text);
             file.WriteLine("City: " + CityTxtBox.Text);
             file.WriteLine("Province: " + PrvnceTxtBox.Text);
-            file.WriteLine("Seating/TableNo./Location " + LtnTxtBox.Text);
             file.Close();
             {
                 try
@@ -48,9 +44,9 @@ namespace Contact_Tracing_App
                     if (iSubmit == DialogResult.OK)
                     {
                         MessageBox.Show("Thankyou for answering", "Visitor Contact Tracing", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        FNTxtBox.Text = MNTxtBox.Text = LNTxtBox.Text = SFTxtBox.Text = DteTmePcker.Text =
-                        ToVTxtBox.Text = BodTempTxtBox.Text = AgeTxtBox.Text = GndrTxtBox.Text = MblNTxtBox.Text = EMTxtBox.Text =
-                        HNTxtBox.Text = StrtTxtBox.Text = BrgyTxtBox.Text = CityTxtBox.Text = PrvnceTxtBox.Text = LtnTxtBox.Text = "";
+                        FNTxtBox.Text = MNTxtBox.Text = LNTxtBox.Text =  DteTmePcker.Text =
+                        ToVTxtBox.Text = BodTempTxtBox.Text = MblNTxtBox.Text = EMTxtBox.Text =
+                        HNTxtBox.Text = StrtTxtBox.Text = BrgyTxtBox.Text = CityTxtBox.Text = PrvnceTxtBox.Text = "";
                         this.Close();
                     }
 
@@ -80,6 +76,11 @@ namespace Contact_Tracing_App
                 MessageBox.Show("Nathaniel Finuliar makes this Contact Tracing Form. This Contacting Trace is inclusively for Visitors who enter Harbor Point by Ayala Malls.",
                     "What is this Contact Tracing Form?", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
+        }
+
+        private void AthrzeLabl_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
