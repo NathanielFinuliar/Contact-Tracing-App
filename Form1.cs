@@ -20,7 +20,7 @@ namespace Contact_Tracing_App
 
         private void SbmtBttn_Click(object sender, EventArgs e)
         {
-            StreamWriter file = new StreamWriter(@"C:\Users\nathan\contact-tracing\Contact-Tracing.txt", true);
+            StreamWriter file = new StreamWriter(@"C:\Users\nathan\contact-tracing\Mall Visit Report\" + FNTxtBox.Text + LNTxtBox.Text + ".txt", true);
             file.WriteLine("First Name: " + FNTxtBox.Text);
             file.WriteLine("Middle Name: " + MNTxtBox.Text);
             file.WriteLine("Last Name: " + LNTxtBox.Text);
