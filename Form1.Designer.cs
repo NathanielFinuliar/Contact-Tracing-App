@@ -31,9 +31,9 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ContactTracing));
             this.Sbmt = new System.Windows.Forms.Button();
             this.FNTxtBox = new System.Windows.Forms.TextBox();
-            this.MNTxtBox = new System.Windows.Forms.TextBox();
+            this.MITxtBox = new System.Windows.Forms.TextBox();
             this.LNTxtBox = new System.Windows.Forms.TextBox();
-            this.CTLabl = new System.Windows.Forms.Label();
+            this.VCTFLabl = new System.Windows.Forms.Label();
             this.FNLabl = new System.Windows.Forms.Label();
             this.MNLabl = new System.Windows.Forms.Label();
             this.LNLabl = new System.Windows.Forms.Label();
@@ -46,13 +46,13 @@
             this.CityLabl = new System.Windows.Forms.Label();
             this.PrvnceTxtBox = new System.Windows.Forms.TextBox();
             this.ProvLabl = new System.Windows.Forms.Label();
-            this.MblNTxtBox = new System.Windows.Forms.TextBox();
+            this.PhnNTxtBox = new System.Windows.Forms.TextBox();
             this.PhonenoLabl = new System.Windows.Forms.Label();
             this.LocationLabl = new System.Windows.Forms.Label();
             this.BodTempTxtBox = new System.Windows.Forms.TextBox();
             this.BdTemptLabl = new System.Windows.Forms.Label();
             this.AthrzeLabl = new System.Windows.Forms.RichTextBox();
-            this.ChckBxLabl = new System.Windows.Forms.CheckBox();
+            this.ChckBx = new System.Windows.Forms.CheckBox();
             this.SbmtBttn = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
@@ -63,44 +63,44 @@
             this.EMTxtBox = new System.Windows.Forms.TextBox();
             this.AbtBttn = new System.Windows.Forms.Button();
             this.DteTmePcker = new System.Windows.Forms.DateTimePicker();
-            this.VacStatusTxtBox = new System.Windows.Forms.GroupBox();
+            this.VacStatusGrpBox = new System.Windows.Forms.GroupBox();
             this.NoVacrb = new System.Windows.Forms.RadioButton();
             this.Boostedrb = new System.Windows.Forms.RadioButton();
             this.FullVacrb = new System.Windows.Forms.RadioButton();
             this.MinTxtBox = new System.Windows.Forms.TextBox();
             this.AMPMTxtBox = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.ColonLbl = new System.Windows.Forms.Label();
+            this.DegreesCelciusLbl = new System.Windows.Forms.Label();
             this.LcnTxtbox = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.EmailLbl = new System.Windows.Forms.Label();
+            this.SexGrpBox = new System.Windows.Forms.GroupBox();
+            this.Femalerb = new System.Windows.Forms.RadioButton();
+            this.Malerb = new System.Windows.Forms.RadioButton();
             this.StrtLabl = new System.Windows.Forms.Label();
             this.HNLabl = new System.Windows.Forms.Label();
             this.HNTxtBox = new System.Windows.Forms.TextBox();
             this.BrgyTxtBox = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.radioButton6 = new System.Windows.Forms.RadioButton();
-            this.radioButton7 = new System.Windows.Forms.RadioButton();
-            this.label6 = new System.Windows.Forms.Label();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
+            this.HlthQst2lbl = new System.Windows.Forms.Label();
+            this.Yesrb = new System.Windows.Forms.RadioButton();
+            this.Norb = new System.Windows.Forms.RadioButton();
+            this.HlthQst1lbl = new System.Windows.Forms.Label();
+            this.AgeNmericUpDwn = new System.Windows.Forms.NumericUpDown();
+            this.YesNoMybeTxtBox = new System.Windows.Forms.TextBox();
+            this.YESNOMAYBElbl = new System.Windows.Forms.Label();
+            this.PunchLinePic = new System.Windows.Forms.PictureBox();
+            this.ConsentLbl = new System.Windows.Forms.Label();
+            this.PrsnlINFOLbl = new System.Windows.Forms.Label();
+            this.CrrntADDLbl = new System.Windows.Forms.Label();
+            this.CntctInfoLbl = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            this.VacStatusTxtBox.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            this.VacStatusGrpBox.SuspendLayout();
+            this.SexGrpBox.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.AgeNmericUpDwn)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PunchLinePic)).BeginInit();
             this.SuspendLayout();
             // 
             // Sbmt
@@ -123,15 +123,15 @@
             this.FNTxtBox.Size = new System.Drawing.Size(186, 30);
             this.FNTxtBox.TabIndex = 7;
             // 
-            // MNTxtBox
+            // MITxtBox
             // 
-            this.MNTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MNTxtBox.Location = new System.Drawing.Point(243, 387);
-            this.MNTxtBox.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.MNTxtBox.Multiline = true;
-            this.MNTxtBox.Name = "MNTxtBox";
-            this.MNTxtBox.Size = new System.Drawing.Size(44, 30);
-            this.MNTxtBox.TabIndex = 8;
+            this.MITxtBox.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MITxtBox.Location = new System.Drawing.Point(243, 387);
+            this.MITxtBox.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.MITxtBox.Multiline = true;
+            this.MITxtBox.Name = "MITxtBox";
+            this.MITxtBox.Size = new System.Drawing.Size(44, 30);
+            this.MITxtBox.TabIndex = 8;
             // 
             // LNTxtBox
             // 
@@ -143,19 +143,19 @@
             this.LNTxtBox.Size = new System.Drawing.Size(167, 30);
             this.LNTxtBox.TabIndex = 9;
             // 
-            // CTLabl
+            // VCTFLabl
             // 
-            this.CTLabl.AutoSize = true;
-            this.CTLabl.BackColor = System.Drawing.Color.NavajoWhite;
-            this.CTLabl.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.CTLabl.Font = new System.Drawing.Font("Alphakind", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CTLabl.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.CTLabl.Location = new System.Drawing.Point(60, 115);
-            this.CTLabl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.CTLabl.Name = "CTLabl";
-            this.CTLabl.Size = new System.Drawing.Size(630, 50);
-            this.CTLabl.TabIndex = 25;
-            this.CTLabl.Text = "VISITOR CONTACT TRACING FORM";
+            this.VCTFLabl.AutoSize = true;
+            this.VCTFLabl.BackColor = System.Drawing.Color.NavajoWhite;
+            this.VCTFLabl.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.VCTFLabl.Font = new System.Drawing.Font("Alphakind", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.VCTFLabl.ForeColor = System.Drawing.Color.DarkSlateGray;
+            this.VCTFLabl.Location = new System.Drawing.Point(60, 115);
+            this.VCTFLabl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.VCTFLabl.Name = "VCTFLabl";
+            this.VCTFLabl.Size = new System.Drawing.Size(630, 50);
+            this.VCTFLabl.TabIndex = 25;
+            this.VCTFLabl.Text = "VISITOR CONTACT TRACING FORM";
             // 
             // FNLabl
             // 
@@ -301,15 +301,15 @@
             this.ProvLabl.TabIndex = 33;
             this.ProvLabl.Text = "Province";
             // 
-            // MblNTxtBox
+            // PhnNTxtBox
             // 
-            this.MblNTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold);
-            this.MblNTxtBox.Location = new System.Drawing.Point(52, 636);
-            this.MblNTxtBox.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.MblNTxtBox.Multiline = true;
-            this.MblNTxtBox.Name = "MblNTxtBox";
-            this.MblNTxtBox.Size = new System.Drawing.Size(138, 30);
-            this.MblNTxtBox.TabIndex = 17;
+            this.PhnNTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold);
+            this.PhnNTxtBox.Location = new System.Drawing.Point(52, 636);
+            this.PhnNTxtBox.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.PhnNTxtBox.Multiline = true;
+            this.PhnNTxtBox.Name = "PhnNTxtBox";
+            this.PhnNTxtBox.Size = new System.Drawing.Size(138, 30);
+            this.PhnNTxtBox.TabIndex = 17;
             // 
             // PhonenoLabl
             // 
@@ -374,17 +374,17 @@
             this.AthrzeLabl.TabIndex = 40;
             this.AthrzeLabl.Text = resources.GetString("AthrzeLabl.Text");
             // 
-            // ChckBxLabl
+            // ChckBx
             // 
-            this.ChckBxLabl.AutoSize = true;
-            this.ChckBxLabl.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.ChckBxLabl.Location = new System.Drawing.Point(379, 762);
-            this.ChckBxLabl.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.ChckBxLabl.Name = "ChckBxLabl";
-            this.ChckBxLabl.Size = new System.Drawing.Size(15, 14);
-            this.ChckBxLabl.TabIndex = 22;
-            this.ChckBxLabl.UseVisualStyleBackColor = true;
-            this.ChckBxLabl.CheckedChanged += new System.EventHandler(this.ChckBxLabl_CheckedChanged);
+            this.ChckBx.AutoSize = true;
+            this.ChckBx.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.ChckBx.Location = new System.Drawing.Point(379, 762);
+            this.ChckBx.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.ChckBx.Name = "ChckBx";
+            this.ChckBx.Size = new System.Drawing.Size(15, 14);
+            this.ChckBx.TabIndex = 22;
+            this.ChckBx.UseVisualStyleBackColor = true;
+            this.ChckBx.CheckedChanged += new System.EventHandler(this.ChckBxLabl_CheckedChanged);
             // 
             // SbmtBttn
             // 
@@ -507,22 +507,22 @@
             this.DteTmePcker.Size = new System.Drawing.Size(154, 30);
             this.DteTmePcker.TabIndex = 0;
             // 
-            // VacStatusTxtBox
+            // VacStatusGrpBox
             // 
-            this.VacStatusTxtBox.Controls.Add(this.NoVacrb);
-            this.VacStatusTxtBox.Controls.Add(this.Boostedrb);
-            this.VacStatusTxtBox.Controls.Add(this.FullVacrb);
-            this.VacStatusTxtBox.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.VacStatusTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.VacStatusTxtBox.ForeColor = System.Drawing.Color.Crimson;
-            this.VacStatusTxtBox.Location = new System.Drawing.Point(479, 196);
-            this.VacStatusTxtBox.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.VacStatusTxtBox.Name = "VacStatusTxtBox";
-            this.VacStatusTxtBox.Padding = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.VacStatusTxtBox.Size = new System.Drawing.Size(249, 116);
-            this.VacStatusTxtBox.TabIndex = 6;
-            this.VacStatusTxtBox.TabStop = false;
-            this.VacStatusTxtBox.Text = "Vaccination Status";
+            this.VacStatusGrpBox.Controls.Add(this.NoVacrb);
+            this.VacStatusGrpBox.Controls.Add(this.Boostedrb);
+            this.VacStatusGrpBox.Controls.Add(this.FullVacrb);
+            this.VacStatusGrpBox.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.VacStatusGrpBox.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.VacStatusGrpBox.ForeColor = System.Drawing.Color.Crimson;
+            this.VacStatusGrpBox.Location = new System.Drawing.Point(479, 196);
+            this.VacStatusGrpBox.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.VacStatusGrpBox.Name = "VacStatusGrpBox";
+            this.VacStatusGrpBox.Padding = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.VacStatusGrpBox.Size = new System.Drawing.Size(249, 116);
+            this.VacStatusGrpBox.TabIndex = 6;
+            this.VacStatusGrpBox.TabStop = false;
+            this.VacStatusGrpBox.Text = "Vaccination Status";
             // 
             // NoVacrb
             // 
@@ -582,29 +582,29 @@
             this.AMPMTxtBox.Size = new System.Drawing.Size(48, 31);
             this.AMPMTxtBox.TabIndex = 3;
             // 
-            // label3
+            // ColonLbl
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Circular Std Bold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(90, 300);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(18, 25);
-            this.label3.TabIndex = 56;
-            this.label3.Text = ":";
+            this.ColonLbl.AutoSize = true;
+            this.ColonLbl.Font = new System.Drawing.Font("Circular Std Bold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ColonLbl.Location = new System.Drawing.Point(90, 300);
+            this.ColonLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.ColonLbl.Name = "ColonLbl";
+            this.ColonLbl.Size = new System.Drawing.Size(18, 25);
+            this.ColonLbl.TabIndex = 56;
+            this.ColonLbl.Text = ":";
             // 
-            // label2
+            // DegreesCelciusLbl
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Circular Std Bold", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(346, 224);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(46, 34);
-            this.label2.TabIndex = 60;
-            this.label2.Text = "°C";
+            this.DegreesCelciusLbl.AutoSize = true;
+            this.DegreesCelciusLbl.BackColor = System.Drawing.Color.Transparent;
+            this.DegreesCelciusLbl.Font = new System.Drawing.Font("Circular Std Bold", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DegreesCelciusLbl.ForeColor = System.Drawing.Color.Black;
+            this.DegreesCelciusLbl.Location = new System.Drawing.Point(346, 224);
+            this.DegreesCelciusLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.DegreesCelciusLbl.Name = "DegreesCelciusLbl";
+            this.DegreesCelciusLbl.Size = new System.Drawing.Size(46, 34);
+            this.DegreesCelciusLbl.TabIndex = 60;
+            this.DegreesCelciusLbl.Text = "°C";
             // 
             // LcnTxtbox
             // 
@@ -616,57 +616,57 @@
             this.LcnTxtbox.Size = new System.Drawing.Size(203, 29);
             this.LcnTxtbox.TabIndex = 5;
             // 
-            // label4
+            // EmailLbl
             // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(254, 668);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(137, 24);
-            this.label4.TabIndex = 35;
-            this.label4.Text = "Email Address";
+            this.EmailLbl.AutoSize = true;
+            this.EmailLbl.BackColor = System.Drawing.Color.Transparent;
+            this.EmailLbl.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EmailLbl.ForeColor = System.Drawing.Color.Black;
+            this.EmailLbl.Location = new System.Drawing.Point(254, 668);
+            this.EmailLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.EmailLbl.Name = "EmailLbl";
+            this.EmailLbl.Size = new System.Drawing.Size(137, 24);
+            this.EmailLbl.TabIndex = 35;
+            this.EmailLbl.Text = "Email Address";
             // 
-            // groupBox2
+            // SexGrpBox
             // 
-            this.groupBox2.Controls.Add(this.radioButton2);
-            this.groupBox2.Controls.Add(this.radioButton1);
-            this.groupBox2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.groupBox2.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(563, 360);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.groupBox2.Size = new System.Drawing.Size(165, 112);
-            this.groupBox2.TabIndex = 11;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Sex";
+            this.SexGrpBox.Controls.Add(this.Femalerb);
+            this.SexGrpBox.Controls.Add(this.Malerb);
+            this.SexGrpBox.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.SexGrpBox.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SexGrpBox.Location = new System.Drawing.Point(563, 360);
+            this.SexGrpBox.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.SexGrpBox.Name = "SexGrpBox";
+            this.SexGrpBox.Padding = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.SexGrpBox.Size = new System.Drawing.Size(165, 112);
+            this.SexGrpBox.TabIndex = 11;
+            this.SexGrpBox.TabStop = false;
+            this.SexGrpBox.Text = "Sex";
             // 
-            // radioButton2
+            // Femalerb
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(27, 63);
-            this.radioButton2.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(92, 28);
-            this.radioButton2.TabIndex = 1;
-            this.radioButton2.Text = "Female";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.Femalerb.AutoSize = true;
+            this.Femalerb.Location = new System.Drawing.Point(27, 63);
+            this.Femalerb.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.Femalerb.Name = "Femalerb";
+            this.Femalerb.Size = new System.Drawing.Size(92, 28);
+            this.Femalerb.TabIndex = 1;
+            this.Femalerb.Text = "Female";
+            this.Femalerb.UseVisualStyleBackColor = true;
             // 
-            // radioButton1
+            // Malerb
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Checked = true;
-            this.radioButton1.Location = new System.Drawing.Point(27, 35);
-            this.radioButton1.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(72, 28);
-            this.radioButton1.TabIndex = 0;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Male";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.Malerb.AutoSize = true;
+            this.Malerb.Checked = true;
+            this.Malerb.Location = new System.Drawing.Point(27, 35);
+            this.Malerb.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.Malerb.Name = "Malerb";
+            this.Malerb.Size = new System.Drawing.Size(72, 28);
+            this.Malerb.TabIndex = 0;
+            this.Malerb.TabStop = true;
+            this.Malerb.Text = "Male";
+            this.Malerb.UseVisualStyleBackColor = true;
             // 
             // StrtLabl
             // 
@@ -714,155 +714,155 @@
             this.BrgyTxtBox.Size = new System.Drawing.Size(58, 30);
             this.BrgyTxtBox.TabIndex = 14;
             // 
-            // label5
+            // HlthQst2lbl
             // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("Circular Std Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.label5.Location = new System.Drawing.Point(36, 826);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(336, 60);
-            this.label5.TabIndex = 36;
-            this.label5.Text = "Are you currently experiencing any type \r\nof the ff: symptoms: sore throat, body " +
+            this.HlthQst2lbl.AutoSize = true;
+            this.HlthQst2lbl.BackColor = System.Drawing.Color.Transparent;
+            this.HlthQst2lbl.Font = new System.Drawing.Font("Circular Std Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HlthQst2lbl.ForeColor = System.Drawing.Color.DarkSlateGray;
+            this.HlthQst2lbl.Location = new System.Drawing.Point(36, 826);
+            this.HlthQst2lbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.HlthQst2lbl.Name = "HlthQst2lbl";
+            this.HlthQst2lbl.Size = new System.Drawing.Size(336, 60);
+            this.HlthQst2lbl.TabIndex = 36;
+            this.HlthQst2lbl.Text = "Are you currently experiencing any type \r\nof the ff: symptoms: sore throat, body " +
     "pains,\r\n head ache and fever.\r\n";
-            this.label5.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.HlthQst2lbl.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             // 
-            // radioButton6
+            // Yesrb
             // 
-            this.radioButton6.AutoSize = true;
-            this.radioButton6.Checked = true;
-            this.radioButton6.Font = new System.Drawing.Font("Circular Std Bold", 12F, System.Drawing.FontStyle.Bold);
-            this.radioButton6.Location = new System.Drawing.Point(128, 901);
-            this.radioButton6.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.radioButton6.Name = "radioButton6";
-            this.radioButton6.Size = new System.Drawing.Size(51, 24);
-            this.radioButton6.TabIndex = 20;
-            this.radioButton6.TabStop = true;
-            this.radioButton6.Text = "Yes";
-            this.radioButton6.UseVisualStyleBackColor = true;
+            this.Yesrb.AutoSize = true;
+            this.Yesrb.Checked = true;
+            this.Yesrb.Font = new System.Drawing.Font("Circular Std Bold", 12F, System.Drawing.FontStyle.Bold);
+            this.Yesrb.Location = new System.Drawing.Point(128, 901);
+            this.Yesrb.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.Yesrb.Name = "Yesrb";
+            this.Yesrb.Size = new System.Drawing.Size(51, 24);
+            this.Yesrb.TabIndex = 20;
+            this.Yesrb.TabStop = true;
+            this.Yesrb.Text = "Yes";
+            this.Yesrb.UseVisualStyleBackColor = true;
             // 
-            // radioButton7
+            // Norb
             // 
-            this.radioButton7.AutoSize = true;
-            this.radioButton7.Font = new System.Drawing.Font("Circular Std Bold", 12F, System.Drawing.FontStyle.Bold);
-            this.radioButton7.Location = new System.Drawing.Point(214, 901);
-            this.radioButton7.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.radioButton7.Name = "radioButton7";
-            this.radioButton7.Size = new System.Drawing.Size(48, 24);
-            this.radioButton7.TabIndex = 21;
-            this.radioButton7.Text = "No";
-            this.radioButton7.UseVisualStyleBackColor = true;
+            this.Norb.AutoSize = true;
+            this.Norb.Font = new System.Drawing.Font("Circular Std Bold", 12F, System.Drawing.FontStyle.Bold);
+            this.Norb.Location = new System.Drawing.Point(214, 901);
+            this.Norb.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.Norb.Name = "Norb";
+            this.Norb.Size = new System.Drawing.Size(48, 24);
+            this.Norb.TabIndex = 21;
+            this.Norb.Text = "No";
+            this.Norb.UseVisualStyleBackColor = true;
             // 
-            // label6
+            // HlthQst1lbl
             // 
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.Transparent;
-            this.label6.Font = new System.Drawing.Font("Circular Std Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.label6.Location = new System.Drawing.Point(46, 720);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(317, 40);
-            this.label6.TabIndex = 10;
-            this.label6.Text = "Have you recently been in another public \r\nand/ or crowded location?";
-            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.HlthQst1lbl.AutoSize = true;
+            this.HlthQst1lbl.BackColor = System.Drawing.Color.Transparent;
+            this.HlthQst1lbl.Font = new System.Drawing.Font("Circular Std Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HlthQst1lbl.ForeColor = System.Drawing.Color.DarkSlateGray;
+            this.HlthQst1lbl.Location = new System.Drawing.Point(46, 720);
+            this.HlthQst1lbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.HlthQst1lbl.Name = "HlthQst1lbl";
+            this.HlthQst1lbl.Size = new System.Drawing.Size(317, 40);
+            this.HlthQst1lbl.TabIndex = 10;
+            this.HlthQst1lbl.Text = "Have you recently been in another public \r\nand/ or crowded location?";
+            this.HlthQst1lbl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // numericUpDown1
+            // AgeNmericUpDwn
             // 
-            this.numericUpDown1.Font = new System.Drawing.Font("Circular Std Bold", 20F, System.Drawing.FontStyle.Bold);
-            this.numericUpDown1.Location = new System.Drawing.Point(498, 395);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(51, 39);
-            this.numericUpDown1.TabIndex = 10;
+            this.AgeNmericUpDwn.Font = new System.Drawing.Font("Circular Std Bold", 20F, System.Drawing.FontStyle.Bold);
+            this.AgeNmericUpDwn.Location = new System.Drawing.Point(498, 395);
+            this.AgeNmericUpDwn.Name = "AgeNmericUpDwn";
+            this.AgeNmericUpDwn.Size = new System.Drawing.Size(51, 39);
+            this.AgeNmericUpDwn.TabIndex = 10;
             // 
-            // textBox4
+            // YesNoMybeTxtBox
             // 
-            this.textBox4.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold);
-            this.textBox4.Location = new System.Drawing.Point(83, 762);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(240, 30);
-            this.textBox4.TabIndex = 19;
+            this.YesNoMybeTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold);
+            this.YesNoMybeTxtBox.Location = new System.Drawing.Point(83, 762);
+            this.YesNoMybeTxtBox.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.YesNoMybeTxtBox.Multiline = true;
+            this.YesNoMybeTxtBox.Name = "YesNoMybeTxtBox";
+            this.YesNoMybeTxtBox.Size = new System.Drawing.Size(240, 30);
+            this.YesNoMybeTxtBox.TabIndex = 19;
             // 
-            // label1
+            // YESNOMAYBElbl
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Circular Std Bold", 12F, System.Drawing.FontStyle.Bold);
-            this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(133, 794);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(138, 20);
-            this.label1.TabIndex = 74;
-            this.label1.Text = "Yes / No / Maybe";
+            this.YESNOMAYBElbl.AutoSize = true;
+            this.YESNOMAYBElbl.BackColor = System.Drawing.Color.Transparent;
+            this.YESNOMAYBElbl.Font = new System.Drawing.Font("Circular Std Bold", 12F, System.Drawing.FontStyle.Bold);
+            this.YESNOMAYBElbl.ForeColor = System.Drawing.Color.Black;
+            this.YESNOMAYBElbl.Location = new System.Drawing.Point(133, 794);
+            this.YESNOMAYBElbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.YESNOMAYBElbl.Name = "YESNOMAYBElbl";
+            this.YESNOMAYBElbl.Size = new System.Drawing.Size(138, 20);
+            this.YESNOMAYBElbl.TabIndex = 74;
+            this.YESNOMAYBElbl.Text = "Yes / No / Maybe";
             // 
-            // pictureBox6
+            // PunchLinePic
             // 
-            this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(504, 582);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(173, 129);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 75;
-            this.pictureBox6.TabStop = false;
+            this.PunchLinePic.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.PunchLinePic.Image = ((System.Drawing.Image)(resources.GetObject("PunchLinePic.Image")));
+            this.PunchLinePic.Location = new System.Drawing.Point(504, 582);
+            this.PunchLinePic.Name = "PunchLinePic";
+            this.PunchLinePic.Size = new System.Drawing.Size(173, 129);
+            this.PunchLinePic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PunchLinePic.TabIndex = 75;
+            this.PunchLinePic.TabStop = false;
             // 
-            // label7
+            // ConsentLbl
             // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.label7.Location = new System.Drawing.Point(449, 714);
-            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(296, 36);
-            this.label7.TabIndex = 76;
-            this.label7.Text = "Your Information is protected through \r\nour contact tracing platform";
-            this.label7.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.ConsentLbl.AutoSize = true;
+            this.ConsentLbl.BackColor = System.Drawing.Color.Transparent;
+            this.ConsentLbl.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ConsentLbl.ForeColor = System.Drawing.Color.DarkSlateGray;
+            this.ConsentLbl.Location = new System.Drawing.Point(449, 714);
+            this.ConsentLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.ConsentLbl.Name = "ConsentLbl";
+            this.ConsentLbl.Size = new System.Drawing.Size(296, 36);
+            this.ConsentLbl.TabIndex = 76;
+            this.ConsentLbl.Text = "Your Information is protected through \r\nour contact tracing platform";
+            this.ConsentLbl.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
-            // label8
+            // PrsnlINFOLbl
             // 
-            this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.Transparent;
-            this.label8.Font = new System.Drawing.Font("Circular Std Bold", 18F, System.Drawing.FontStyle.Bold);
-            this.label8.ForeColor = System.Drawing.Color.Crimson;
-            this.label8.Location = new System.Drawing.Point(42, 355);
-            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(201, 30);
-            this.label8.TabIndex = 77;
-            this.label8.Text = "PERSONAL INFO";
+            this.PrsnlINFOLbl.AutoSize = true;
+            this.PrsnlINFOLbl.BackColor = System.Drawing.Color.Transparent;
+            this.PrsnlINFOLbl.Font = new System.Drawing.Font("Circular Std Bold", 18F, System.Drawing.FontStyle.Bold);
+            this.PrsnlINFOLbl.ForeColor = System.Drawing.Color.Crimson;
+            this.PrsnlINFOLbl.Location = new System.Drawing.Point(42, 355);
+            this.PrsnlINFOLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.PrsnlINFOLbl.Name = "PrsnlINFOLbl";
+            this.PrsnlINFOLbl.Size = new System.Drawing.Size(201, 30);
+            this.PrsnlINFOLbl.TabIndex = 77;
+            this.PrsnlINFOLbl.Text = "PERSONAL INFO";
             // 
-            // label9
+            // CrrntADDLbl
             // 
-            this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.Transparent;
-            this.label9.Font = new System.Drawing.Font("Circular Std Bold", 18F, System.Drawing.FontStyle.Bold);
-            this.label9.ForeColor = System.Drawing.Color.Crimson;
-            this.label9.Location = new System.Drawing.Point(43, 471);
-            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(239, 30);
-            this.label9.TabIndex = 78;
-            this.label9.Text = "CURRENT ADDRESS";
+            this.CrrntADDLbl.AutoSize = true;
+            this.CrrntADDLbl.BackColor = System.Drawing.Color.Transparent;
+            this.CrrntADDLbl.Font = new System.Drawing.Font("Circular Std Bold", 18F, System.Drawing.FontStyle.Bold);
+            this.CrrntADDLbl.ForeColor = System.Drawing.Color.Crimson;
+            this.CrrntADDLbl.Location = new System.Drawing.Point(43, 471);
+            this.CrrntADDLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.CrrntADDLbl.Name = "CrrntADDLbl";
+            this.CrrntADDLbl.Size = new System.Drawing.Size(239, 30);
+            this.CrrntADDLbl.TabIndex = 78;
+            this.CrrntADDLbl.Text = "CURRENT ADDRESS";
             // 
-            // label10
+            // CntctInfoLbl
             // 
-            this.label10.AutoSize = true;
-            this.label10.BackColor = System.Drawing.Color.Transparent;
-            this.label10.Font = new System.Drawing.Font("Circular Std Bold", 18F, System.Drawing.FontStyle.Bold);
-            this.label10.ForeColor = System.Drawing.Color.Crimson;
-            this.label10.Location = new System.Drawing.Point(43, 592);
-            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(193, 30);
-            this.label10.TabIndex = 79;
-            this.label10.Text = "CONTACT INFO";
+            this.CntctInfoLbl.AutoSize = true;
+            this.CntctInfoLbl.BackColor = System.Drawing.Color.Transparent;
+            this.CntctInfoLbl.Font = new System.Drawing.Font("Circular Std Bold", 18F, System.Drawing.FontStyle.Bold);
+            this.CntctInfoLbl.ForeColor = System.Drawing.Color.Crimson;
+            this.CntctInfoLbl.Location = new System.Drawing.Point(43, 592);
+            this.CntctInfoLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.CntctInfoLbl.Name = "CntctInfoLbl";
+            this.CntctInfoLbl.Size = new System.Drawing.Size(193, 30);
+            this.CntctInfoLbl.TabIndex = 79;
+            this.CntctInfoLbl.Text = "CONTACT INFO";
             // 
             // ContactTracing
             // 
@@ -871,46 +871,46 @@
             this.BackColor = System.Drawing.Color.Cornsilk;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(770, 942);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.label8);
+            this.Controls.Add(this.CntctInfoLbl);
+            this.Controls.Add(this.CrrntADDLbl);
+            this.Controls.Add(this.PrsnlINFOLbl);
             this.Controls.Add(this.EMTxtBox);
             this.Controls.Add(this.PrvnceTxtBox);
-            this.Controls.Add(this.MblNTxtBox);
+            this.Controls.Add(this.PhnNTxtBox);
             this.Controls.Add(this.PhonenoLabl);
-            this.Controls.Add(this.numericUpDown1);
-            this.Controls.Add(this.label4);
+            this.Controls.Add(this.AgeNmericUpDwn);
+            this.Controls.Add(this.EmailLbl);
             this.Controls.Add(this.HNTxtBox);
             this.Controls.Add(this.HNLabl);
             this.Controls.Add(this.FNTxtBox);
             this.Controls.Add(this.StrtTxtBox);
-            this.Controls.Add(this.MNTxtBox);
+            this.Controls.Add(this.MITxtBox);
             this.Controls.Add(this.StrtLabl);
-            this.Controls.Add(this.label7);
+            this.Controls.Add(this.ConsentLbl);
             this.Controls.Add(this.BrgyTxtBox);
             this.Controls.Add(this.LNTxtBox);
             this.Controls.Add(this.BrgyLabl);
-            this.Controls.Add(this.pictureBox6);
+            this.Controls.Add(this.PunchLinePic);
             this.Controls.Add(this.CityTxtBox);
             this.Controls.Add(this.FNLabl);
             this.Controls.Add(this.CityLabl);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.YESNOMAYBElbl);
             this.Controls.Add(this.ProvLabl);
             this.Controls.Add(this.MNLabl);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.YesNoMybeTxtBox);
             this.Controls.Add(this.LNLabl);
             this.Controls.Add(this.AgeLabl);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.radioButton7);
-            this.Controls.Add(this.radioButton6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.HlthQst1lbl);
+            this.Controls.Add(this.Norb);
+            this.Controls.Add(this.Yesrb);
+            this.Controls.Add(this.HlthQst2lbl);
+            this.Controls.Add(this.SexGrpBox);
             this.Controls.Add(this.LcnTxtbox);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.DegreesCelciusLbl);
+            this.Controls.Add(this.ColonLbl);
             this.Controls.Add(this.AMPMTxtBox);
             this.Controls.Add(this.MinTxtBox);
-            this.Controls.Add(this.VacStatusTxtBox);
+            this.Controls.Add(this.VacStatusGrpBox);
             this.Controls.Add(this.DteTmePcker);
             this.Controls.Add(this.AbtBttn);
             this.Controls.Add(this.pictureBox5);
@@ -919,7 +919,7 @@
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.SbmtBttn);
-            this.Controls.Add(this.ChckBxLabl);
+            this.Controls.Add(this.ChckBx);
             this.Controls.Add(this.AthrzeLabl);
             this.Controls.Add(this.BdTemptLabl);
             this.Controls.Add(this.BodTempTxtBox);
@@ -927,7 +927,7 @@
             this.Controls.Add(this.HrsTxtBox);
             this.Controls.Add(this.tmvstLabl);
             this.Controls.Add(this.DtVstLabl);
-            this.Controls.Add(this.CTLabl);
+            this.Controls.Add(this.VCTFLabl);
             this.Controls.Add(this.Sbmt);
             this.DoubleBuffered = true;
             this.Font = new System.Drawing.Font("SF Sports Night Alternate", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -941,12 +941,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            this.VacStatusTxtBox.ResumeLayout(false);
-            this.VacStatusTxtBox.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            this.VacStatusGrpBox.ResumeLayout(false);
+            this.VacStatusGrpBox.PerformLayout();
+            this.SexGrpBox.ResumeLayout(false);
+            this.SexGrpBox.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.AgeNmericUpDwn)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PunchLinePic)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -956,9 +956,9 @@
 
         private System.Windows.Forms.Button Sbmt;
         private System.Windows.Forms.TextBox FNTxtBox;
-        private System.Windows.Forms.TextBox MNTxtBox;
+        private System.Windows.Forms.TextBox MITxtBox;
         private System.Windows.Forms.TextBox LNTxtBox;
-        private System.Windows.Forms.Label CTLabl;
+        private System.Windows.Forms.Label VCTFLabl;
         private System.Windows.Forms.Label FNLabl;
         private System.Windows.Forms.Label MNLabl;
         private System.Windows.Forms.Label LNLabl;
@@ -971,13 +971,13 @@
         private System.Windows.Forms.Label CityLabl;
         private System.Windows.Forms.TextBox PrvnceTxtBox;
         private System.Windows.Forms.Label ProvLabl;
-        private System.Windows.Forms.TextBox MblNTxtBox;
+        private System.Windows.Forms.TextBox PhnNTxtBox;
         private System.Windows.Forms.Label PhonenoLabl;
         private System.Windows.Forms.Label LocationLabl;
         private System.Windows.Forms.TextBox BodTempTxtBox;
         private System.Windows.Forms.Label BdTemptLabl;
         private System.Windows.Forms.RichTextBox AthrzeLabl;
-        private System.Windows.Forms.CheckBox ChckBxLabl;
+        private System.Windows.Forms.CheckBox ChckBx;
         private System.Windows.Forms.Button SbmtBttn;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
@@ -988,35 +988,35 @@
         private System.Windows.Forms.TextBox EMTxtBox;
         private System.Windows.Forms.Button AbtBttn;
         private System.Windows.Forms.DateTimePicker DteTmePcker;
-        private System.Windows.Forms.GroupBox VacStatusTxtBox;
+        private System.Windows.Forms.GroupBox VacStatusGrpBox;
         private System.Windows.Forms.TextBox MinTxtBox;
         private System.Windows.Forms.TextBox AMPMTxtBox;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label ColonLbl;
         private System.Windows.Forms.RadioButton NoVacrb;
         private System.Windows.Forms.RadioButton Boostedrb;
         private System.Windows.Forms.RadioButton FullVacrb;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label DegreesCelciusLbl;
         private System.Windows.Forms.TextBox LcnTxtbox;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.Label EmailLbl;
+        private System.Windows.Forms.GroupBox SexGrpBox;
+        private System.Windows.Forms.RadioButton Femalerb;
+        private System.Windows.Forms.RadioButton Malerb;
         private System.Windows.Forms.Label StrtLabl;
         private System.Windows.Forms.Label HNLabl;
         private System.Windows.Forms.TextBox HNTxtBox;
         private System.Windows.Forms.TextBox BrgyTxtBox;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.RadioButton radioButton6;
-        private System.Windows.Forms.RadioButton radioButton7;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label HlthQst2lbl;
+        private System.Windows.Forms.RadioButton Yesrb;
+        private System.Windows.Forms.RadioButton Norb;
+        private System.Windows.Forms.Label HlthQst1lbl;
+        private System.Windows.Forms.NumericUpDown AgeNmericUpDwn;
+        private System.Windows.Forms.TextBox YesNoMybeTxtBox;
+        private System.Windows.Forms.Label YESNOMAYBElbl;
+        private System.Windows.Forms.PictureBox PunchLinePic;
+        private System.Windows.Forms.Label ConsentLbl;
+        private System.Windows.Forms.Label PrsnlINFOLbl;
+        private System.Windows.Forms.Label CrrntADDLbl;
+        private System.Windows.Forms.Label CntctInfoLbl;
     }
 }
 

@@ -22,8 +22,9 @@ namespace Contact_Tracing_App
         {
             StreamWriter file = new StreamWriter(@"C:\Users\nathan\contact-tracing\Mall Visit Report\" + FNTxtBox.Text + LNTxtBox.Text + ".txt", true);
             file.WriteLine("Date of Visit: " + DteTmePcker.Text);
-            file.WriteLine("Time of Visit: " + HrsTxtBox.Text + MinTxtBox.Text + AMPMTxtBox.Text);
-            file.WriteLine("Body Temperature: " + BodTempTxtBox.Text);
+            file.WriteLine("Time of Visit: " + HrsTxtBox.Text + ColonLbl.Text + MinTxtBox.Text + AMPMTxtBox.Text);
+            file.WriteLine("");
+            file.WriteLine("Body Temperature: " + BodTempTxtBox.Text + DegreesCelciusLbl.Text);
             file.WriteLine("Location: " + LcnTxtbox.Text);
             String vac = "";
             if (NoVacrb.Checked == true)
@@ -38,18 +39,47 @@ namespace Contact_Tracing_App
             {
                 vac = Boostedrb.Text;
             }
-            file.WriteLine("Vaccination Status:" + vac);
+            file.WriteLine("Vaccination Status: " + vac);
+            file.WriteLine("");
+            file.WriteLine("PERSONAL INFO");
             file.WriteLine("First Name: " + FNTxtBox.Text);
-            file.WriteLine("Middle Name: " + MNTxtBox.Text);
+            file.WriteLine("Middle Initial: " + MITxtBox.Text);
             file.WriteLine("Last Name: " + LNTxtBox.Text);
-            file.WriteLine("Location: " + LcnTxtbox.Text);
-            file.WriteLine("Mobile Number: " + MblNTxtBox.Text);
-            file.WriteLine("Email Address: " + EMTxtBox.Text);
+            file.WriteLine("Age: " + AgeNmericUpDwn.Text);
+            string Sex = "";
+            if (Malerb.Checked == true)
+            {
+                Sex = Malerb.Text;
+            }
+            else
+            {
+                Sex = Femalerb.Text;
+            }
+            file.WriteLine("Sex: " + Sex);
+            file.WriteLine("");
+            file.WriteLine("CURRENT ADDRESS");
             file.WriteLine("House No.: " + HNTxtBox.Text);
             file.WriteLine("Street: " + StrtTxtBox.Text);
             file.WriteLine("Barangay: " + BrgyTxtBox.Text);
             file.WriteLine("City: " + CityTxtBox.Text);
             file.WriteLine("Province: " + PrvnceTxtBox.Text);
+            file.WriteLine("");
+            file.WriteLine("CONTACT INFO");
+            file.WriteLine("Phone Number: " + PhnNTxtBox.Text);
+            file.WriteLine("Email Address: " + EMTxtBox.Text);
+            file.WriteLine("");
+            file.WriteLine("HEALTH RELATED QUESTION");
+            file.WriteLine("Have you recently been in another public and / or crowded location ? " + YesNoMybeTxtBox.Text);
+            string Symptoms = "";
+            if (Yesrb.Checked == true)
+            {
+                Symptoms = Yesrb.Text;
+            }
+            else
+            {
+                Symptoms = Norb.Text;
+            }
+            file.WriteLine("Are you currently experiencing any type of the ff: symptoms: sore throat, body pains,head ache and fever? " + Symptoms);
             file.Close();
             {
                 try
@@ -60,8 +90,8 @@ namespace Contact_Tracing_App
                     if (iSubmit == DialogResult.OK)
                     {
                         MessageBox.Show("Thankyou for answering", "Visitor Contact Tracing", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        FNTxtBox.Text = MNTxtBox.Text = LNTxtBox.Text =  DteTmePcker.Text =
-                        HrsTxtBox.Text =BodTempTxtBox.Text = MblNTxtBox.Text = EMTxtBox.Text =
+                        FNTxtBox.Text = MITxtBox.Text = LNTxtBox.Text =  DteTmePcker.Text =
+                        HrsTxtBox.Text =BodTempTxtBox.Text = PhnNTxtBox.Text = EMTxtBox.Text =
                         HNTxtBox.Text = StrtTxtBox.Text = BrgyTxtBox.Text = CityTxtBox.Text = PrvnceTxtBox.Text = "";
                         this.Close();
                     }
@@ -83,7 +113,7 @@ namespace Contact_Tracing_App
         }
         private void Do_Checked()
         {
-            SbmtBttn.Enabled = ChckBxLabl.Checked;
+            SbmtBttn.Enabled = ChckBx.Checked;
         }
 
         private void AbtBttn_Click(object sender, EventArgs e)
