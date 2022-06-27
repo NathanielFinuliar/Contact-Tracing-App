@@ -121,6 +121,7 @@
             this.FNTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FNTxtBox.Location = new System.Drawing.Point(16, 45);
             this.FNTxtBox.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.FNTxtBox.Multiline = true;
             this.FNTxtBox.Name = "FNTxtBox";
             this.FNTxtBox.Size = new System.Drawing.Size(186, 30);
             this.FNTxtBox.TabIndex = 0;
@@ -130,6 +131,7 @@
             this.MNTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MNTxtBox.Location = new System.Drawing.Point(212, 45);
             this.MNTxtBox.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.MNTxtBox.Multiline = true;
             this.MNTxtBox.Name = "MNTxtBox";
             this.MNTxtBox.Size = new System.Drawing.Size(44, 30);
             this.MNTxtBox.TabIndex = 1;
@@ -139,6 +141,7 @@
             this.LNTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LNTxtBox.Location = new System.Drawing.Point(273, 45);
             this.LNTxtBox.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.LNTxtBox.Multiline = true;
             this.LNTxtBox.Name = "LNTxtBox";
             this.LNTxtBox.Size = new System.Drawing.Size(167, 30);
             this.LNTxtBox.TabIndex = 2;
@@ -227,15 +230,17 @@
             this.ToVTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ToVTxtBox.Location = new System.Drawing.Point(40, 297);
             this.ToVTxtBox.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.ToVTxtBox.Multiline = true;
             this.ToVTxtBox.Name = "ToVTxtBox";
-            this.ToVTxtBox.Size = new System.Drawing.Size(48, 31);
+            this.ToVTxtBox.Size = new System.Drawing.Size(48, 32);
             this.ToVTxtBox.TabIndex = 7;
             // 
             // StrtTxtBox
             // 
             this.StrtTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.StrtTxtBox.Location = new System.Drawing.Point(105, 44);
+            this.StrtTxtBox.Location = new System.Drawing.Point(113, 44);
             this.StrtTxtBox.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.StrtTxtBox.Multiline = true;
             this.StrtTxtBox.Name = "StrtTxtBox";
             this.StrtTxtBox.Size = new System.Drawing.Size(152, 30);
             this.StrtTxtBox.TabIndex = 14;
@@ -246,7 +251,7 @@
             this.BrgyLabl.BackColor = System.Drawing.Color.Transparent;
             this.BrgyLabl.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold);
             this.BrgyLabl.ForeColor = System.Drawing.Color.Black;
-            this.BrgyLabl.Location = new System.Drawing.Point(276, 76);
+            this.BrgyLabl.Location = new System.Drawing.Point(285, 76);
             this.BrgyLabl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.BrgyLabl.Name = "BrgyLabl";
             this.BrgyLabl.Size = new System.Drawing.Size(55, 24);
@@ -258,6 +263,7 @@
             this.CityTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CityTxtBox.Location = new System.Drawing.Point(356, 44);
             this.CityTxtBox.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.CityTxtBox.Multiline = true;
             this.CityTxtBox.Name = "CityTxtBox";
             this.CityTxtBox.Size = new System.Drawing.Size(152, 30);
             this.CityTxtBox.TabIndex = 16;
@@ -280,6 +286,7 @@
             this.PrvnceTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PrvnceTxtBox.Location = new System.Drawing.Point(548, 44);
             this.PrvnceTxtBox.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.PrvnceTxtBox.Multiline = true;
             this.PrvnceTxtBox.Name = "PrvnceTxtBox";
             this.PrvnceTxtBox.Size = new System.Drawing.Size(125, 30);
             this.PrvnceTxtBox.TabIndex = 17;
@@ -302,6 +309,7 @@
             this.MblNTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold);
             this.MblNTxtBox.Location = new System.Drawing.Point(37, 49);
             this.MblNTxtBox.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.MblNTxtBox.Multiline = true;
             this.MblNTxtBox.Name = "MblNTxtBox";
             this.MblNTxtBox.Size = new System.Drawing.Size(138, 30);
             this.MblNTxtBox.TabIndex = 11;
@@ -338,8 +346,9 @@
             this.BodTempTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BodTempTxtBox.Location = new System.Drawing.Point(257, 227);
             this.BodTempTxtBox.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.BodTempTxtBox.Multiline = true;
             this.BodTempTxtBox.Name = "BodTempTxtBox";
-            this.BodTempTxtBox.Size = new System.Drawing.Size(81, 31);
+            this.BodTempTxtBox.Size = new System.Drawing.Size(88, 31);
             this.BodTempTxtBox.TabIndex = 8;
             // 
             // BdTemptLabl
@@ -388,7 +397,7 @@
             this.SbmtBttn.Font = new System.Drawing.Font("Alphakind", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SbmtBttn.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.SbmtBttn.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.SbmtBttn.Location = new System.Drawing.Point(517, 924);
+            this.SbmtBttn.Location = new System.Drawing.Point(527, 924);
             this.SbmtBttn.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.SbmtBttn.Name = "SbmtBttn";
             this.SbmtBttn.Size = new System.Drawing.Size(109, 38);
@@ -468,8 +477,9 @@
             // EMTxtBox
             // 
             this.EMTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold);
-            this.EMTxtBox.Location = new System.Drawing.Point(192, 52);
+            this.EMTxtBox.Location = new System.Drawing.Point(188, 49);
             this.EMTxtBox.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.EMTxtBox.Multiline = true;
             this.EMTxtBox.Name = "EMTxtBox";
             this.EMTxtBox.Size = new System.Drawing.Size(240, 30);
             this.EMTxtBox.TabIndex = 12;
@@ -563,6 +573,7 @@
             this.textBox1.Font = new System.Drawing.Font("Circular Std Bold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.Location = new System.Drawing.Point(115, 298);
             this.textBox1.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(48, 31);
             this.textBox1.TabIndex = 56;
@@ -572,6 +583,7 @@
             this.textBox2.Font = new System.Drawing.Font("Circular Std Bold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox2.Location = new System.Drawing.Point(169, 298);
             this.textBox2.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(48, 31);
             this.textBox2.TabIndex = 57;
@@ -605,8 +617,9 @@
             this.textBox3.Font = new System.Drawing.Font("Circular Std Bold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox3.Location = new System.Drawing.Point(257, 300);
             this.textBox3.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(203, 31);
+            this.textBox3.Size = new System.Drawing.Size(203, 29);
             this.textBox3.TabIndex = 61;
             // 
             // label4
@@ -615,12 +628,12 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(215, 84);
+            this.label4.Location = new System.Drawing.Point(239, 81);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(58, 24);
+            this.label4.Size = new System.Drawing.Size(137, 24);
             this.label4.TabIndex = 62;
-            this.label4.Text = "Email";
+            this.label4.Text = "Email Address";
             // 
             // groupBox2
             // 
@@ -692,6 +705,7 @@
             this.HNTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.HNTxtBox.Location = new System.Drawing.Point(44, 44);
             this.HNTxtBox.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.HNTxtBox.Multiline = true;
             this.HNTxtBox.Name = "HNTxtBox";
             this.HNTxtBox.Size = new System.Drawing.Size(38, 30);
             this.HNTxtBox.TabIndex = 13;
@@ -699,10 +713,11 @@
             // BrgyTxtBox
             // 
             this.BrgyTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BrgyTxtBox.Location = new System.Drawing.Point(272, 44);
+            this.BrgyTxtBox.Location = new System.Drawing.Point(282, 44);
             this.BrgyTxtBox.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.BrgyTxtBox.Multiline = true;
             this.BrgyTxtBox.Name = "BrgyTxtBox";
-            this.BrgyTxtBox.Size = new System.Drawing.Size(50, 30);
+            this.BrgyTxtBox.Size = new System.Drawing.Size(58, 30);
             this.BrgyTxtBox.TabIndex = 15;
             // 
             // label5
@@ -828,6 +843,7 @@
             this.textBox4.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold);
             this.textBox4.Location = new System.Drawing.Point(83, 786);
             this.textBox4.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.textBox4.Multiline = true;
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(240, 30);
             this.textBox4.TabIndex = 73;
