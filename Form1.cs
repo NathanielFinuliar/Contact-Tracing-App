@@ -77,10 +77,5 @@ namespace Contact_Tracing_App
                     "What is this Contact Tracing Form?", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
-
-        private void AthrzeLabl_TextChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }
