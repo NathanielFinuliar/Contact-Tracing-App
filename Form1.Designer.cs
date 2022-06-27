@@ -950,7 +950,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(13, 7, 13, 7);
             this.Name = "ContactTracing";
-            this.Text = "Contact Tracing";
+            this.Text = "Harbor Point Contact Tracing";
             this.Load += new System.EventHandler(this.ContactTracing_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
