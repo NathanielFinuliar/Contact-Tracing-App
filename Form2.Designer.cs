@@ -33,13 +33,14 @@
             this.PswrdTxtBox = new System.Windows.Forms.TextBox();
             this.UserLbl = new System.Windows.Forms.Label();
             this.PassLbl = new System.Windows.Forms.Label();
-            this.SbmtBttn = new System.Windows.Forms.Button();
+            this.LgnBttn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // UrsnTxtBox
             // 
             this.UrsnTxtBox.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.UrsnTxtBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.UrsnTxtBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.UrsnTxtBox.ForeColor = System.Drawing.Color.White;
             this.UrsnTxtBox.Location = new System.Drawing.Point(112, 361);
             this.UrsnTxtBox.Name = "UrsnTxtBox";
             this.UrsnTxtBox.Size = new System.Drawing.Size(203, 26);
@@ -48,7 +49,8 @@
             // PswrdTxtBox
             // 
             this.PswrdTxtBox.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.PswrdTxtBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PswrdTxtBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PswrdTxtBox.ForeColor = System.Drawing.Color.White;
             this.PswrdTxtBox.Location = new System.Drawing.Point(112, 444);
             this.PswrdTxtBox.Name = "PswrdTxtBox";
             this.PswrdTxtBox.Size = new System.Drawing.Size(203, 26);
@@ -76,17 +78,18 @@
             this.PassLbl.TabIndex = 3;
             this.PassLbl.Text = "PASSWORD";
             // 
-            // SbmtBttn
+            // LgnBttn
             // 
-            this.SbmtBttn.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.SbmtBttn.Font = new System.Drawing.Font("Microsoft Sans Serif", 17.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SbmtBttn.ForeColor = System.Drawing.Color.White;
-            this.SbmtBttn.Location = new System.Drawing.Point(149, 516);
-            this.SbmtBttn.Name = "SbmtBttn";
-            this.SbmtBttn.Size = new System.Drawing.Size(127, 43);
-            this.SbmtBttn.TabIndex = 4;
-            this.SbmtBttn.Text = "SUBMIT";
-            this.SbmtBttn.UseVisualStyleBackColor = false;
+            this.LgnBttn.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.LgnBttn.Font = new System.Drawing.Font("Microsoft Sans Serif", 17.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LgnBttn.ForeColor = System.Drawing.Color.White;
+            this.LgnBttn.Location = new System.Drawing.Point(150, 513);
+            this.LgnBttn.Name = "LgnBttn";
+            this.LgnBttn.Size = new System.Drawing.Size(117, 43);
+            this.LgnBttn.TabIndex = 4;
+            this.LgnBttn.Text = "LOG IN";
+            this.LgnBttn.UseVisualStyleBackColor = false;
+            this.LgnBttn.Click += new System.EventHandler(this.LgnBttn_Click);
             // 
             // Form2
             // 
@@ -96,14 +99,14 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(410, 594);
-            this.Controls.Add(this.SbmtBttn);
+            this.Controls.Add(this.LgnBttn);
             this.Controls.Add(this.PassLbl);
             this.Controls.Add(this.UserLbl);
             this.Controls.Add(this.PswrdTxtBox);
             this.Controls.Add(this.UrsnTxtBox);
             this.DoubleBuffered = true;
             this.Name = "Form2";
-            this.Text = "Login Page";
+            this.Text = "LOG IN";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -115,6 +118,6 @@
         private System.Windows.Forms.TextBox PswrdTxtBox;
         private System.Windows.Forms.Label UserLbl;
         private System.Windows.Forms.Label PassLbl;
-        private System.Windows.Forms.Button SbmtBttn;
+        private System.Windows.Forms.Button LgnBttn;
     }
 }

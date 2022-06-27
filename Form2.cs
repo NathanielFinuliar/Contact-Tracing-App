@@ -16,5 +16,22 @@ namespace Contact_Tracing_App
         {
             InitializeComponent();
         }
+        private void LgnBttn_Click(object sender, EventArgs e)
+        {
+            if (UrsnTxtBox.Text == "Nathaniel Finuliar" && PswrdTxtBox.Text == "HPAdmin01")
+            {
+                UrsnTxtBox.Text = "";
+                PswrdTxtBox.Text = "";
+                Form records = new Form3();
+                this.Visible = false;
+                records.ShowDialog();
+            }
+            else
+            {
+                MessageBox.Show("Incorrect Password", "", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                UrsnTxtBox.Text = "";
+                PswrdTxtBox.Text = "";
+            }
+        }
     }
 }
