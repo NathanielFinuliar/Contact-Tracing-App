@@ -21,12 +21,28 @@ namespace Contact_Tracing_App
         private void SbmtBttn_Click(object sender, EventArgs e)
         {
             StreamWriter file = new StreamWriter(@"C:\Users\nathan\contact-tracing\Mall Visit Report\" + FNTxtBox.Text + LNTxtBox.Text + ".txt", true);
+            file.WriteLine("Date of Visit: " + DteTmePcker.Text);
+            file.WriteLine("Time of Visit: " + HrsTxtBox.Text + MinTxtBox.Text + AMPMTxtBox.Text);
+            file.WriteLine("Body Temperature: " + BodTempTxtBox.Text);
+            file.WriteLine("Location: " + LcnTxtbox.Text);
+            String vac = "";
+            if (NoVacrb.Checked == true)
+            {
+                vac = NoVacrb.Text;
+            }
+            else if (FullVacrb.Checked == true)
+            {
+                vac = FullVacrb.Text;
+            }
+            else if (Boostedrb.Checked == true)
+            {
+                vac = Boostedrb.Text;
+            }
+            file.WriteLine("Vaccination Status:" + vac);
             file.WriteLine("First Name: " + FNTxtBox.Text);
             file.WriteLine("Middle Name: " + MNTxtBox.Text);
             file.WriteLine("Last Name: " + LNTxtBox.Text);
-            file.WriteLine("Date of Visit: " + DteTmePcker.Text);
-            file.WriteLine("Time of Visit: " + ToVTxtBox.Text);
-            file.WriteLine("Body Temperature: " + BodTempTxtBox.Text);
+            file.WriteLine("Location: " + LcnTxtbox.Text);
             file.WriteLine("Mobile Number: " + MblNTxtBox.Text);
             file.WriteLine("Email Address: " + EMTxtBox.Text);
             file.WriteLine("House No.: " + HNTxtBox.Text);
@@ -45,7 +61,7 @@ namespace Contact_Tracing_App
                     {
                         MessageBox.Show("Thankyou for answering", "Visitor Contact Tracing", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         FNTxtBox.Text = MNTxtBox.Text = LNTxtBox.Text =  DteTmePcker.Text =
-                        ToVTxtBox.Text = BodTempTxtBox.Text = MblNTxtBox.Text = EMTxtBox.Text =
+                        HrsTxtBox.Text =BodTempTxtBox.Text = MblNTxtBox.Text = EMTxtBox.Text =
                         HNTxtBox.Text = StrtTxtBox.Text = BrgyTxtBox.Text = CityTxtBox.Text = PrvnceTxtBox.Text = "";
                         this.Close();
                     }

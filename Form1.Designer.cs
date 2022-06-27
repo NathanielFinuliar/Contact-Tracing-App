@@ -39,7 +39,7 @@
             this.LNLabl = new System.Windows.Forms.Label();
             this.DtVstLabl = new System.Windows.Forms.Label();
             this.tmvstLabl = new System.Windows.Forms.Label();
-            this.ToVTxtBox = new System.Windows.Forms.TextBox();
+            this.HrsTxtBox = new System.Windows.Forms.TextBox();
             this.StrtTxtBox = new System.Windows.Forms.TextBox();
             this.BrgyLabl = new System.Windows.Forms.Label();
             this.CityTxtBox = new System.Windows.Forms.TextBox();
@@ -63,15 +63,15 @@
             this.EMTxtBox = new System.Windows.Forms.TextBox();
             this.AbtBttn = new System.Windows.Forms.Button();
             this.DteTmePcker = new System.Windows.Forms.DateTimePicker();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.radioButton5 = new System.Windows.Forms.RadioButton();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.VacStatusTxtBox = new System.Windows.Forms.GroupBox();
+            this.NoVacrb = new System.Windows.Forms.RadioButton();
+            this.Boostedrb = new System.Windows.Forms.RadioButton();
+            this.FullVacrb = new System.Windows.Forms.RadioButton();
+            this.MinTxtBox = new System.Windows.Forms.TextBox();
+            this.AMPMTxtBox = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.LcnTxtbox = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
@@ -97,7 +97,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            this.groupBox1.SuspendLayout();
+            this.VacStatusTxtBox.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
@@ -222,15 +222,15 @@
             this.tmvstLabl.TabIndex = 30;
             this.tmvstLabl.Text = "Time of Visit:";
             // 
-            // ToVTxtBox
+            // HrsTxtBox
             // 
-            this.ToVTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ToVTxtBox.Location = new System.Drawing.Point(40, 297);
-            this.ToVTxtBox.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.ToVTxtBox.Multiline = true;
-            this.ToVTxtBox.Name = "ToVTxtBox";
-            this.ToVTxtBox.Size = new System.Drawing.Size(48, 32);
-            this.ToVTxtBox.TabIndex = 1;
+            this.HrsTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HrsTxtBox.Location = new System.Drawing.Point(40, 297);
+            this.HrsTxtBox.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.HrsTxtBox.Multiline = true;
+            this.HrsTxtBox.Name = "HrsTxtBox";
+            this.HrsTxtBox.Size = new System.Drawing.Size(48, 32);
+            this.HrsTxtBox.TabIndex = 1;
             // 
             // StrtTxtBox
             // 
@@ -507,80 +507,80 @@
             this.DteTmePcker.Size = new System.Drawing.Size(154, 30);
             this.DteTmePcker.TabIndex = 0;
             // 
-            // groupBox1
+            // VacStatusTxtBox
             // 
-            this.groupBox1.Controls.Add(this.radioButton5);
-            this.groupBox1.Controls.Add(this.radioButton4);
-            this.groupBox1.Controls.Add(this.radioButton3);
-            this.groupBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.groupBox1.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.ForeColor = System.Drawing.Color.Crimson;
-            this.groupBox1.Location = new System.Drawing.Point(479, 196);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.groupBox1.Size = new System.Drawing.Size(249, 116);
-            this.groupBox1.TabIndex = 6;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Vaccination Status";
+            this.VacStatusTxtBox.Controls.Add(this.NoVacrb);
+            this.VacStatusTxtBox.Controls.Add(this.Boostedrb);
+            this.VacStatusTxtBox.Controls.Add(this.FullVacrb);
+            this.VacStatusTxtBox.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.VacStatusTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.VacStatusTxtBox.ForeColor = System.Drawing.Color.Crimson;
+            this.VacStatusTxtBox.Location = new System.Drawing.Point(479, 196);
+            this.VacStatusTxtBox.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.VacStatusTxtBox.Name = "VacStatusTxtBox";
+            this.VacStatusTxtBox.Padding = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.VacStatusTxtBox.Size = new System.Drawing.Size(249, 116);
+            this.VacStatusTxtBox.TabIndex = 6;
+            this.VacStatusTxtBox.TabStop = false;
+            this.VacStatusTxtBox.Text = "Vaccination Status";
             // 
-            // radioButton5
+            // NoVacrb
             // 
-            this.radioButton5.AutoSize = true;
-            this.radioButton5.Checked = true;
-            this.radioButton5.ForeColor = System.Drawing.Color.Black;
-            this.radioButton5.Location = new System.Drawing.Point(38, 26);
-            this.radioButton5.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(128, 28);
-            this.radioButton5.TabIndex = 0;
-            this.radioButton5.TabStop = true;
-            this.radioButton5.Text = "No Vaccine";
-            this.radioButton5.UseVisualStyleBackColor = true;
+            this.NoVacrb.AutoSize = true;
+            this.NoVacrb.Checked = true;
+            this.NoVacrb.ForeColor = System.Drawing.Color.Black;
+            this.NoVacrb.Location = new System.Drawing.Point(38, 26);
+            this.NoVacrb.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.NoVacrb.Name = "NoVacrb";
+            this.NoVacrb.Size = new System.Drawing.Size(128, 28);
+            this.NoVacrb.TabIndex = 0;
+            this.NoVacrb.TabStop = true;
+            this.NoVacrb.Text = "No Vaccine";
+            this.NoVacrb.UseVisualStyleBackColor = true;
             // 
-            // radioButton4
+            // Boostedrb
             // 
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.ForeColor = System.Drawing.Color.Black;
-            this.radioButton4.Location = new System.Drawing.Point(38, 74);
-            this.radioButton4.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(101, 28);
-            this.radioButton4.TabIndex = 2;
-            this.radioButton4.Text = "Boosted";
-            this.radioButton4.UseVisualStyleBackColor = true;
+            this.Boostedrb.AutoSize = true;
+            this.Boostedrb.ForeColor = System.Drawing.Color.Black;
+            this.Boostedrb.Location = new System.Drawing.Point(38, 74);
+            this.Boostedrb.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.Boostedrb.Name = "Boostedrb";
+            this.Boostedrb.Size = new System.Drawing.Size(101, 28);
+            this.Boostedrb.TabIndex = 2;
+            this.Boostedrb.Text = "Boosted";
+            this.Boostedrb.UseVisualStyleBackColor = true;
             // 
-            // radioButton3
+            // FullVacrb
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.ForeColor = System.Drawing.Color.Black;
-            this.radioButton3.Location = new System.Drawing.Point(38, 50);
-            this.radioButton3.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(173, 28);
-            this.radioButton3.TabIndex = 1;
-            this.radioButton3.Text = "Fully Vaccinated";
-            this.radioButton3.UseVisualStyleBackColor = true;
+            this.FullVacrb.AutoSize = true;
+            this.FullVacrb.ForeColor = System.Drawing.Color.Black;
+            this.FullVacrb.Location = new System.Drawing.Point(38, 50);
+            this.FullVacrb.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.FullVacrb.Name = "FullVacrb";
+            this.FullVacrb.Size = new System.Drawing.Size(173, 28);
+            this.FullVacrb.TabIndex = 1;
+            this.FullVacrb.Text = "Fully Vaccinated";
+            this.FullVacrb.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // MinTxtBox
             // 
-            this.textBox1.Font = new System.Drawing.Font("Circular Std Bold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(115, 298);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(48, 31);
-            this.textBox1.TabIndex = 2;
+            this.MinTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MinTxtBox.Location = new System.Drawing.Point(115, 298);
+            this.MinTxtBox.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.MinTxtBox.Multiline = true;
+            this.MinTxtBox.Name = "MinTxtBox";
+            this.MinTxtBox.Size = new System.Drawing.Size(48, 31);
+            this.MinTxtBox.TabIndex = 2;
             // 
-            // textBox2
+            // AMPMTxtBox
             // 
-            this.textBox2.Font = new System.Drawing.Font("Circular Std Bold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(169, 298);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(48, 31);
-            this.textBox2.TabIndex = 3;
+            this.AMPMTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AMPMTxtBox.Location = new System.Drawing.Point(169, 298);
+            this.AMPMTxtBox.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.AMPMTxtBox.Multiline = true;
+            this.AMPMTxtBox.Name = "AMPMTxtBox";
+            this.AMPMTxtBox.Size = new System.Drawing.Size(48, 31);
+            this.AMPMTxtBox.TabIndex = 3;
             // 
             // label3
             // 
@@ -606,15 +606,15 @@
             this.label2.TabIndex = 60;
             this.label2.Text = "°C";
             // 
-            // textBox3
+            // LcnTxtbox
             // 
-            this.textBox3.Font = new System.Drawing.Font("Circular Std Bold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(257, 300);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(203, 29);
-            this.textBox3.TabIndex = 5;
+            this.LcnTxtbox.Font = new System.Drawing.Font("Circular Std Bold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LcnTxtbox.Location = new System.Drawing.Point(257, 300);
+            this.LcnTxtbox.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.LcnTxtbox.Multiline = true;
+            this.LcnTxtbox.Name = "LcnTxtbox";
+            this.LcnTxtbox.Size = new System.Drawing.Size(203, 29);
+            this.LcnTxtbox.TabIndex = 5;
             // 
             // label4
             // 
@@ -905,12 +905,12 @@
             this.Controls.Add(this.radioButton6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.LcnTxtbox);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.AMPMTxtBox);
+            this.Controls.Add(this.MinTxtBox);
+            this.Controls.Add(this.VacStatusTxtBox);
             this.Controls.Add(this.DteTmePcker);
             this.Controls.Add(this.AbtBttn);
             this.Controls.Add(this.pictureBox5);
@@ -924,7 +924,7 @@
             this.Controls.Add(this.BdTemptLabl);
             this.Controls.Add(this.BodTempTxtBox);
             this.Controls.Add(this.LocationLabl);
-            this.Controls.Add(this.ToVTxtBox);
+            this.Controls.Add(this.HrsTxtBox);
             this.Controls.Add(this.tmvstLabl);
             this.Controls.Add(this.DtVstLabl);
             this.Controls.Add(this.CTLabl);
@@ -941,8 +941,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
+            this.VacStatusTxtBox.ResumeLayout(false);
+            this.VacStatusTxtBox.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
@@ -964,7 +964,7 @@
         private System.Windows.Forms.Label LNLabl;
         private System.Windows.Forms.Label DtVstLabl;
         private System.Windows.Forms.Label tmvstLabl;
-        private System.Windows.Forms.TextBox ToVTxtBox;
+        private System.Windows.Forms.TextBox HrsTxtBox;
         private System.Windows.Forms.TextBox StrtTxtBox;
         private System.Windows.Forms.Label BrgyLabl;
         private System.Windows.Forms.TextBox CityTxtBox;
@@ -988,15 +988,15 @@
         private System.Windows.Forms.TextBox EMTxtBox;
         private System.Windows.Forms.Button AbtBttn;
         private System.Windows.Forms.DateTimePicker DteTmePcker;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.GroupBox VacStatusTxtBox;
+        private System.Windows.Forms.TextBox MinTxtBox;
+        private System.Windows.Forms.TextBox AMPMTxtBox;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.RadioButton radioButton5;
-        private System.Windows.Forms.RadioButton radioButton4;
-        private System.Windows.Forms.RadioButton radioButton3;
+        private System.Windows.Forms.RadioButton NoVacrb;
+        private System.Windows.Forms.RadioButton Boostedrb;
+        private System.Windows.Forms.RadioButton FullVacrb;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox LcnTxtbox;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.RadioButton radioButton2;
