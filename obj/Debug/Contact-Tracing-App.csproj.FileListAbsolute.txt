@@ -20,3 +20,4 @@ C:\Users\nathan\source\repos\sample\obj\Debug\Contact-Tracing-App.csproj.Generat
 C:\Users\nathan\source\repos\sample\obj\Debug\Contact-Tracing-App.csproj.CoreCompileInputs.cache
 C:\Users\nathan\source\repos\sample\obj\Debug\Contact-Tracing-App.exe
 C:\Users\nathan\source\repos\sample\obj\Debug\Contact-Tracing-App.pdb
+C:\Users\nathan\source\repos\sample\obj\Debug\Contact_Tracing_App.Form2.resources

@@ -92,6 +92,7 @@
             this.PrsnlINFOLbl = new System.Windows.Forms.Label();
             this.CrrntADDLbl = new System.Windows.Forms.Label();
             this.CntctInfoLbl = new System.Windows.Forms.Label();
+            this.AdmnBttn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -482,14 +483,15 @@
             // 
             // AbtBttn
             // 
-            this.AbtBttn.BackColor = System.Drawing.Color.NavajoWhite;
+            this.AbtBttn.BackColor = System.Drawing.Color.Cornsilk;
+            this.AbtBttn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.AbtBttn.Font = new System.Drawing.Font("Circular Std Black", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AbtBttn.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.AbtBttn.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.AbtBttn.Location = new System.Drawing.Point(629, 16);
+            this.AbtBttn.Location = new System.Drawing.Point(27, 47);
             this.AbtBttn.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.AbtBttn.Name = "AbtBttn";
-            this.AbtBttn.Size = new System.Drawing.Size(115, 42);
+            this.AbtBttn.Size = new System.Drawing.Size(105, 36);
             this.AbtBttn.TabIndex = 24;
             this.AbtBttn.Text = "ABOUT";
             this.AbtBttn.UseVisualStyleBackColor = false;
@@ -864,6 +866,19 @@
             this.CntctInfoLbl.TabIndex = 79;
             this.CntctInfoLbl.Text = "CONTACT INFO";
             // 
+            // AdmnBttn
+            // 
+            this.AdmnBttn.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.AdmnBttn.Font = new System.Drawing.Font("Circular Std Bold", 14F, System.Drawing.FontStyle.Bold);
+            this.AdmnBttn.ForeColor = System.Drawing.Color.Cornsilk;
+            this.AdmnBttn.Location = new System.Drawing.Point(609, 47);
+            this.AdmnBttn.Name = "AdmnBttn";
+            this.AdmnBttn.Size = new System.Drawing.Size(136, 36);
+            this.AdmnBttn.TabIndex = 80;
+            this.AdmnBttn.Text = "Admin Login";
+            this.AdmnBttn.UseVisualStyleBackColor = false;
+            this.AdmnBttn.Click += new System.EventHandler(this.AdmnBttn_Click);
+            // 
             // ContactTracing
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(23F, 30F);
@@ -871,6 +886,7 @@
             this.BackColor = System.Drawing.Color.Cornsilk;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(770, 942);
+            this.Controls.Add(this.AdmnBttn);
             this.Controls.Add(this.CntctInfoLbl);
             this.Controls.Add(this.CrrntADDLbl);
             this.Controls.Add(this.PrsnlINFOLbl);
@@ -1017,6 +1033,7 @@
         private System.Windows.Forms.Label PrsnlINFOLbl;
         private System.Windows.Forms.Label CrrntADDLbl;
         private System.Windows.Forms.Label CntctInfoLbl;
+        private System.Windows.Forms.Button AdmnBttn;
     }
 }
 

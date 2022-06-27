@@ -126,5 +126,11 @@ namespace Contact_Tracing_App
                     "What is this Contact Tracing Form?", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
+
+        private void AdmnBttn_Click(object sender, EventArgs e)
+        {
+            Form2 show = new Form2();
+            show.ShowDialog();  
+        }
     }
 }
