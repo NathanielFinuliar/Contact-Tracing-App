@@ -69,7 +69,8 @@ namespace Contact_Tracing_App
             file.WriteLine("Email Address: " + EMTxtBox.Text);
             file.WriteLine("");
             file.WriteLine("HEALTH RELATED QUESTION");
-            file.WriteLine("Have you recently been in another public and / or crowded location ? " + YesNoMybeTxtBox.Text);
+            file.WriteLine("Have you recently been in another public and / or crowded location?");
+            file.WriteLine(YesNoMybeTxtBox.Text);
             string Symptoms = "";
             if (Yesrb.Checked == true)
             {
@@ -79,7 +80,8 @@ namespace Contact_Tracing_App
             {
                 Symptoms = Norb.Text;
             }
-            file.WriteLine("Are you currently experiencing any type of the ff: symptoms: sore throat, body pains,head ache and fever? " + Symptoms);
+            file.WriteLine("Are you currently experiencing any type of the ff: symptoms: sore throat, body pains,head ache and fever?");
+            file.WriteLine(Symptoms);
             file.Close();
             {
                 try
@@ -90,9 +92,10 @@ namespace Contact_Tracing_App
                     if (iSubmit == DialogResult.OK)
                     {
                         MessageBox.Show("Thankyou for answering", "Visitor Contact Tracing", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        FNTxtBox.Text = MITxtBox.Text = LNTxtBox.Text =  DteTmePcker.Text =
-                        HrsTxtBox.Text =BodTempTxtBox.Text = PhnNTxtBox.Text = EMTxtBox.Text =
-                        HNTxtBox.Text = StrtTxtBox.Text = BrgyTxtBox.Text = CityTxtBox.Text = PrvnceTxtBox.Text = "";
+                        DteTmePcker.Text = HrsTxtBox.Text = ColonLbl.Text = MinTxtBox.Text = AMPMTxtBox.Text =
+                        BodTempTxtBox.Text = LcnTxtbox.Text = vac = FNTxtBox.Text = MITxtBox.Text = LNTxtBox.Text =
+                        AgeNmericUpDwn.Text = Sex = HNTxtBox.Text = StrtTxtBox.Text = BrgyTxtBox.Text =
+                        CityTxtBox.Text = PrvnceTxtBox.Text = PhnNTxtBox.Text = EMTxtBox.Text = YesNoMybeTxtBox.Text = Symptoms = "";
                         this.Close();
                     }
 

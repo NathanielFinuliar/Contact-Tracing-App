@@ -148,12 +148,12 @@
             this.VCTFLabl.AutoSize = true;
             this.VCTFLabl.BackColor = System.Drawing.Color.NavajoWhite;
             this.VCTFLabl.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.VCTFLabl.Font = new System.Drawing.Font("Alphakind", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.VCTFLabl.Font = new System.Drawing.Font("Alphakind", 31F);
             this.VCTFLabl.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.VCTFLabl.Location = new System.Drawing.Point(60, 115);
+            this.VCTFLabl.Location = new System.Drawing.Point(48, 117);
             this.VCTFLabl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.VCTFLabl.Name = "VCTFLabl";
-            this.VCTFLabl.Size = new System.Drawing.Size(630, 50);
+            this.VCTFLabl.Size = new System.Drawing.Size(664, 52);
             this.VCTFLabl.TabIndex = 25;
             this.VCTFLabl.Text = "VISITOR CONTACT TRACING FORM";
             // 
