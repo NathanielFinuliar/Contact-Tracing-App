@@ -33,8 +33,8 @@
             this.DataRecordsLbl = new System.Windows.Forms.Label();
             this.DisplayAllBttn = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.DteTmePcker = new System.Windows.Forms.DateTimePicker();
+            this.FilterDateBttn = new System.Windows.Forms.Button();
+            this.FlterDte = new System.Windows.Forms.DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -66,7 +66,7 @@
             this.DisplayAllBttn.BackColor = System.Drawing.Color.DarkSlateGray;
             this.DisplayAllBttn.Font = new System.Drawing.Font("Microsoft Sans Serif", 17.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DisplayAllBttn.ForeColor = System.Drawing.Color.White;
-            this.DisplayAllBttn.Location = new System.Drawing.Point(75, 131);
+            this.DisplayAllBttn.Location = new System.Drawing.Point(73, 131);
             this.DisplayAllBttn.Name = "DisplayAllBttn";
             this.DisplayAllBttn.Size = new System.Drawing.Size(135, 43);
             this.DisplayAllBttn.TabIndex = 5;
@@ -84,40 +84,41 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(192, 54);
             this.label1.TabIndex = 6;
-            this.label1.Text = "Filter data records\r\nby Date";
+            this.label1.Text = "Filter data records\r\nbased on Date";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
-            // button1
+            // FilterDateBttn
             // 
-            this.button1.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 17.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(445, 166);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(135, 43);
-            this.button1.TabIndex = 7;
-            this.button1.Text = "SHOW";
-            this.button1.UseVisualStyleBackColor = false;
+            this.FilterDateBttn.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.FilterDateBttn.Font = new System.Drawing.Font("Microsoft Sans Serif", 17.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FilterDateBttn.ForeColor = System.Drawing.Color.White;
+            this.FilterDateBttn.Location = new System.Drawing.Point(435, 166);
+            this.FilterDateBttn.Name = "FilterDateBttn";
+            this.FilterDateBttn.Size = new System.Drawing.Size(135, 43);
+            this.FilterDateBttn.TabIndex = 7;
+            this.FilterDateBttn.Text = "SHOW";
+            this.FilterDateBttn.UseVisualStyleBackColor = false;
+            this.FilterDateBttn.Click += new System.EventHandler(this.FilterDateBttn_Click);
             // 
-            // DteTmePcker
+            // FlterDte
             // 
-            this.DteTmePcker.CalendarFont = new System.Drawing.Font("Circular Std Bold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DteTmePcker.CustomFormat = "";
-            this.DteTmePcker.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DteTmePcker.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.DteTmePcker.Location = new System.Drawing.Point(435, 131);
-            this.DteTmePcker.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.DteTmePcker.Name = "DteTmePcker";
-            this.DteTmePcker.Size = new System.Drawing.Size(154, 30);
-            this.DteTmePcker.TabIndex = 9;
+            this.FlterDte.CalendarFont = new System.Drawing.Font("Circular Std Bold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FlterDte.CustomFormat = "";
+            this.FlterDte.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FlterDte.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.FlterDte.Location = new System.Drawing.Point(435, 131);
+            this.FlterDte.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.FlterDte.Name = "FlterDte";
+            this.FlterDte.Size = new System.Drawing.Size(154, 30);
+            this.FlterDte.TabIndex = 9;
             // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(700, 480);
-            this.Controls.Add(this.DteTmePcker);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.FlterDte);
+            this.Controls.Add(this.FilterDateBttn);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.DisplayAllBttn);
             this.Controls.Add(this.DataRecordsLbl);
@@ -136,7 +137,7 @@
         private System.Windows.Forms.Label DataRecordsLbl;
         private System.Windows.Forms.Button DisplayAllBttn;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.DateTimePicker DteTmePcker;
+        private System.Windows.Forms.Button FilterDateBttn;
+        private System.Windows.Forms.DateTimePicker FlterDte;
     }
 }
