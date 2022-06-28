@@ -18,7 +18,7 @@ namespace Contact_Tracing_App
         }
         private void LgnBttn_Click(object sender, EventArgs e)
         {
-            if (UrsnTxtBox.Text == "Nathaniel Finuliar" && PswrdTxtBox.Text == "HPAdmin01")
+            if (UrsnTxtBox.Text == "NathFinul" && PswrdTxtBox.Text == "HPAdmin01")
             {
                 UrsnTxtBox.Text = "";
                 PswrdTxtBox.Text = "";
