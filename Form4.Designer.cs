@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form4));
             this.allrecordslbl = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -48,6 +49,7 @@
             this.BackColor = System.Drawing.Color.AliceBlue;
             this.ClientSize = new System.Drawing.Size(527, 619);
             this.Controls.Add(this.allrecordslbl);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form4";
             this.Text = "All Data Records";
             this.ResumeLayout(false);

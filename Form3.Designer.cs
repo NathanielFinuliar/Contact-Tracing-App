@@ -152,6 +152,7 @@
             this.Controls.Add(this.DisplayAllBttn);
             this.Controls.Add(this.DataRecordsLbl);
             this.Controls.Add(this.Picbox);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form3";
             this.Text = "Harbor Point Admin Desk";
             ((System.ComponentModel.ISupportInitialize)(this.Picbox)).EndInit();

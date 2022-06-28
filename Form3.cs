@@ -43,7 +43,7 @@ namespace Contact_Tracing_App
                 }
                 if (ResultsofDate == 0)
                 {
-                    MessageBox.Show("No records found on your chosen date");
+                    MessageBox.Show("No records found on your chosen date.", "Result", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
                 else
                 {
@@ -53,8 +53,8 @@ namespace Contact_Tracing_App
                         file.WriteLine(show);
                     }
                     file.Close();
-                    MessageBox.Show("We Found " + ResultsofDate + " records on your chosen date");
-                    if (MessageBox.Show("Do you want to proceed of filtering?", "", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                    MessageBox.Show("We Found " + ResultsofDate + " records on your chosen date.", "Result");
+                    if (MessageBox.Show("Do you want to proceed of filtering?", "Notice", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                     {
                         Form5 bydate = new Form5();
                         bydate.ShowDialog();
