@@ -32,11 +32,13 @@
             this.Picbox = new System.Windows.Forms.PictureBox();
             this.DataRecordsLbl = new System.Windows.Forms.Label();
             this.DisplayAllBttn = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
+            this.FilterDatelbl = new System.Windows.Forms.Label();
             this.FilterDateBttn = new System.Windows.Forms.Button();
             this.FlterDte = new System.Windows.Forms.DateTimePicker();
-            this.label2 = new System.Windows.Forms.Label();
+            this.pcBx1 = new System.Windows.Forms.PictureBox();
+            this.CTIlbl = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.Picbox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcBx1)).BeginInit();
             this.SuspendLayout();
             // 
             // Picbox
@@ -55,7 +57,7 @@
             this.DataRecordsLbl.BackColor = System.Drawing.Color.DarkSlateGray;
             this.DataRecordsLbl.Font = new System.Drawing.Font("Circular Std Bold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DataRecordsLbl.ForeColor = System.Drawing.Color.White;
-            this.DataRecordsLbl.Location = new System.Drawing.Point(68, 62);
+            this.DataRecordsLbl.Location = new System.Drawing.Point(60, 116);
             this.DataRecordsLbl.Name = "DataRecordsLbl";
             this.DataRecordsLbl.Size = new System.Drawing.Size(220, 54);
             this.DataRecordsLbl.TabIndex = 1;
@@ -67,7 +69,7 @@
             this.DisplayAllBttn.BackColor = System.Drawing.Color.DarkSlateGray;
             this.DisplayAllBttn.Font = new System.Drawing.Font("Microsoft Sans Serif", 17.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DisplayAllBttn.ForeColor = System.Drawing.Color.White;
-            this.DisplayAllBttn.Location = new System.Drawing.Point(103, 125);
+            this.DisplayAllBttn.Location = new System.Drawing.Point(99, 173);
             this.DisplayAllBttn.Name = "DisplayAllBttn";
             this.DisplayAllBttn.Size = new System.Drawing.Size(135, 43);
             this.DisplayAllBttn.TabIndex = 5;
@@ -75,25 +77,25 @@
             this.DisplayAllBttn.UseVisualStyleBackColor = false;
             this.DisplayAllBttn.Click += new System.EventHandler(this.DisplayAllBttn_Click);
             // 
-            // label1
+            // FilterDatelbl
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.label1.Font = new System.Drawing.Font("Circular Std Bold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(391, 62);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(192, 54);
-            this.label1.TabIndex = 6;
-            this.label1.Text = "Filter data records\r\nbased on Date";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.FilterDatelbl.AutoSize = true;
+            this.FilterDatelbl.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.FilterDatelbl.Font = new System.Drawing.Font("Circular Std Bold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FilterDatelbl.ForeColor = System.Drawing.Color.White;
+            this.FilterDatelbl.Location = new System.Drawing.Point(379, 116);
+            this.FilterDatelbl.Name = "FilterDatelbl";
+            this.FilterDatelbl.Size = new System.Drawing.Size(192, 54);
+            this.FilterDatelbl.TabIndex = 6;
+            this.FilterDatelbl.Text = "Filter data records\r\nbased on Date";
+            this.FilterDatelbl.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // FilterDateBttn
             // 
             this.FilterDateBttn.BackColor = System.Drawing.Color.DarkSlateGray;
             this.FilterDateBttn.Font = new System.Drawing.Font("Microsoft Sans Serif", 17.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FilterDateBttn.ForeColor = System.Drawing.Color.White;
-            this.FilterDateBttn.Location = new System.Drawing.Point(515, 125);
+            this.FilterDateBttn.Location = new System.Drawing.Point(507, 173);
             this.FilterDateBttn.Name = "FilterDateBttn";
             this.FilterDateBttn.Size = new System.Drawing.Size(112, 43);
             this.FilterDateBttn.TabIndex = 7;
@@ -107,40 +109,53 @@
             this.FlterDte.CustomFormat = "";
             this.FlterDte.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FlterDte.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.FlterDte.Location = new System.Drawing.Point(354, 131);
+            this.FlterDte.Location = new System.Drawing.Point(346, 179);
             this.FlterDte.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.FlterDte.Name = "FlterDte";
             this.FlterDte.Size = new System.Drawing.Size(154, 30);
             this.FlterDte.TabIndex = 9;
             // 
-            // label2
+            // pcBx1
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.label2.Font = new System.Drawing.Font("Circular Std Bold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(214, 218);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(192, 54);
-            this.label2.TabIndex = 10;
-            this.label2.Text = "Filter data records\r\nbased on Date";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.pcBx1.BackColor = System.Drawing.Color.White;
+            this.pcBx1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pcBx1.BackgroundImage")));
+            this.pcBx1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pcBx1.Location = new System.Drawing.Point(38, 22);
+            this.pcBx1.Name = "pcBx1";
+            this.pcBx1.Size = new System.Drawing.Size(68, 57);
+            this.pcBx1.TabIndex = 10;
+            this.pcBx1.TabStop = false;
+            // 
+            // CTIlbl
+            // 
+            this.CTIlbl.AutoSize = true;
+            this.CTIlbl.BackColor = System.Drawing.Color.Cornsilk;
+            this.CTIlbl.Font = new System.Drawing.Font("Alphakind", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CTIlbl.ForeColor = System.Drawing.Color.DarkSlateGray;
+            this.CTIlbl.Location = new System.Drawing.Point(122, 35);
+            this.CTIlbl.Name = "CTIlbl";
+            this.CTIlbl.Size = new System.Drawing.Size(536, 35);
+            this.CTIlbl.TabIndex = 11;
+            this.CTIlbl.Text = "Contact Tracing Information Records";
+            this.CTIlbl.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(700, 480);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.CTIlbl);
+            this.Controls.Add(this.pcBx1);
             this.Controls.Add(this.FlterDte);
             this.Controls.Add(this.FilterDateBttn);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.FilterDatelbl);
             this.Controls.Add(this.DisplayAllBttn);
             this.Controls.Add(this.DataRecordsLbl);
             this.Controls.Add(this.Picbox);
             this.Name = "Form3";
             this.Text = "Harbor Point Admin Desk";
             ((System.ComponentModel.ISupportInitialize)(this.Picbox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcBx1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -151,9 +166,10 @@
         private System.Windows.Forms.PictureBox Picbox;
         private System.Windows.Forms.Label DataRecordsLbl;
         private System.Windows.Forms.Button DisplayAllBttn;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label FilterDatelbl;
         private System.Windows.Forms.Button FilterDateBttn;
         private System.Windows.Forms.DateTimePicker FlterDte;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.PictureBox pcBx1;
+        private System.Windows.Forms.Label CTIlbl;
     }
 }

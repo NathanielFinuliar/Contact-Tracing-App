@@ -129,8 +129,8 @@ namespace Contact_Tracing_App
 
         private void AdmnBttn_Click(object sender, EventArgs e)
         {
-            Form2 show = new Form2();
-            show.ShowDialog();  
+            Form2 logIn = new Form2();
+            logIn.ShowDialog();  
         }
     }
 }

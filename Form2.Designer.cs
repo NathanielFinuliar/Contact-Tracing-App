@@ -53,6 +53,7 @@
             this.PswrdTxtBox.ForeColor = System.Drawing.Color.White;
             this.PswrdTxtBox.Location = new System.Drawing.Point(112, 444);
             this.PswrdTxtBox.Name = "PswrdTxtBox";
+            this.PswrdTxtBox.PasswordChar = '*';
             this.PswrdTxtBox.Size = new System.Drawing.Size(203, 26);
             this.PswrdTxtBox.TabIndex = 1;
             // 

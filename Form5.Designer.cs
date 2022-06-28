@@ -46,10 +46,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.AliceBlue;
-            this.ClientSize = new System.Drawing.Size(447, 450);
+            this.ClientSize = new System.Drawing.Size(519, 631);
             this.Controls.Add(this.Alldatelbl);
             this.Name = "Form5";
-            this.Text = "All Data Records by Date";
+            this.Text = "All Data Records based on Date";
             this.Load += new System.EventHandler(this.Form5_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

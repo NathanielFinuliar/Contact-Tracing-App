@@ -54,11 +54,11 @@
             this.AthrzeLabl = new System.Windows.Forms.RichTextBox();
             this.ChckBx = new System.Windows.Forms.CheckBox();
             this.SbmtBttn = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pcbx1 = new System.Windows.Forms.PictureBox();
+            this.pcbx2 = new System.Windows.Forms.PictureBox();
+            this.pcbx3 = new System.Windows.Forms.PictureBox();
+            this.pcbx4 = new System.Windows.Forms.PictureBox();
+            this.pcbx5 = new System.Windows.Forms.PictureBox();
             this.AgeLabl = new System.Windows.Forms.Label();
             this.EMTxtBox = new System.Windows.Forms.TextBox();
             this.AbtBttn = new System.Windows.Forms.Button();
@@ -87,21 +87,21 @@
             this.AgeNmericUpDwn = new System.Windows.Forms.NumericUpDown();
             this.YesNoMybeTxtBox = new System.Windows.Forms.TextBox();
             this.YESNOMAYBElbl = new System.Windows.Forms.Label();
-            this.PunchLinePic = new System.Windows.Forms.PictureBox();
+            this.YPOPpic = new System.Windows.Forms.PictureBox();
             this.ConsentLbl = new System.Windows.Forms.Label();
             this.PrsnlINFOLbl = new System.Windows.Forms.Label();
             this.CrrntADDLbl = new System.Windows.Forms.Label();
             this.CntctInfoLbl = new System.Windows.Forms.Label();
             this.AdmnBttn = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbx1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbx2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbx3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbx4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbx5)).BeginInit();
             this.VacStatusGrpBox.SuspendLayout();
             this.SexGrpBox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.AgeNmericUpDwn)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PunchLinePic)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.YPOPpic)).BeginInit();
             this.SuspendLayout();
             // 
             // Sbmt
@@ -403,60 +403,60 @@
             this.SbmtBttn.UseVisualStyleBackColor = false;
             this.SbmtBttn.Click += new System.EventHandler(this.SbmtBttn_Click);
             // 
-            // pictureBox1
+            // pcbx1
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(162, 27);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(79, 72);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 43;
-            this.pictureBox1.TabStop = false;
+            this.pcbx1.Image = ((System.Drawing.Image)(resources.GetObject("pcbx1.Image")));
+            this.pcbx1.Location = new System.Drawing.Point(162, 27);
+            this.pcbx1.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.pcbx1.Name = "pcbx1";
+            this.pcbx1.Size = new System.Drawing.Size(79, 72);
+            this.pcbx1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pcbx1.TabIndex = 43;
+            this.pcbx1.TabStop = false;
             // 
-            // pictureBox2
+            // pcbx2
             // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(246, 27);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(77, 72);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 44;
-            this.pictureBox2.TabStop = false;
+            this.pcbx2.Image = ((System.Drawing.Image)(resources.GetObject("pcbx2.Image")));
+            this.pcbx2.Location = new System.Drawing.Point(246, 27);
+            this.pcbx2.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.pcbx2.Name = "pcbx2";
+            this.pcbx2.Size = new System.Drawing.Size(77, 72);
+            this.pcbx2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pcbx2.TabIndex = 44;
+            this.pcbx2.TabStop = false;
             // 
-            // pictureBox3
+            // pcbx3
             // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(328, 27);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(80, 72);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 45;
-            this.pictureBox3.TabStop = false;
+            this.pcbx3.Image = ((System.Drawing.Image)(resources.GetObject("pcbx3.Image")));
+            this.pcbx3.Location = new System.Drawing.Point(328, 27);
+            this.pcbx3.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.pcbx3.Name = "pcbx3";
+            this.pcbx3.Size = new System.Drawing.Size(80, 72);
+            this.pcbx3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pcbx3.TabIndex = 45;
+            this.pcbx3.TabStop = false;
             // 
-            // pictureBox4
+            // pcbx4
             // 
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(418, 27);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(80, 72);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 46;
-            this.pictureBox4.TabStop = false;
+            this.pcbx4.Image = ((System.Drawing.Image)(resources.GetObject("pcbx4.Image")));
+            this.pcbx4.Location = new System.Drawing.Point(418, 27);
+            this.pcbx4.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.pcbx4.Name = "pcbx4";
+            this.pcbx4.Size = new System.Drawing.Size(80, 72);
+            this.pcbx4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pcbx4.TabIndex = 46;
+            this.pcbx4.TabStop = false;
             // 
-            // pictureBox5
+            // pcbx5
             // 
-            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(507, 27);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(80, 72);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 47;
-            this.pictureBox5.TabStop = false;
+            this.pcbx5.Image = ((System.Drawing.Image)(resources.GetObject("pcbx5.Image")));
+            this.pcbx5.Location = new System.Drawing.Point(507, 27);
+            this.pcbx5.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.pcbx5.Name = "pcbx5";
+            this.pcbx5.Size = new System.Drawing.Size(80, 72);
+            this.pcbx5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pcbx5.TabIndex = 47;
+            this.pcbx5.TabStop = false;
             // 
             // AgeLabl
             // 
@@ -483,7 +483,7 @@
             // 
             // AbtBttn
             // 
-            this.AbtBttn.BackColor = System.Drawing.Color.Cornsilk;
+            this.AbtBttn.BackColor = System.Drawing.Color.AliceBlue;
             this.AbtBttn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.AbtBttn.Font = new System.Drawing.Font("Circular Std Black", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AbtBttn.ForeColor = System.Drawing.Color.DarkSlateGray;
@@ -802,16 +802,16 @@
             this.YESNOMAYBElbl.TabIndex = 74;
             this.YESNOMAYBElbl.Text = "Yes / No / Maybe";
             // 
-            // PunchLinePic
+            // YPOPpic
             // 
-            this.PunchLinePic.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.PunchLinePic.Image = ((System.Drawing.Image)(resources.GetObject("PunchLinePic.Image")));
-            this.PunchLinePic.Location = new System.Drawing.Point(504, 582);
-            this.PunchLinePic.Name = "PunchLinePic";
-            this.PunchLinePic.Size = new System.Drawing.Size(173, 129);
-            this.PunchLinePic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.PunchLinePic.TabIndex = 75;
-            this.PunchLinePic.TabStop = false;
+            this.YPOPpic.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.YPOPpic.Image = ((System.Drawing.Image)(resources.GetObject("YPOPpic.Image")));
+            this.YPOPpic.Location = new System.Drawing.Point(504, 582);
+            this.YPOPpic.Name = "YPOPpic";
+            this.YPOPpic.Size = new System.Drawing.Size(173, 129);
+            this.YPOPpic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.YPOPpic.TabIndex = 75;
+            this.YPOPpic.TabStop = false;
             // 
             // ConsentLbl
             // 
@@ -906,7 +906,7 @@
             this.Controls.Add(this.BrgyTxtBox);
             this.Controls.Add(this.LNTxtBox);
             this.Controls.Add(this.BrgyLabl);
-            this.Controls.Add(this.PunchLinePic);
+            this.Controls.Add(this.YPOPpic);
             this.Controls.Add(this.CityTxtBox);
             this.Controls.Add(this.FNLabl);
             this.Controls.Add(this.CityLabl);
@@ -929,11 +929,11 @@
             this.Controls.Add(this.VacStatusGrpBox);
             this.Controls.Add(this.DteTmePcker);
             this.Controls.Add(this.AbtBttn);
-            this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pcbx5);
+            this.Controls.Add(this.pcbx4);
+            this.Controls.Add(this.pcbx3);
+            this.Controls.Add(this.pcbx2);
+            this.Controls.Add(this.pcbx1);
             this.Controls.Add(this.SbmtBttn);
             this.Controls.Add(this.ChckBx);
             this.Controls.Add(this.AthrzeLabl);
@@ -952,17 +952,17 @@
             this.Name = "ContactTracing";
             this.Text = "Harbor Point Contact Tracing";
             this.Load += new System.EventHandler(this.ContactTracing_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbx1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbx2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbx3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbx4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbx5)).EndInit();
             this.VacStatusGrpBox.ResumeLayout(false);
             this.VacStatusGrpBox.PerformLayout();
             this.SexGrpBox.ResumeLayout(false);
             this.SexGrpBox.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.AgeNmericUpDwn)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PunchLinePic)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.YPOPpic)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -995,11 +995,11 @@
         private System.Windows.Forms.RichTextBox AthrzeLabl;
         private System.Windows.Forms.CheckBox ChckBx;
         private System.Windows.Forms.Button SbmtBttn;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox pcbx1;
+        private System.Windows.Forms.PictureBox pcbx2;
+        private System.Windows.Forms.PictureBox pcbx3;
+        private System.Windows.Forms.PictureBox pcbx4;
+        private System.Windows.Forms.PictureBox pcbx5;
         private System.Windows.Forms.Label AgeLabl;
         private System.Windows.Forms.TextBox EMTxtBox;
         private System.Windows.Forms.Button AbtBttn;
@@ -1028,7 +1028,7 @@
         private System.Windows.Forms.NumericUpDown AgeNmericUpDwn;
         private System.Windows.Forms.TextBox YesNoMybeTxtBox;
         private System.Windows.Forms.Label YESNOMAYBElbl;
-        private System.Windows.Forms.PictureBox PunchLinePic;
+        private System.Windows.Forms.PictureBox YPOPpic;
         private System.Windows.Forms.Label ConsentLbl;
         private System.Windows.Forms.Label PrsnlINFOLbl;
         private System.Windows.Forms.Label CrrntADDLbl;

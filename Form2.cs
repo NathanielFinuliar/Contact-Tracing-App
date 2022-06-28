@@ -22,9 +22,9 @@ namespace Contact_Tracing_App
             {
                 UrsnTxtBox.Text = "";
                 PswrdTxtBox.Text = "";
-                Form records = new Form3();
+                Form admindesk = new Form3();
                 this.Visible = false;
-                records.ShowDialog();
+                admindesk.ShowDialog();
             }
             else
             {

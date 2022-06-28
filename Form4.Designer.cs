@@ -46,7 +46,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.AliceBlue;
-            this.ClientSize = new System.Drawing.Size(530, 676);
+            this.ClientSize = new System.Drawing.Size(527, 619);
             this.Controls.Add(this.allrecordslbl);
             this.Name = "Form4";
             this.Text = "All Data Records";

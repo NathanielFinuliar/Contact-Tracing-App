@@ -121,7 +121,7 @@
     <value>I hereby authorize Harbor Point Mall to collect and process the data indicated herein for the purpose of contact tracing effecting control of the COVID19 transmission. I understand my personal information  is protected by RA 10173 or the Data Privacy Act of 2012 and that this form will be destroyed after 30 days from the date of accomplishment, following the National Archives of the Philippines protocol.</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="pcbx1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAABLAAAASwCAYAAADrIbPPAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
         JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAD/m0lEQVR4XuydBbhVZfbGb3cH3d3dKSnd
@@ -5425,7 +5425,7 @@
         DeWbeK6biHjuHUUcC0IIIYSQPGCllf4P/jAyo6COXLUAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="pictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="pcbx2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAACAAAAAgACAYAAACyp9MwAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
         JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAD/m0lEQVR4XuydB3iT5dqA2zJK6UrSlkIp
@@ -15147,7 +15147,7 @@
         AAAAAAARkZPz/5UC47p4O84YAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="pictureBox3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="pcbx3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAABLAAAASwCAYAAADrIbPPAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
         JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAB3RJTUUH4gMeCzcc6G1ZzwAA/4hJREFU
@@ -18249,7 +18249,7 @@
         EEIIIYQQQgghhBBCCCGEEPf5f//v/wP/aX1W+LWS+QAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="pictureBox4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="pcbx4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAOgAAADZCAMAAAAdUYxCAAAABGdBTUEAALGPC/xhBQAAAUFQTFRF////
         Jj2B7Rwk7AAAkpq4/vr7FTJ8ACl4ACF1//IAACN21Nfi9/f68vP3Ayt5ys7cHzh/mJ+7//YA4uTsWGaX
@@ -18324,7 +18324,7 @@
         U8TlCtuDfduXFhERERERERERYSUW+z/hpAwgZM5rYQAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="pictureBox5.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="pcbx5.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAABGdBTUEAALGPC/xhBQAAAVxQTFRF////
         AJe2DU1z///9//7//P////79///7+f/////5DUx3/f/9//37AEFu/P/+///4AD1rADlrAER0WHaRu8zT
@@ -18417,7 +18417,7 @@
         AAAASUVORK5CYII=
 </value>
   </data>
-  <data name="PunchLinePic.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="YPOPpic.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAXQAAAD4CAYAAAD8Zh1EAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
         DAAACwwBP0AiyAAAbAlJREFUeF7tvXuwZNdV5llqbGHr5W61NEKWFK3GwvKUrcJuYbAkJJfqBUWHHfRE
