@@ -16,5 +16,11 @@ namespace Contact_Tracing_App
         {
             InitializeComponent();
         }
+
+        private void DisplayAllBttn_Click(object sender, EventArgs e)
+        {
+            Form4 alldata = new Form4();
+            alldata.ShowDialog();
+        }
     }
 }
