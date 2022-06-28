@@ -87,7 +87,7 @@ namespace Contact_Tracing_App
                 try
                 {
                     DialogResult iSubmit;
-                    iSubmit = MessageBox.Show("Confirm if you want to Submit", "Visitor Contact Tracing",
+                    iSubmit = MessageBox.Show("I Understand that by clicking the submit button, I am agreeing to the Harbor Point Mall Privacy Policy.", "Visitor Contact Tracing",
                         MessageBoxButtons.OK, MessageBoxIcon.Information);
                     if (iSubmit == DialogResult.OK)
                     {

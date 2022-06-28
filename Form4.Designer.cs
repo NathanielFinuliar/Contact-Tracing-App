@@ -34,9 +34,10 @@
             // allrecordslbl
             // 
             this.allrecordslbl.AutoSize = true;
+            this.allrecordslbl.Font = new System.Drawing.Font("Circular Std Bold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.allrecordslbl.Location = new System.Drawing.Point(12, 9);
             this.allrecordslbl.Name = "allrecordslbl";
-            this.allrecordslbl.Size = new System.Drawing.Size(0, 13);
+            this.allrecordslbl.Size = new System.Drawing.Size(0, 27);
             this.allrecordslbl.TabIndex = 0;
             // 
             // Form4
