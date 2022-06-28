@@ -366,5 +366,59 @@ namespace Contact_Tracing_App
                 PrvnceTxtBox.ForeColor = Color.Black;
             }
         }
+
+        private void PhnNTxtBox_Leave(object sender, EventArgs e)
+        {
+            if (PhnNTxtBox.Text == "")
+            {
+                PhnNTxtBox.Text = "09XXXXXXXXX";
+                PhnNTxtBox.ForeColor = Color.DarkGray;
+            }
+        }
+
+        private void PhnNTxtBox_Enter(object sender, EventArgs e)
+        {
+            if (PhnNTxtBox.Text == "09XXXXXXXXX")
+            {
+                PhnNTxtBox.Text = null;
+                PhnNTxtBox.ForeColor = Color.Black;
+            }
+        }
+
+        private void EMTxtBox_Leave(object sender, EventArgs e)
+        {
+            if (EMTxtBox.Text == "")
+            {
+                EMTxtBox.Text = "@owenexample.com";
+                EMTxtBox.ForeColor = Color.DarkGray;
+            }
+        }
+
+        private void EMTxtBox_Enter(object sender, EventArgs e)
+        {
+            if (EMTxtBox.Text == "@owenexample.com")
+            {
+                EMTxtBox.Text = null;
+                EMTxtBox.ForeColor = Color.Black;
+            }
+        }
+
+        private void YesNoMybeTxtBox_Leave(object sender, EventArgs e)
+        {
+            if (YesNoMybeTxtBox.Text == "")
+            {
+                YesNoMybeTxtBox.Text = "Yes. No. Maybe.";
+                YesNoMybeTxtBox.ForeColor = Color.DarkGray;
+            }
+        }
+
+        private void YesNoMybeTxtBox_Enter(object sender, EventArgs e)
+        {
+            if (YesNoMybeTxtBox.Text == "Yes. No. Maybe.") 
+            {
+                YesNoMybeTxtBox.Text = null;
+                YesNoMybeTxtBox.ForeColor = Color.Black;
+            }
+        }
     }
 }

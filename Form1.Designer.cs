@@ -349,6 +349,8 @@
             this.PhnNTxtBox.TabIndex = 17;
             this.PhnNTxtBox.Text = "09XXXXXXXXX";
             this.PhnNTxtBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.PhnNTxtBox.Enter += new System.EventHandler(this.PhnNTxtBox_Enter);
+            this.PhnNTxtBox.Leave += new System.EventHandler(this.PhnNTxtBox_Leave);
             // 
             // PhonenoLabl
             // 
@@ -526,6 +528,8 @@
             this.EMTxtBox.TabIndex = 18;
             this.EMTxtBox.Text = "@owenexample.com";
             this.EMTxtBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.EMTxtBox.Enter += new System.EventHandler(this.EMTxtBox_Enter);
+            this.EMTxtBox.Leave += new System.EventHandler(this.EMTxtBox_Leave);
             // 
             // AbtBttn
             // 
@@ -862,6 +866,8 @@
             this.YesNoMybeTxtBox.TabIndex = 19;
             this.YesNoMybeTxtBox.Text = "Yes. No. Maybe.";
             this.YesNoMybeTxtBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.YesNoMybeTxtBox.Enter += new System.EventHandler(this.YesNoMybeTxtBox_Enter);
+            this.YesNoMybeTxtBox.Leave += new System.EventHandler(this.YesNoMybeTxtBox_Leave);
             // 
             // YESNOMAYBElbl
             // 
