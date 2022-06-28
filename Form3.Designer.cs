@@ -32,6 +32,9 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.DataRecordsLbl = new System.Windows.Forms.Label();
             this.DisplayAllBttn = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.DteTmePcker = new System.Windows.Forms.DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -71,11 +74,51 @@
             this.DisplayAllBttn.UseVisualStyleBackColor = false;
             this.DisplayAllBttn.Click += new System.EventHandler(this.DisplayAllBttn_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.label1.Font = new System.Drawing.Font("Circular Std Bold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(416, 62);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(192, 54);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "Filter data records\r\nby Date";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 17.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(445, 166);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(135, 43);
+            this.button1.TabIndex = 7;
+            this.button1.Text = "SHOW";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // DteTmePcker
+            // 
+            this.DteTmePcker.CalendarFont = new System.Drawing.Font("Circular Std Bold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DteTmePcker.CustomFormat = "";
+            this.DteTmePcker.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DteTmePcker.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.DteTmePcker.Location = new System.Drawing.Point(435, 131);
+            this.DteTmePcker.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.DteTmePcker.Name = "DteTmePcker";
+            this.DteTmePcker.Size = new System.Drawing.Size(154, 30);
+            this.DteTmePcker.TabIndex = 9;
+            // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(700, 480);
+            this.Controls.Add(this.DteTmePcker);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.DisplayAllBttn);
             this.Controls.Add(this.DataRecordsLbl);
             this.Controls.Add(this.pictureBox1);
@@ -92,5 +135,8 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label DataRecordsLbl;
         private System.Windows.Forms.Button DisplayAllBttn;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.DateTimePicker DteTmePcker;
     }
 }
