@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace Contact_Tracing_App
 {
@@ -15,6 +16,17 @@ namespace Contact_Tracing_App
         public Form5()
         {
             InitializeComponent();
+            var Daterecord = Directory.GetFiles(@"C:\Users\nathan\contact-tracing\Mall Visit Report\Date");
+            foreach (string file in Daterecord)
+            {
+                string dates = File.ReadAllText(file);
+                Alldatelbl.Text = Alldatelbl.Text + dates + "\n";
+            }
+        }
+
+        private void Form5_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
