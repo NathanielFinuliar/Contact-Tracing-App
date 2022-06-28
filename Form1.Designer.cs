@@ -883,7 +883,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(23F, 30F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Cornsilk;
+            this.BackColor = System.Drawing.Color.AliceBlue;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(770, 942);
             this.Controls.Add(this.AdmnBttn);
