@@ -114,6 +114,7 @@
             this.Controls.Add(this.PswrdTxtBox);
             this.Controls.Add(this.UrsnTxtBox);
             this.DoubleBuffered = true;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form2";
             this.Text = "LOG IN";
             this.ResumeLayout(false);
