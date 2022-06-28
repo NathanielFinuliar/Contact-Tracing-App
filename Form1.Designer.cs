@@ -225,13 +225,18 @@
             // 
             // HrsTxtBox
             // 
-            this.HrsTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.HrsTxtBox.Location = new System.Drawing.Point(40, 297);
+            this.HrsTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 20F, System.Drawing.FontStyle.Bold);
+            this.HrsTxtBox.ForeColor = System.Drawing.Color.DarkGray;
+            this.HrsTxtBox.Location = new System.Drawing.Point(40, 300);
             this.HrsTxtBox.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.HrsTxtBox.Multiline = true;
             this.HrsTxtBox.Name = "HrsTxtBox";
-            this.HrsTxtBox.Size = new System.Drawing.Size(48, 32);
+            this.HrsTxtBox.Size = new System.Drawing.Size(46, 40);
             this.HrsTxtBox.TabIndex = 1;
+            this.HrsTxtBox.Text = "10";
+            this.HrsTxtBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.HrsTxtBox.Enter += new System.EventHandler(this.HrsTxtBox_Enter);
+            this.HrsTxtBox.Leave += new System.EventHandler(this.HrsTxtBox_Leave);
             // 
             // StrtTxtBox
             // 
@@ -341,13 +346,16 @@
             // 
             // BodTempTxtBox
             // 
-            this.BodTempTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BodTempTxtBox.Location = new System.Drawing.Point(257, 227);
+            this.BodTempTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 20F, System.Drawing.FontStyle.Bold);
+            this.BodTempTxtBox.ForeColor = System.Drawing.Color.DarkGray;
+            this.BodTempTxtBox.Location = new System.Drawing.Point(274, 228);
             this.BodTempTxtBox.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.BodTempTxtBox.Multiline = true;
             this.BodTempTxtBox.Name = "BodTempTxtBox";
-            this.BodTempTxtBox.Size = new System.Drawing.Size(88, 31);
+            this.BodTempTxtBox.Size = new System.Drawing.Size(49, 42);
             this.BodTempTxtBox.TabIndex = 4;
+            this.BodTempTxtBox.Text = "35";
+            this.BodTempTxtBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // BdTemptLabl
             // 
@@ -566,32 +574,42 @@
             // 
             // MinTxtBox
             // 
-            this.MinTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MinTxtBox.Location = new System.Drawing.Point(115, 298);
+            this.MinTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 20F, System.Drawing.FontStyle.Bold);
+            this.MinTxtBox.ForeColor = System.Drawing.Color.DarkGray;
+            this.MinTxtBox.Location = new System.Drawing.Point(113, 301);
             this.MinTxtBox.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.MinTxtBox.Multiline = true;
             this.MinTxtBox.Name = "MinTxtBox";
-            this.MinTxtBox.Size = new System.Drawing.Size(48, 31);
+            this.MinTxtBox.Size = new System.Drawing.Size(48, 39);
             this.MinTxtBox.TabIndex = 2;
+            this.MinTxtBox.Text = "00";
+            this.MinTxtBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.MinTxtBox.Enter += new System.EventHandler(this.MinTxtBox_Enter);
+            this.MinTxtBox.Leave += new System.EventHandler(this.MinTxtBox_Leave);
             // 
             // AMPMTxtBox
             // 
-            this.AMPMTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AMPMTxtBox.Location = new System.Drawing.Point(169, 298);
+            this.AMPMTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 20F, System.Drawing.FontStyle.Bold);
+            this.AMPMTxtBox.ForeColor = System.Drawing.Color.DarkGray;
+            this.AMPMTxtBox.Location = new System.Drawing.Point(169, 301);
             this.AMPMTxtBox.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.AMPMTxtBox.Multiline = true;
             this.AMPMTxtBox.Name = "AMPMTxtBox";
-            this.AMPMTxtBox.Size = new System.Drawing.Size(48, 31);
+            this.AMPMTxtBox.Size = new System.Drawing.Size(55, 40);
             this.AMPMTxtBox.TabIndex = 3;
+            this.AMPMTxtBox.Text = "AM";
+            this.AMPMTxtBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.AMPMTxtBox.Enter += new System.EventHandler(this.AMPMTxtBox_Enter);
+            this.AMPMTxtBox.Leave += new System.EventHandler(this.AMPMTxtBox_Leave);
             // 
             // ColonLbl
             // 
             this.ColonLbl.AutoSize = true;
-            this.ColonLbl.Font = new System.Drawing.Font("Circular Std Bold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ColonLbl.Font = new System.Drawing.Font("Circular Std Bold", 20F, System.Drawing.FontStyle.Bold);
             this.ColonLbl.Location = new System.Drawing.Point(90, 300);
             this.ColonLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.ColonLbl.Name = "ColonLbl";
-            this.ColonLbl.Size = new System.Drawing.Size(18, 25);
+            this.ColonLbl.Size = new System.Drawing.Size(23, 34);
             this.ColonLbl.TabIndex = 56;
             this.ColonLbl.Text = ":";
             // 
@@ -601,7 +619,7 @@
             this.DegreesCelciusLbl.BackColor = System.Drawing.Color.Transparent;
             this.DegreesCelciusLbl.Font = new System.Drawing.Font("Circular Std Bold", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DegreesCelciusLbl.ForeColor = System.Drawing.Color.Black;
-            this.DegreesCelciusLbl.Location = new System.Drawing.Point(346, 224);
+            this.DegreesCelciusLbl.Location = new System.Drawing.Point(326, 231);
             this.DegreesCelciusLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.DegreesCelciusLbl.Name = "DegreesCelciusLbl";
             this.DegreesCelciusLbl.Size = new System.Drawing.Size(46, 34);
@@ -610,13 +628,16 @@
             // 
             // LcnTxtbox
             // 
-            this.LcnTxtbox.Font = new System.Drawing.Font("Circular Std Bold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LcnTxtbox.Location = new System.Drawing.Point(257, 300);
+            this.LcnTxtbox.Font = new System.Drawing.Font("Circular Std Bold", 20F, System.Drawing.FontStyle.Bold);
+            this.LcnTxtbox.ForeColor = System.Drawing.Color.DarkGray;
+            this.LcnTxtbox.Location = new System.Drawing.Point(252, 301);
             this.LcnTxtbox.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.LcnTxtbox.Multiline = true;
             this.LcnTxtbox.Name = "LcnTxtbox";
-            this.LcnTxtbox.Size = new System.Drawing.Size(203, 29);
+            this.LcnTxtbox.Size = new System.Drawing.Size(203, 40);
             this.LcnTxtbox.TabIndex = 5;
+            this.LcnTxtbox.Text = "BLDG. A";
+            this.LcnTxtbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // EmailLbl
             // 

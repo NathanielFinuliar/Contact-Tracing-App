@@ -132,5 +132,59 @@ namespace Contact_Tracing_App
             Form2 logIn = new Form2();
             logIn.ShowDialog();  
         }
+
+        private void HrsTxtBox_Leave(object sender, EventArgs e)
+        {
+            if (HrsTxtBox.Text == "") 
+            {
+                HrsTxtBox.Text = "10";
+                HrsTxtBox.ForeColor = Color.DarkGray;
+            }
+        }
+
+        private void HrsTxtBox_Enter(object sender, EventArgs e)
+        {
+            if (HrsTxtBox.Text == "10")
+            {
+                HrsTxtBox.Text = null;
+                HrsTxtBox.ForeColor = Color.Black;
+            }
+        }
+
+        private void MinTxtBox_Leave(object sender, EventArgs e)
+        {
+            if (MinTxtBox.Text == "")
+            {
+                MinTxtBox.Text = "00";
+                MinTxtBox.ForeColor = Color.DarkGray;
+            }
+        }
+
+        private void MinTxtBox_Enter(object sender, EventArgs e)
+        {
+            if (MinTxtBox.Text == "00")
+            {
+                MinTxtBox.Text = null;
+                MinTxtBox.ForeColor = Color.Black;
+            }
+        }
+
+        private void AMPMTxtBox_Leave(object sender, EventArgs e)
+        {
+            if (AMPMTxtBox.Text == "")
+            {
+                AMPMTxtBox.Text = "AM";
+                AMPMTxtBox.ForeColor = Color.DarkGray;
+            }
+        }
+
+        private void AMPMTxtBox_Enter(object sender, EventArgs e)
+        {
+            if (AMPMTxtBox.Text == "AM")
+            {
+                AMPMTxtBox.Text = null;
+                AMPMTxtBox.ForeColor = Color.Black;
+            }
+        }
     }
 }
