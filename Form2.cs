@@ -33,5 +33,41 @@ namespace Contact_Tracing_App
                 PswrdTxtBox.Text = "";
             }
         }
+
+        private void UrsnTxtBox_Leave(object sender, EventArgs e)
+        {
+            if (UrsnTxtBox.Text == "")
+            {
+                UrsnTxtBox.Text = "admin123";
+                UrsnTxtBox.ForeColor = Color.NavajoWhite;
+            }
+        }
+
+        private void UrsnTxtBox_Enter(object sender, EventArgs e)
+        {
+            if (UrsnTxtBox.Text == "admin123")
+            {
+                UrsnTxtBox.Text = null;
+                UrsnTxtBox.ForeColor = Color.White;
+            }
+        }
+
+        private void PswrdTxtBox_Leave(object sender, EventArgs e)
+        {
+            if (PswrdTxtBox.Text == "")
+            {
+                PswrdTxtBox.Text = "enteryourpass";
+                PswrdTxtBox.ForeColor = Color.NavajoWhite;
+            }
+        }
+
+        private void PswrdTxtBox_Enter(object sender, EventArgs e)
+        {
+            if (PswrdTxtBox.Text == "enteryourpass")
+            {
+                PswrdTxtBox.Text = null;
+                PswrdTxtBox.ForeColor = Color.White;
+            }
+        }
     }
 }

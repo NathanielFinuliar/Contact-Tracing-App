@@ -45,8 +45,10 @@
             this.UrsnTxtBox.Name = "UrsnTxtBox";
             this.UrsnTxtBox.Size = new System.Drawing.Size(203, 26);
             this.UrsnTxtBox.TabIndex = 0;
-            this.UrsnTxtBox.Text = "admin";
+            this.UrsnTxtBox.Text = "admin123";
             this.UrsnTxtBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.UrsnTxtBox.Enter += new System.EventHandler(this.UrsnTxtBox_Enter);
+            this.UrsnTxtBox.Leave += new System.EventHandler(this.UrsnTxtBox_Leave);
             // 
             // PswrdTxtBox
             // 
@@ -58,8 +60,10 @@
             this.PswrdTxtBox.PasswordChar = '*';
             this.PswrdTxtBox.Size = new System.Drawing.Size(203, 26);
             this.PswrdTxtBox.TabIndex = 1;
-            this.PswrdTxtBox.Text = "enter your password";
+            this.PswrdTxtBox.Text = "enteryourpass";
             this.PswrdTxtBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.PswrdTxtBox.Enter += new System.EventHandler(this.PswrdTxtBox_Enter);
+            this.PswrdTxtBox.Leave += new System.EventHandler(this.PswrdTxtBox_Leave);
             // 
             // UserLbl
             // 
