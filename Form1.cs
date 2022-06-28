@@ -186,5 +186,23 @@ namespace Contact_Tracing_App
                 AMPMTxtBox.ForeColor = Color.Black;
             }
         }
+
+        private void BodTempTxtBox_Leave(object sender, EventArgs e)
+        {
+            if (BodTempTxtBox.Text == "")
+            {
+                BodTempTxtBox.Text = "35";
+                BodTempTxtBox.ForeColor = Color.DarkGray;
+            }
+        }
+
+        private void BodTempTxtBox_Enter(object sender, EventArgs e)
+        {
+            if (BodTempTxtBox.Text == "35")
+            {
+                BodTempTxtBox.Text = null;
+                BodTempTxtBox.ForeColor = Color.Black;
+            }
+        }
     }
 }

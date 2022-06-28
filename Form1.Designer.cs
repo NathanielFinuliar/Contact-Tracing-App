@@ -356,6 +356,8 @@
             this.BodTempTxtBox.TabIndex = 4;
             this.BodTempTxtBox.Text = "35";
             this.BodTempTxtBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.BodTempTxtBox.Enter += new System.EventHandler(this.BodTempTxtBox_Enter);
+            this.BodTempTxtBox.Leave += new System.EventHandler(this.BodTempTxtBox_Leave);
             // 
             // BdTemptLabl
             // 
