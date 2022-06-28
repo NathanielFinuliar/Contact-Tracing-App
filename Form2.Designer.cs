@@ -40,22 +40,26 @@
             // 
             this.UrsnTxtBox.BackColor = System.Drawing.Color.DarkSlateGray;
             this.UrsnTxtBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.UrsnTxtBox.ForeColor = System.Drawing.Color.White;
+            this.UrsnTxtBox.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.UrsnTxtBox.Location = new System.Drawing.Point(112, 361);
             this.UrsnTxtBox.Name = "UrsnTxtBox";
             this.UrsnTxtBox.Size = new System.Drawing.Size(203, 26);
             this.UrsnTxtBox.TabIndex = 0;
+            this.UrsnTxtBox.Text = "admin";
+            this.UrsnTxtBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // PswrdTxtBox
             // 
             this.PswrdTxtBox.BackColor = System.Drawing.Color.DarkSlateGray;
             this.PswrdTxtBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PswrdTxtBox.ForeColor = System.Drawing.Color.White;
+            this.PswrdTxtBox.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.PswrdTxtBox.Location = new System.Drawing.Point(112, 444);
             this.PswrdTxtBox.Name = "PswrdTxtBox";
             this.PswrdTxtBox.PasswordChar = '*';
             this.PswrdTxtBox.Size = new System.Drawing.Size(203, 26);
             this.PswrdTxtBox.TabIndex = 1;
+            this.PswrdTxtBox.Text = "enter your password";
+            this.PswrdTxtBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // UserLbl
             // 

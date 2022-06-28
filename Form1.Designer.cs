@@ -117,32 +117,47 @@
             // FNTxtBox
             // 
             this.FNTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FNTxtBox.ForeColor = System.Drawing.Color.DarkGray;
             this.FNTxtBox.Location = new System.Drawing.Point(47, 387);
             this.FNTxtBox.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.FNTxtBox.Multiline = true;
             this.FNTxtBox.Name = "FNTxtBox";
             this.FNTxtBox.Size = new System.Drawing.Size(186, 30);
             this.FNTxtBox.TabIndex = 7;
+            this.FNTxtBox.Text = "Owen";
+            this.FNTxtBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.FNTxtBox.Enter += new System.EventHandler(this.FNTxtBox_Enter);
+            this.FNTxtBox.Leave += new System.EventHandler(this.FNTxtBox_Leave);
             // 
             // MITxtBox
             // 
             this.MITxtBox.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MITxtBox.ForeColor = System.Drawing.Color.DarkGray;
             this.MITxtBox.Location = new System.Drawing.Point(243, 387);
             this.MITxtBox.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.MITxtBox.Multiline = true;
             this.MITxtBox.Name = "MITxtBox";
             this.MITxtBox.Size = new System.Drawing.Size(44, 30);
             this.MITxtBox.TabIndex = 8;
+            this.MITxtBox.Text = "R.";
+            this.MITxtBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.MITxtBox.Enter += new System.EventHandler(this.MITxtBox_Enter);
+            this.MITxtBox.Leave += new System.EventHandler(this.MITxtBox_Leave);
             // 
             // LNTxtBox
             // 
             this.LNTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LNTxtBox.ForeColor = System.Drawing.Color.DarkGray;
             this.LNTxtBox.Location = new System.Drawing.Point(304, 387);
             this.LNTxtBox.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.LNTxtBox.Multiline = true;
             this.LNTxtBox.Name = "LNTxtBox";
             this.LNTxtBox.Size = new System.Drawing.Size(167, 30);
             this.LNTxtBox.TabIndex = 9;
+            this.LNTxtBox.Text = "Catambis";
+            this.LNTxtBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.LNTxtBox.Enter += new System.EventHandler(this.LNTxtBox_Enter);
+            this.LNTxtBox.Leave += new System.EventHandler(this.LNTxtBox_Leave);
             // 
             // VCTFLabl
             // 
@@ -190,7 +205,7 @@
             this.LNLabl.BackColor = System.Drawing.Color.Transparent;
             this.LNLabl.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LNLabl.ForeColor = System.Drawing.Color.Black;
-            this.LNLabl.Location = new System.Drawing.Point(328, 422);
+            this.LNLabl.Location = new System.Drawing.Point(338, 422);
             this.LNLabl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LNLabl.Name = "LNLabl";
             this.LNLabl.Size = new System.Drawing.Size(105, 24);
@@ -241,12 +256,15 @@
             // StrtTxtBox
             // 
             this.StrtTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.StrtTxtBox.ForeColor = System.Drawing.Color.DarkGray;
             this.StrtTxtBox.Location = new System.Drawing.Point(139, 514);
             this.StrtTxtBox.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.StrtTxtBox.Multiline = true;
             this.StrtTxtBox.Name = "StrtTxtBox";
             this.StrtTxtBox.Size = new System.Drawing.Size(152, 30);
             this.StrtTxtBox.TabIndex = 13;
+            this.StrtTxtBox.Text = "Subic Bay";
+            this.StrtTxtBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // BrgyLabl
             // 
@@ -254,7 +272,7 @@
             this.BrgyLabl.BackColor = System.Drawing.Color.Transparent;
             this.BrgyLabl.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold);
             this.BrgyLabl.ForeColor = System.Drawing.Color.Black;
-            this.BrgyLabl.Location = new System.Drawing.Point(311, 546);
+            this.BrgyLabl.Location = new System.Drawing.Point(328, 546);
             this.BrgyLabl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.BrgyLabl.Name = "BrgyLabl";
             this.BrgyLabl.Size = new System.Drawing.Size(55, 24);
@@ -264,12 +282,15 @@
             // CityTxtBox
             // 
             this.CityTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CityTxtBox.Location = new System.Drawing.Point(382, 514);
+            this.CityTxtBox.ForeColor = System.Drawing.Color.DarkGray;
+            this.CityTxtBox.Location = new System.Drawing.Point(435, 514);
             this.CityTxtBox.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.CityTxtBox.Multiline = true;
             this.CityTxtBox.Name = "CityTxtBox";
             this.CityTxtBox.Size = new System.Drawing.Size(152, 30);
             this.CityTxtBox.TabIndex = 15;
+            this.CityTxtBox.Text = "Olangapo";
+            this.CityTxtBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // CityLabl
             // 
@@ -277,7 +298,7 @@
             this.CityLabl.BackColor = System.Drawing.Color.Transparent;
             this.CityLabl.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold);
             this.CityLabl.ForeColor = System.Drawing.Color.Black;
-            this.CityLabl.Location = new System.Drawing.Point(378, 546);
+            this.CityLabl.Location = new System.Drawing.Point(431, 546);
             this.CityLabl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.CityLabl.Name = "CityLabl";
             this.CityLabl.Size = new System.Drawing.Size(165, 24);
@@ -287,12 +308,15 @@
             // PrvnceTxtBox
             // 
             this.PrvnceTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PrvnceTxtBox.Location = new System.Drawing.Point(574, 514);
+            this.PrvnceTxtBox.ForeColor = System.Drawing.Color.DarkGray;
+            this.PrvnceTxtBox.Location = new System.Drawing.Point(609, 514);
             this.PrvnceTxtBox.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.PrvnceTxtBox.Multiline = true;
             this.PrvnceTxtBox.Name = "PrvnceTxtBox";
             this.PrvnceTxtBox.Size = new System.Drawing.Size(125, 30);
             this.PrvnceTxtBox.TabIndex = 16;
+            this.PrvnceTxtBox.Text = "Zambales";
+            this.PrvnceTxtBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // ProvLabl
             // 
@@ -300,7 +324,7 @@
             this.ProvLabl.BackColor = System.Drawing.Color.Transparent;
             this.ProvLabl.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold);
             this.ProvLabl.ForeColor = System.Drawing.Color.Black;
-            this.ProvLabl.Location = new System.Drawing.Point(590, 546);
+            this.ProvLabl.Location = new System.Drawing.Point(625, 546);
             this.ProvLabl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.ProvLabl.Name = "ProvLabl";
             this.ProvLabl.Size = new System.Drawing.Size(87, 24);
@@ -310,12 +334,15 @@
             // PhnNTxtBox
             // 
             this.PhnNTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold);
+            this.PhnNTxtBox.ForeColor = System.Drawing.Color.DarkGray;
             this.PhnNTxtBox.Location = new System.Drawing.Point(52, 636);
             this.PhnNTxtBox.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.PhnNTxtBox.Multiline = true;
             this.PhnNTxtBox.Name = "PhnNTxtBox";
             this.PhnNTxtBox.Size = new System.Drawing.Size(138, 30);
             this.PhnNTxtBox.TabIndex = 17;
+            this.PhnNTxtBox.Text = "09XXXXXXXXX";
+            this.PhnNTxtBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // PhonenoLabl
             // 
@@ -484,12 +511,15 @@
             // EMTxtBox
             // 
             this.EMTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold);
+            this.EMTxtBox.ForeColor = System.Drawing.Color.DarkGray;
             this.EMTxtBox.Location = new System.Drawing.Point(203, 636);
             this.EMTxtBox.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.EMTxtBox.Multiline = true;
             this.EMTxtBox.Name = "EMTxtBox";
             this.EMTxtBox.Size = new System.Drawing.Size(240, 30);
             this.EMTxtBox.TabIndex = 18;
+            this.EMTxtBox.Text = "@owenexample.com";
+            this.EMTxtBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // AbtBttn
             // 
@@ -724,22 +754,28 @@
             // HNTxtBox
             // 
             this.HNTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HNTxtBox.ForeColor = System.Drawing.Color.DarkGray;
             this.HNTxtBox.Location = new System.Drawing.Point(70, 514);
             this.HNTxtBox.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.HNTxtBox.Multiline = true;
             this.HNTxtBox.Name = "HNTxtBox";
             this.HNTxtBox.Size = new System.Drawing.Size(38, 30);
             this.HNTxtBox.TabIndex = 12;
+            this.HNTxtBox.Text = "102";
+            this.HNTxtBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // BrgyTxtBox
             // 
             this.BrgyTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BrgyTxtBox.ForeColor = System.Drawing.Color.DarkGray;
             this.BrgyTxtBox.Location = new System.Drawing.Point(308, 514);
             this.BrgyTxtBox.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.BrgyTxtBox.Multiline = true;
             this.BrgyTxtBox.Name = "BrgyTxtBox";
-            this.BrgyTxtBox.Size = new System.Drawing.Size(58, 30);
+            this.BrgyTxtBox.Size = new System.Drawing.Size(100, 30);
             this.BrgyTxtBox.TabIndex = 14;
+            this.BrgyTxtBox.Text = "Rizal Hwy";
+            this.BrgyTxtBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // HlthQst2lbl
             // 
@@ -807,12 +843,15 @@
             // YesNoMybeTxtBox
             // 
             this.YesNoMybeTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold);
+            this.YesNoMybeTxtBox.ForeColor = System.Drawing.Color.DarkGray;
             this.YesNoMybeTxtBox.Location = new System.Drawing.Point(83, 762);
             this.YesNoMybeTxtBox.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.YesNoMybeTxtBox.Multiline = true;
             this.YesNoMybeTxtBox.Name = "YesNoMybeTxtBox";
             this.YesNoMybeTxtBox.Size = new System.Drawing.Size(240, 30);
             this.YesNoMybeTxtBox.TabIndex = 19;
+            this.YesNoMybeTxtBox.Text = "Yes. No. Maybe.";
+            this.YesNoMybeTxtBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // YESNOMAYBElbl
             // 

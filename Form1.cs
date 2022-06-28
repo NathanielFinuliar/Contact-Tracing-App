@@ -222,5 +222,59 @@ namespace Contact_Tracing_App
                 LcnTxtbox.ForeColor = Color.Black;
             }
         }
+
+        private void FNTxtBox_Leave(object sender, EventArgs e)
+        {
+            if (FNTxtBox.Text == "")
+            {
+                FNTxtBox.Text = "Owen";
+                FNTxtBox.ForeColor = Color.DarkGray;
+            }
+        }
+
+        private void FNTxtBox_Enter(object sender, EventArgs e)
+        {
+            if (FNTxtBox.Text == "Owen")
+            {
+                FNTxtBox.Text = null;
+                FNTxtBox.ForeColor = Color.Black;
+            }
+        }
+
+        private void MITxtBox_Leave(object sender, EventArgs e)
+        {
+            if (MITxtBox.Text == "")
+            {
+                MITxtBox.Text = "R.";
+                MITxtBox.ForeColor = Color.DarkGray;
+            }
+        }
+
+        private void MITxtBox_Enter(object sender, EventArgs e)
+        {
+            if (MITxtBox.Text == "R.")
+            {
+                MITxtBox.Text = null;
+                MITxtBox.ForeColor = Color.Black;
+            }
+        }
+
+        private void LNTxtBox_Leave(object sender, EventArgs e)
+        {
+            if (LNTxtBox.Text == "")
+            {
+                LNTxtBox.Text = "Catambis";
+                LNTxtBox.ForeColor = Color.DarkGray;
+            }
+        }
+
+        private void LNTxtBox_Enter(object sender, EventArgs e)
+        {
+            if (LNTxtBox.Text == "Catambis")
+            {
+                LNTxtBox.Text = null;
+                LNTxtBox.ForeColor = Color.Black;
+            }
+        }
     }
 }
