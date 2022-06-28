@@ -54,6 +54,11 @@ namespace Contact_Tracing_App
                     }
                     file.Close();
                     MessageBox.Show("We Found " + ResultsofDate + " records on your chosen date");
+                    if (MessageBox.Show("Will proceed to filtering?", "", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                    {
+                        Form5 bydate = new Form5();
+                        bydate.ShowDialog();
+                    }
                 }
             }
         }
