@@ -638,8 +638,10 @@
             this.LcnTxtbox.Name = "LcnTxtbox";
             this.LcnTxtbox.Size = new System.Drawing.Size(203, 40);
             this.LcnTxtbox.TabIndex = 5;
-            this.LcnTxtbox.Text = "BLDG. A";
+            this.LcnTxtbox.Text = "Ground Level";
             this.LcnTxtbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.LcnTxtbox.Enter += new System.EventHandler(this.LcnTxtbox_Enter);
+            this.LcnTxtbox.Leave += new System.EventHandler(this.LcnTxtbox_Leave);
             // 
             // EmailLbl
             // 

@@ -204,5 +204,23 @@ namespace Contact_Tracing_App
                 BodTempTxtBox.ForeColor = Color.Black;
             }
         }
+
+        private void LcnTxtbox_Leave(object sender, EventArgs e)
+        {
+            if (LcnTxtbox.Text == "")
+            {
+                LcnTxtbox.Text = "Ground Level";
+                LcnTxtbox.ForeColor = Color.DarkGray;
+            }
+        }
+
+        private void LcnTxtbox_Enter(object sender, EventArgs e)
+        {
+            if (LcnTxtbox.Text == "Ground Level")
+            {
+                LcnTxtbox.Text = null;
+                LcnTxtbox.ForeColor = Color.Black;
+            }
+        }
     }
 }
