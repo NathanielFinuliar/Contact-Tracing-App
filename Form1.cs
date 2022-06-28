@@ -276,5 +276,95 @@ namespace Contact_Tracing_App
                 LNTxtBox.ForeColor = Color.Black;
             }
         }
+
+        private void HNTxtBox_Leave(object sender, EventArgs e)
+        {
+            if (HNTxtBox.Text == "")
+            {
+                HNTxtBox.Text = "102";
+                HNTxtBox.ForeColor = Color.DarkGray;
+            }
+        }
+
+        private void HNTxtBox_Enter(object sender, EventArgs e)
+        {
+            if (HNTxtBox.Text == "102")
+            {
+                HNTxtBox.Text = null;
+                HNTxtBox.ForeColor = Color.Black;
+            }
+        }
+
+        private void StrtTxtBox_Leave(object sender, EventArgs e)
+        {
+            if (StrtTxtBox.Text == "")
+            {
+                StrtTxtBox.Text = "Subic Bay";
+                StrtTxtBox.ForeColor = Color.DarkGray;
+            }
+        }
+
+        private void StrtTxtBox_Enter(object sender, EventArgs e)
+        {
+            if (StrtTxtBox.Text == "Subic Bay")
+            {
+                StrtTxtBox.Text = null;
+                StrtTxtBox.ForeColor = Color.Black;
+            }
+        }
+
+        private void BrgyTxtBox_Leave(object sender, EventArgs e)
+        {
+            if (BrgyTxtBox.Text == "")
+            {
+                BrgyTxtBox.Text = "Rizal Hwy";
+                BrgyTxtBox.ForeColor = Color.DarkGray;
+            }
+        }
+
+        private void BrgyTxtBox_Enter(object sender, EventArgs e)
+        {
+            if (BrgyTxtBox.Text == "Rizal Hwy")
+            {
+                BrgyTxtBox.Text = null;
+                BrgyTxtBox.ForeColor = Color.Black;
+            }
+        }
+
+        private void CityTxtBox_Leave(object sender, EventArgs e)
+        {
+            if (CityTxtBox.Text == "")
+            {
+                CityTxtBox.Text = "Olongapo";
+                CityTxtBox.ForeColor = Color.DarkGray;
+            }
+        }
+
+        private void CityTxtBox_Enter(object sender, EventArgs e)
+        {
+            if (CityTxtBox.Text == "Olongapo")
+            {
+                CityTxtBox.Text = null;
+                CityTxtBox.ForeColor = Color.Black;
+            }
+        }
+
+        private void PrvnceTxtBox_Leave(object sender, EventArgs e)
+        {
+            if (PrvnceTxtBox.Text == "")
+            {
+                PrvnceTxtBox.Text = "Zambales";
+                PrvnceTxtBox.ForeColor = Color.DarkGray;
+            }
+        }
+
+        private void PrvnceTxtBox_Enter(object sender, EventArgs e)
+        {
+            if (PrvnceTxtBox.Text == "Zambales")
+            {
+                PrvnceTxtBox.Text = null;
+                PrvnceTxtBox.ForeColor = Color.Black;
+            }
+        }
     }
 }

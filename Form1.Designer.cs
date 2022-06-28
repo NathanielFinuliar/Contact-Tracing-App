@@ -265,6 +265,8 @@
             this.StrtTxtBox.TabIndex = 13;
             this.StrtTxtBox.Text = "Subic Bay";
             this.StrtTxtBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.StrtTxtBox.Enter += new System.EventHandler(this.StrtTxtBox_Enter);
+            this.StrtTxtBox.Leave += new System.EventHandler(this.StrtTxtBox_Leave);
             // 
             // BrgyLabl
             // 
@@ -289,8 +291,10 @@
             this.CityTxtBox.Name = "CityTxtBox";
             this.CityTxtBox.Size = new System.Drawing.Size(152, 30);
             this.CityTxtBox.TabIndex = 15;
-            this.CityTxtBox.Text = "Olangapo";
+            this.CityTxtBox.Text = "Olongapo";
             this.CityTxtBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.CityTxtBox.Enter += new System.EventHandler(this.CityTxtBox_Enter);
+            this.CityTxtBox.Leave += new System.EventHandler(this.CityTxtBox_Leave);
             // 
             // CityLabl
             // 
@@ -317,6 +321,8 @@
             this.PrvnceTxtBox.TabIndex = 16;
             this.PrvnceTxtBox.Text = "Zambales";
             this.PrvnceTxtBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.PrvnceTxtBox.Enter += new System.EventHandler(this.PrvnceTxtBox_Enter);
+            this.PrvnceTxtBox.Leave += new System.EventHandler(this.PrvnceTxtBox_Leave);
             // 
             // ProvLabl
             // 
@@ -763,6 +769,8 @@
             this.HNTxtBox.TabIndex = 12;
             this.HNTxtBox.Text = "102";
             this.HNTxtBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.HNTxtBox.Enter += new System.EventHandler(this.HNTxtBox_Enter);
+            this.HNTxtBox.Leave += new System.EventHandler(this.HNTxtBox_Leave);
             // 
             // BrgyTxtBox
             // 
@@ -776,6 +784,8 @@
             this.BrgyTxtBox.TabIndex = 14;
             this.BrgyTxtBox.Text = "Rizal Hwy";
             this.BrgyTxtBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.BrgyTxtBox.Enter += new System.EventHandler(this.BrgyTxtBox_Enter);
+            this.BrgyTxtBox.Leave += new System.EventHandler(this.BrgyTxtBox_Leave);
             // 
             // HlthQst2lbl
             // 
