@@ -93,6 +93,7 @@
             this.CrrntADDLbl = new System.Windows.Forms.Label();
             this.CntctInfoLbl = new System.Windows.Forms.Label();
             this.AdmnBttn = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pcbx1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcbx2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcbx3)).BeginInit();
@@ -959,13 +960,28 @@
             this.AdmnBttn.UseVisualStyleBackColor = false;
             this.AdmnBttn.Click += new System.EventHandler(this.AdmnBttn_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.NavajoWhite;
+            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label1.Font = new System.Drawing.Font("Alphakind", 31F);
+            this.label1.ForeColor = System.Drawing.Color.DarkSlateGray;
+            this.label1.Location = new System.Drawing.Point(934, 89);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(385, 52);
+            this.label1.TabIndex = 81;
+            this.label1.Text = "QR CODE SCANNER";
+            // 
             // ContactTracing
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(23F, 30F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.AliceBlue;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(770, 942);
+            this.ClientSize = new System.Drawing.Size(1474, 930);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.AdmnBttn);
             this.Controls.Add(this.CntctInfoLbl);
             this.Controls.Add(this.CrrntADDLbl);
@@ -1114,6 +1130,7 @@
         private System.Windows.Forms.Label CrrntADDLbl;
         private System.Windows.Forms.Label CntctInfoLbl;
         private System.Windows.Forms.Button AdmnBttn;
+        private System.Windows.Forms.Label label1;
     }
 }
 
