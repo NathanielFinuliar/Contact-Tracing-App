@@ -60,13 +60,14 @@ namespace Contact_Tracing_App
             if (ScanPicBox.Image != null)
             {
                 BarcodeReader barcodeReader = new BarcodeReader();
-                Result result = barcodeReader.Decode((Bitmap)ScanPicBox.Image);
-                if (result != null)
+                Result outcome = barcodeReader.Decode((Bitmap)ScanPicBox.Image);
+                if (outcome != null)
                 {
-                    QrCTxtBox.Text = result.ToString();
+                    QrCTxtBox.Text = outcome.ToString();
                     Tmer.Stop();
-                    if (Capturedevice.IsRunning)
-                        Capturedevice.Stop();
+                    StreamWriter report = new StreamWriter(@"C:\Users\nathan\contact-tracing\Mall Visit Report\QR Code" + "Qr Code Contact Tracing" + ".txt");
+                    report.WriteLine(outcome.ToString());
+                    report.Close();
                 }
             }
         }

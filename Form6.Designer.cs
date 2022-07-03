@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form6));
             this.CamLbl = new System.Windows.Forms.Label();
             this.CmboBox = new System.Windows.Forms.ComboBox();
             this.ScanPicBox = new System.Windows.Forms.PictureBox();
@@ -44,7 +45,7 @@
             this.CamLbl.BackColor = System.Drawing.Color.Transparent;
             this.CamLbl.Font = new System.Drawing.Font("Circular Std Bold", 18F, System.Drawing.FontStyle.Bold);
             this.CamLbl.ForeColor = System.Drawing.Color.Crimson;
-            this.CamLbl.Location = new System.Drawing.Point(35, 59);
+            this.CamLbl.Location = new System.Drawing.Point(52, 352);
             this.CamLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.CamLbl.Name = "CamLbl";
             this.CamLbl.Size = new System.Drawing.Size(123, 30);
@@ -53,43 +54,44 @@
             // 
             // CmboBox
             // 
-            this.CmboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CmboBox.FormattingEnabled = true;
-            this.CmboBox.Location = new System.Drawing.Point(177, 68);
+            this.CmboBox.Location = new System.Drawing.Point(182, 352);
             this.CmboBox.Name = "CmboBox";
             this.CmboBox.Size = new System.Drawing.Size(263, 21);
             this.CmboBox.TabIndex = 80;
             // 
             // ScanPicBox
             // 
-            this.ScanPicBox.Location = new System.Drawing.Point(22, 107);
+            this.ScanPicBox.BackColor = System.Drawing.Color.Transparent;
+            this.ScanPicBox.Location = new System.Drawing.Point(57, 95);
             this.ScanPicBox.Name = "ScanPicBox";
-            this.ScanPicBox.Size = new System.Drawing.Size(418, 377);
+            this.ScanPicBox.Size = new System.Drawing.Size(375, 249);
             this.ScanPicBox.TabIndex = 81;
             this.ScanPicBox.TabStop = false;
             // 
             // StrtBttn
             // 
-            this.StrtBttn.BackColor = System.Drawing.Color.NavajoWhite;
+            this.StrtBttn.BackColor = System.Drawing.Color.DarkSlateGray;
             this.StrtBttn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.StrtBttn.Font = new System.Drawing.Font("Circular Std Black", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.StrtBttn.ForeColor = System.Drawing.Color.DarkSlateGray;
+            this.StrtBttn.ForeColor = System.Drawing.Color.Cornsilk;
             this.StrtBttn.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.StrtBttn.Location = new System.Drawing.Point(470, 122);
+            this.StrtBttn.Location = new System.Drawing.Point(57, 38);
             this.StrtBttn.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.StrtBttn.Name = "StrtBttn";
-            this.StrtBttn.Size = new System.Drawing.Size(119, 41);
+            this.StrtBttn.Size = new System.Drawing.Size(375, 41);
             this.StrtBttn.TabIndex = 82;
-            this.StrtBttn.Text = "&Start";
+            this.StrtBttn.Text = "&Start to Scan";
             this.StrtBttn.UseVisualStyleBackColor = false;
             this.StrtBttn.Click += new System.EventHandler(this.StrtBttn_Click);
             // 
             // QrCTxtBox
             // 
-            this.QrCTxtBox.Location = new System.Drawing.Point(470, 184);
+            this.QrCTxtBox.BackColor = System.Drawing.Color.OldLace;
+            this.QrCTxtBox.Location = new System.Drawing.Point(450, 95);
             this.QrCTxtBox.Multiline = true;
             this.QrCTxtBox.Name = "QrCTxtBox";
-            this.QrCTxtBox.Size = new System.Drawing.Size(341, 218);
+            this.QrCTxtBox.Size = new System.Drawing.Size(355, 249);
             this.QrCTxtBox.TabIndex = 83;
             // 
             // Tmer
@@ -102,7 +104,9 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.AliceBlue;
-            this.ClientSize = new System.Drawing.Size(827, 580);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(843, 708);
             this.Controls.Add(this.QrCTxtBox);
             this.Controls.Add(this.StrtBttn);
             this.Controls.Add(this.ScanPicBox);
