@@ -24,7 +24,7 @@ namespace Contact_Tracing_App
         }
 
         FilterInfoCollection filterAllInfo;
-        VideoCaptureDevice capturedataform;
+        VideoCaptureDevice Capturedevice;
 
         private void Form6_Load(object sender, EventArgs e)
         {
@@ -33,7 +33,7 @@ namespace Contact_Tracing_App
                 CmboBox.Items.Add(webcamcapture.Name);
 
             CmboBox.SelectedIndex = 0;
-            capturedataform = new VideoCaptureDevice();
+            Capturedevice = new VideoCaptureDevice();
         }
     }
 }

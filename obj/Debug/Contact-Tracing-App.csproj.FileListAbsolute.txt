@@ -40,3 +40,14 @@ C:\Users\nathan\source\repos\Contact-Tracing-App\obj\Debug\Contact-Tracing-App.c
 C:\Users\nathan\source\repos\Contact-Tracing-App\obj\Debug\Contact-Tracing-App.csproj.CoreCompileInputs.cache
 C:\Users\nathan\source\repos\Contact-Tracing-App\obj\Debug\Contact-Tracing-App.exe
 C:\Users\nathan\source\repos\Contact-Tracing-App\obj\Debug\Contact-Tracing-App.pdb
+C:\Users\nathan\source\repos\Contact-Tracing-App\bin\Debug\AForge.dll
+C:\Users\nathan\source\repos\Contact-Tracing-App\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\nathan\source\repos\Contact-Tracing-App\bin\Debug\AForge.Video.dll
+C:\Users\nathan\source\repos\Contact-Tracing-App\bin\Debug\zxing.dll
+C:\Users\nathan\source\repos\Contact-Tracing-App\bin\Debug\zxing.presentation.dll
+C:\Users\nathan\source\repos\Contact-Tracing-App\bin\Debug\AForge.xml
+C:\Users\nathan\source\repos\Contact-Tracing-App\bin\Debug\AForge.Video.xml
+C:\Users\nathan\source\repos\Contact-Tracing-App\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\nathan\source\repos\Contact-Tracing-App\bin\Debug\zxing.xml
+C:\Users\nathan\source\repos\Contact-Tracing-App\bin\Debug\zxing.presentation.xml
+C:\Users\nathan\source\repos\Contact-Tracing-App\obj\Debug\Contact-Tracing-App.csproj.CopyComplete
