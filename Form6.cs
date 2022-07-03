@@ -35,5 +35,18 @@ namespace Contact_Tracing_App
             CmboBox.SelectedIndex = 0;
             Capturedevice = new VideoCaptureDevice();
         }
+
+        private void StrtBttn_Click(object sender, EventArgs e)
+        {
+            Capturedevice = new VideoCaptureDevice(filterAllInfo[CmboBox.SelectedIndex].MonikerString);
+            Capturedevice.NewFrame += new NewFrameEventHandler(CaptureDevice_NewFrame);
+            Capturedevice.Start();
+        }
+
+        private void CaptureDevice_NewFrame(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
     }
 }

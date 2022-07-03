@@ -80,6 +80,7 @@
             this.StrtBttn.TabIndex = 82;
             this.StrtBttn.Text = "&Start";
             this.StrtBttn.UseVisualStyleBackColor = false;
+            this.StrtBttn.Click += new System.EventHandler(this.StrtBttn_Click);
             // 
             // QrCTxtBox
             // 
