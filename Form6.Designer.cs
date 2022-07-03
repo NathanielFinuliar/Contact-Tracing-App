@@ -28,11 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.CamLbl = new System.Windows.Forms.Label();
             this.CmboBox = new System.Windows.Forms.ComboBox();
             this.ScanPicBox = new System.Windows.Forms.PictureBox();
             this.StrtBttn = new System.Windows.Forms.Button();
             this.QrCTxtBox = new System.Windows.Forms.TextBox();
+            this.Tmer = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.ScanPicBox)).BeginInit();
             this.SuspendLayout();
             // 
@@ -90,6 +92,11 @@
             this.QrCTxtBox.Size = new System.Drawing.Size(341, 218);
             this.QrCTxtBox.TabIndex = 83;
             // 
+            // Tmer
+            // 
+            this.Tmer.Interval = 1000;
+            this.Tmer.Tick += new System.EventHandler(this.Tmer_Tick);
+            // 
             // Form6
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -104,6 +111,7 @@
             this.Name = "Form6";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "QR Code Scanner & Generator";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form6_FormClosing);
             this.Load += new System.EventHandler(this.Form6_Load);
             ((System.ComponentModel.ISupportInitialize)(this.ScanPicBox)).EndInit();
             this.ResumeLayout(false);
@@ -118,5 +126,6 @@
         private System.Windows.Forms.PictureBox ScanPicBox;
         private System.Windows.Forms.Button StrtBttn;
         private System.Windows.Forms.TextBox QrCTxtBox;
+        private System.Windows.Forms.Timer Tmer;
     }
 }

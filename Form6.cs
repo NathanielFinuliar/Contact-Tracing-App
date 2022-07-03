@@ -43,10 +43,23 @@ namespace Contact_Tracing_App
             Capturedevice.Start();
         }
 
-        private void CaptureDevice_NewFrame(object sender, EventArgs e)
+        private void CaptureDevice_NewFrame(object sender, NewFrameEventArgs eventArgs)
         {
-            throw new NotImplementedException();
+            ScanPicBox.Image = (Bitmap)eventArgs.Frame.Clone();
         }
 
+        private void Form6_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (Capturedevice.IsRunning)
+                Capturedevice.Stop();
+        }
+
+        private void Tmer_Tick(object sender, EventArgs e)
+        {
+            if (ScanPicBox.Image != null)
+            {
+                BarcodeReader barcodeReader = new BarcodeReader();
+            }
+        }
     }
 }
