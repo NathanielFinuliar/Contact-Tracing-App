@@ -962,6 +962,7 @@
             this.QRCBttn.TabIndex = 83;
             this.QRCBttn.Text = "QR CODE";
             this.QRCBttn.UseVisualStyleBackColor = false;
+            this.QRCBttn.Click += new System.EventHandler(this.QRCBttn_Click);
             // 
             // ScanPcBox
             // 

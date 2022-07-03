@@ -37,7 +37,7 @@
             this.BackColor = System.Drawing.Color.AliceBlue;
             this.ClientSize = new System.Drawing.Size(827, 580);
             this.Name = "Form6";
-            this.Text = "QR CODE & GENERATOR";
+            this.Text = "QR CODE SCANNER & GENERATOR";
             this.ResumeLayout(false);
 
         }

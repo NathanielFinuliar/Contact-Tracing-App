@@ -421,5 +421,12 @@ namespace Contact_Tracing_App
                 YesNoMybeTxtBox.ForeColor = Color.Black;
             }
         }
+
+        private void QRCBttn_Click(object sender, EventArgs e)
+        {
+            Form6 Qrcode = new Form6();
+            this.Visible = false;
+            Qrcode.ShowDialog();
+        }
     }
 }
