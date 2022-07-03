@@ -51,3 +51,4 @@ C:\Users\nathan\source\repos\Contact-Tracing-App\bin\Debug\AForge.Video.DirectSh
 C:\Users\nathan\source\repos\Contact-Tracing-App\bin\Debug\zxing.xml
 C:\Users\nathan\source\repos\Contact-Tracing-App\bin\Debug\zxing.presentation.xml
 C:\Users\nathan\source\repos\Contact-Tracing-App\obj\Debug\Contact-Tracing-App.csproj.CopyComplete
+C:\Users\nathan\source\repos\Contact-Tracing-App\bin\Debug\QRCoder.dll

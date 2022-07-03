@@ -12,6 +12,7 @@ using AForge.Video.DirectShow;
 using ZXing;
 using ZXing.Aztec;
 using System.IO;
+using QRCoder;
 
 
 namespace Contact_Tracing_App
@@ -21,6 +22,13 @@ namespace Contact_Tracing_App
         public Form6()
         {
             InitializeComponent();
+        }
+        private void ClckGenBttn_Click(object sender, EventArgs e)
+        {
+            QRCodeGenerator qr = new QRCodeGenerator();
+            QRCodeData infos = qr.CreateQrCode(RecrdPicBox.Text, QRCodeGenerator.ECCLevel.Q);
+            QRCode gcode = new QRCode(infos);
+            QrCdePcBox.Image = gcode.GetGraphic(10);
         }
 
         FilterInfoCollection filterAllInfo;
