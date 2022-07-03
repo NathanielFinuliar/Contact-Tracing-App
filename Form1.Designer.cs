@@ -93,8 +93,8 @@
             this.CntctInfoLbl = new System.Windows.Forms.Label();
             this.AdmnBttn = new System.Windows.Forms.Button();
             this.QRCBttn = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.ScanPcBox = new System.Windows.Forms.PictureBox();
+            this.ClickLbl = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pcbx1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcbx2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcbx3)).BeginInit();
@@ -104,7 +104,7 @@
             this.SexGrpBox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.AgeNmericUpDwn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.YPOPpic)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ScanPcBox)).BeginInit();
             this.SuspendLayout();
             // 
             // Sbmt
@@ -963,29 +963,29 @@
             this.QRCBttn.Text = "QR CODE";
             this.QRCBttn.UseVisualStyleBackColor = false;
             // 
-            // pictureBox1
+            // ScanPcBox
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(342, 881);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(69, 97);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 84;
-            this.pictureBox1.TabStop = false;
+            this.ScanPcBox.Image = ((System.Drawing.Image)(resources.GetObject("ScanPcBox.Image")));
+            this.ScanPcBox.Location = new System.Drawing.Point(342, 881);
+            this.ScanPcBox.Name = "ScanPcBox";
+            this.ScanPcBox.Size = new System.Drawing.Size(69, 97);
+            this.ScanPcBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.ScanPcBox.TabIndex = 84;
+            this.ScanPcBox.TabStop = false;
             // 
-            // label1
+            // ClickLbl
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Crimson;
-            this.label1.Location = new System.Drawing.Point(63, 948);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(83, 24);
-            this.label1.TabIndex = 85;
-            this.label1.Text = "Click -->";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.ClickLbl.AutoSize = true;
+            this.ClickLbl.BackColor = System.Drawing.Color.Transparent;
+            this.ClickLbl.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ClickLbl.ForeColor = System.Drawing.Color.Crimson;
+            this.ClickLbl.Location = new System.Drawing.Point(63, 948);
+            this.ClickLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.ClickLbl.Name = "ClickLbl";
+            this.ClickLbl.Size = new System.Drawing.Size(83, 24);
+            this.ClickLbl.TabIndex = 85;
+            this.ClickLbl.Text = "Click -->";
+            this.ClickLbl.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // ContactTracing
             // 
@@ -994,8 +994,8 @@
             this.BackColor = System.Drawing.Color.AliceBlue;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(779, 995);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.ClickLbl);
+            this.Controls.Add(this.ScanPcBox);
             this.Controls.Add(this.QRCBttn);
             this.Controls.Add(this.AdmnBttn);
             this.Controls.Add(this.CntctInfoLbl);
@@ -1073,7 +1073,7 @@
             this.SexGrpBox.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.AgeNmericUpDwn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.YPOPpic)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ScanPcBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1145,8 +1145,8 @@
         private System.Windows.Forms.Label CntctInfoLbl;
         private System.Windows.Forms.Button AdmnBttn;
         private System.Windows.Forms.Button QRCBttn;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox ScanPcBox;
+        private System.Windows.Forms.Label ClickLbl;
     }
 }
 
