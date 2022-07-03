@@ -41,6 +41,7 @@ namespace Contact_Tracing_App
             Capturedevice = new VideoCaptureDevice(filterAllInfo[CmboBox.SelectedIndex].MonikerString);
             Capturedevice.NewFrame += new NewFrameEventHandler(CaptureDevice_NewFrame);
             Capturedevice.Start();
+            Tmer.Start();
         }
 
         private void CaptureDevice_NewFrame(object sender, NewFrameEventArgs eventArgs)
@@ -59,6 +60,14 @@ namespace Contact_Tracing_App
             if (ScanPicBox.Image != null)
             {
                 BarcodeReader barcodeReader = new BarcodeReader();
+                Result result = barcodeReader.Decode((Bitmap)ScanPicBox.Image);
+                if (result != null)
+                {
+                    QrCTxtBox.Text = result.ToString();
+                    Tmer.Stop();
+                    if (Capturedevice.IsRunning)
+                        Capturedevice.Stop();
+                }
             }
         }
     }
