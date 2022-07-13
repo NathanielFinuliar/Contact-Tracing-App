@@ -12,10 +12,9 @@ using AForge.Video.DirectShow;
 using ZXing;
 using ZXing.Aztec;
 using QRCoder;
-
-
 using System.Text;
 using System.IO;
+
 namespace Contact_Tracing_App
 {
     public partial class Form6 : Form
@@ -74,7 +73,7 @@ namespace Contact_Tracing_App
                 {
                     QrCTxtBox.Text = outcome.ToString();
                     Tmer.Stop();
-                    StreamWriter report = new StreamWriter(@"C:\Users\nathan\contact-tracing\Mall Visit Report\QR Code" + "Qr Code Contact Tracing" + ".txt");
+                    StreamWriter report = new StreamWriter(@"C:\Users\nathan\contact-tracing\Mall Visit Report\QR Code" + "  Contact Tracing" + ".txt");
                     report.WriteLine(outcome.ToString());
                     report.Close();
                 }
