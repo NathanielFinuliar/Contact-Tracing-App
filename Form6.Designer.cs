@@ -39,6 +39,8 @@
             this.ClckGenBttn = new System.Windows.Forms.Button();
             this.QrCdePcBox = new System.Windows.Forms.PictureBox();
             this.RecrdPicBox = new System.Windows.Forms.TextBox();
+            this.infoslabel = new System.Windows.Forms.Label();
+            this.OpFlbttn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.ScanPicBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.QrCdePcBox)).BeginInit();
             this.SuspendLayout();
@@ -70,6 +72,7 @@
             this.ScanPicBox.Location = new System.Drawing.Point(57, 95);
             this.ScanPicBox.Name = "ScanPicBox";
             this.ScanPicBox.Size = new System.Drawing.Size(375, 249);
+            this.ScanPicBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.ScanPicBox.TabIndex = 81;
             this.ScanPicBox.TabStop = false;
             // 
@@ -125,6 +128,7 @@
             this.QrCdePcBox.Location = new System.Drawing.Point(84, 476);
             this.QrCdePcBox.Name = "QrCdePcBox";
             this.QrCdePcBox.Size = new System.Drawing.Size(330, 279);
+            this.QrCdePcBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.QrCdePcBox.TabIndex = 86;
             this.QrCdePcBox.TabStop = false;
             // 
@@ -132,11 +136,29 @@
             // 
             this.RecrdPicBox.BackColor = System.Drawing.Color.OldLace;
             this.RecrdPicBox.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.RecrdPicBox.Location = new System.Drawing.Point(462, 476);
+            this.RecrdPicBox.Location = new System.Drawing.Point(444, 476);
             this.RecrdPicBox.Multiline = true;
             this.RecrdPicBox.Name = "RecrdPicBox";
-            this.RecrdPicBox.Size = new System.Drawing.Size(355, 249);
+            this.RecrdPicBox.Size = new System.Drawing.Size(373, 293);
             this.RecrdPicBox.TabIndex = 87;
+            // 
+            // infoslabel
+            // 
+            this.infoslabel.AutoSize = true;
+            this.infoslabel.Location = new System.Drawing.Point(455, 489);
+            this.infoslabel.Name = "infoslabel";
+            this.infoslabel.Size = new System.Drawing.Size(0, 13);
+            this.infoslabel.TabIndex = 88;
+            // 
+            // OpFlbttn
+            // 
+            this.OpFlbttn.Location = new System.Drawing.Point(459, 431);
+            this.OpFlbttn.Name = "OpFlbttn";
+            this.OpFlbttn.Size = new System.Drawing.Size(118, 29);
+            this.OpFlbttn.TabIndex = 89;
+            this.OpFlbttn.Text = "Open File";
+            this.OpFlbttn.UseVisualStyleBackColor = true;
+            this.OpFlbttn.Click += new System.EventHandler(this.OpFlbttn_Click);
             // 
             // Form6
             // 
@@ -146,6 +168,8 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(863, 797);
+            this.Controls.Add(this.OpFlbttn);
+            this.Controls.Add(this.infoslabel);
             this.Controls.Add(this.RecrdPicBox);
             this.Controls.Add(this.QrCdePcBox);
             this.Controls.Add(this.ClckGenBttn);
@@ -177,5 +201,7 @@
         private System.Windows.Forms.Button ClckGenBttn;
         private System.Windows.Forms.PictureBox QrCdePcBox;
         private System.Windows.Forms.TextBox RecrdPicBox;
+        private System.Windows.Forms.Label infoslabel;
+        private System.Windows.Forms.Button OpFlbttn;
     }
 }
