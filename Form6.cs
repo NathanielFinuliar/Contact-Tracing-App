@@ -11,10 +11,11 @@ using AForge.Video;
 using AForge.Video.DirectShow;
 using ZXing;
 using ZXing.Aztec;
-using System.IO;
 using QRCoder;
 
 
+using System.Text;
+using System.IO;
 namespace Contact_Tracing_App
 {
     public partial class Form6 : Form
@@ -26,7 +27,7 @@ namespace Contact_Tracing_App
         private void ClckGenBttn_Click(object sender, EventArgs e)
         {
             QRCodeGenerator qr = new QRCodeGenerator();
-            QRCodeData infos = qr.CreateQrCode(RecrdPicBox.Text, QRCodeGenerator.ECCLevel.Q);
+            QRCodeData infos = qr.CreateQrCode(RecrdPicRchTxtBox.Text, QRCodeGenerator.ECCLevel.Q);
             QRCode gcode = new QRCode(infos);
             QrCdePcBox.Image = gcode.GetGraphic(10);
         }
@@ -82,12 +83,16 @@ namespace Contact_Tracing_App
 
         private void OpFlbttn_Click(object sender, EventArgs e)
         {
+            Stream myStream;
             OpenFileDialog openFileDialog1 = new OpenFileDialog();
             if (openFileDialog1.ShowDialog() == System.Windows.Forms.DialogResult.OK)
             {
-                string strfilename = openFileDialog1.FileName;
-
-                MessageBox.Show(strfilename);
+                if ((myStream = openFileDialog1.OpenFile()) !=null)
+                {
+                    string strfilename = openFileDialog1.FileName;
+                    string filetext = File.ReadAllText(strfilename);
+                    RecrdPicRchTxtBox.Text = filetext;  
+                }
             }
         }
     }

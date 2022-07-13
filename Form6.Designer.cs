@@ -38,9 +38,9 @@
             this.Tmer = new System.Windows.Forms.Timer(this.components);
             this.ClckGenBttn = new System.Windows.Forms.Button();
             this.QrCdePcBox = new System.Windows.Forms.PictureBox();
-            this.RecrdPicBox = new System.Windows.Forms.TextBox();
             this.infoslabel = new System.Windows.Forms.Label();
             this.OpFlbttn = new System.Windows.Forms.Button();
+            this.RecrdPicRchTxtBox = new System.Windows.Forms.RichTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.ScanPicBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.QrCdePcBox)).BeginInit();
             this.SuspendLayout();
@@ -132,16 +132,6 @@
             this.QrCdePcBox.TabIndex = 86;
             this.QrCdePcBox.TabStop = false;
             // 
-            // RecrdPicBox
-            // 
-            this.RecrdPicBox.BackColor = System.Drawing.Color.OldLace;
-            this.RecrdPicBox.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.RecrdPicBox.Location = new System.Drawing.Point(444, 476);
-            this.RecrdPicBox.Multiline = true;
-            this.RecrdPicBox.Name = "RecrdPicBox";
-            this.RecrdPicBox.Size = new System.Drawing.Size(373, 293);
-            this.RecrdPicBox.TabIndex = 87;
-            // 
             // infoslabel
             // 
             this.infoslabel.AutoSize = true;
@@ -160,6 +150,14 @@
             this.OpFlbttn.UseVisualStyleBackColor = true;
             this.OpFlbttn.Click += new System.EventHandler(this.OpFlbttn_Click);
             // 
+            // RecrdPicRchTxtBox
+            // 
+            this.RecrdPicRchTxtBox.Location = new System.Drawing.Point(444, 476);
+            this.RecrdPicRchTxtBox.Name = "RecrdPicRchTxtBox";
+            this.RecrdPicRchTxtBox.Size = new System.Drawing.Size(373, 268);
+            this.RecrdPicRchTxtBox.TabIndex = 90;
+            this.RecrdPicRchTxtBox.Text = "";
+            // 
             // Form6
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -168,9 +166,9 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(863, 797);
+            this.Controls.Add(this.RecrdPicRchTxtBox);
             this.Controls.Add(this.OpFlbttn);
             this.Controls.Add(this.infoslabel);
-            this.Controls.Add(this.RecrdPicBox);
             this.Controls.Add(this.QrCdePcBox);
             this.Controls.Add(this.ClckGenBttn);
             this.Controls.Add(this.QrCTxtBox);
@@ -200,8 +198,8 @@
         private System.Windows.Forms.Timer Tmer;
         private System.Windows.Forms.Button ClckGenBttn;
         private System.Windows.Forms.PictureBox QrCdePcBox;
-        private System.Windows.Forms.TextBox RecrdPicBox;
         private System.Windows.Forms.Label infoslabel;
         private System.Windows.Forms.Button OpFlbttn;
+        private System.Windows.Forms.RichTextBox RecrdPicRchTxtBox;
     }
 }
