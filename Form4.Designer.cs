@@ -36,6 +36,7 @@
             // 
             this.allrecordslbl.AutoSize = true;
             this.allrecordslbl.Font = new System.Drawing.Font("Circular Std Bold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.allrecordslbl.ForeColor = System.Drawing.Color.Black;
             this.allrecordslbl.Location = new System.Drawing.Point(12, 9);
             this.allrecordslbl.Name = "allrecordslbl";
             this.allrecordslbl.Size = new System.Drawing.Size(0, 27);
@@ -46,7 +47,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.BackColor = System.Drawing.Color.AliceBlue;
+            this.BackColor = System.Drawing.Color.LightSteelBlue;
             this.ClientSize = new System.Drawing.Size(527, 619);
             this.Controls.Add(this.allrecordslbl);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));

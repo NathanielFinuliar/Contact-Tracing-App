@@ -955,7 +955,7 @@
             this.QRCBttn.Font = new System.Drawing.Font("Games", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.QRCBttn.ForeColor = System.Drawing.Color.Crimson;
             this.QRCBttn.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.QRCBttn.Location = new System.Drawing.Point(149, 931);
+            this.QRCBttn.Location = new System.Drawing.Point(159, 930);
             this.QRCBttn.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.QRCBttn.Name = "QRCBttn";
             this.QRCBttn.Size = new System.Drawing.Size(186, 47);
@@ -978,21 +978,21 @@
             // 
             this.ClickLbl.AutoSize = true;
             this.ClickLbl.BackColor = System.Drawing.Color.Transparent;
-            this.ClickLbl.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ClickLbl.Font = new System.Drawing.Font("Games", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ClickLbl.ForeColor = System.Drawing.Color.Crimson;
-            this.ClickLbl.Location = new System.Drawing.Point(63, 948);
+            this.ClickLbl.Location = new System.Drawing.Point(36, 932);
             this.ClickLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.ClickLbl.Name = "ClickLbl";
-            this.ClickLbl.Size = new System.Drawing.Size(83, 24);
+            this.ClickLbl.Size = new System.Drawing.Size(120, 46);
             this.ClickLbl.TabIndex = 85;
-            this.ClickLbl.Text = "Click -->";
+            this.ClickLbl.Text = "OR FILL-UP\r\nUSING YOUR";
             this.ClickLbl.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // ContactTracing
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(23F, 30F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.AliceBlue;
+            this.BackColor = System.Drawing.Color.LightSteelBlue;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(779, 995);
             this.Controls.Add(this.ClickLbl);

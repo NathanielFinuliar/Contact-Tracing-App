@@ -36,6 +36,7 @@
             // 
             this.Alldatelbl.AutoSize = true;
             this.Alldatelbl.Font = new System.Drawing.Font("Circular Std Bold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Alldatelbl.ForeColor = System.Drawing.Color.Black;
             this.Alldatelbl.Location = new System.Drawing.Point(12, 9);
             this.Alldatelbl.Name = "Alldatelbl";
             this.Alldatelbl.Size = new System.Drawing.Size(0, 27);
@@ -46,7 +47,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.BackColor = System.Drawing.Color.AliceBlue;
+            this.BackColor = System.Drawing.Color.LightSteelBlue;
             this.ClientSize = new System.Drawing.Size(519, 631);
             this.Controls.Add(this.Alldatelbl);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
