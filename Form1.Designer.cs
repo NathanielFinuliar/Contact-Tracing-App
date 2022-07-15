@@ -967,7 +967,7 @@
             // ScanPcBox
             // 
             this.ScanPcBox.Image = ((System.Drawing.Image)(resources.GetObject("ScanPcBox.Image")));
-            this.ScanPcBox.Location = new System.Drawing.Point(339, 850);
+            this.ScanPcBox.Location = new System.Drawing.Point(342, 850);
             this.ScanPcBox.Name = "ScanPcBox";
             this.ScanPcBox.Size = new System.Drawing.Size(69, 97);
             this.ScanPcBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1061,6 +1061,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(13, 7, 13, 7);
             this.Name = "ContactTracing";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Harbor Point Contact Tracing";
             this.Load += new System.EventHandler(this.ContactTracing_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pcbx1)).EndInit();

@@ -36,12 +36,7 @@ namespace Contact_Tracing_App
 
         private void Form6_Load(object sender, EventArgs e)
         {
-            filterAllInfo = new FilterInfoCollection(FilterCategory.VideoInputDevice);
-            foreach (FilterInfo webcamcapture in filterAllInfo)
-                CmboBox.Items.Add(webcamcapture.Name);
 
-            CmboBox.SelectedIndex = 0;
-            Capturedevice = new VideoCaptureDevice();
         }
 
         private void StrtBttn_Click(object sender, EventArgs e)
@@ -100,12 +95,43 @@ namespace Contact_Tracing_App
             file.WriteLine("TRACE TOGETHER");
             file.WriteLine("");
             file.WriteLine("First Name: " + FrstNmeTxtBox.Text);
-            file.WriteLine("last Name: " + LstNmeTxtBox);
-            file.WriteLine("City: " + CtyTxtBox);
-            file.WriteLine("Mobile Number: " + MobNoTxtBox);
+            file.WriteLine("last Name: " + LstNmeTxtBox.Text);
+            file.WriteLine("City: " + CtyTxtBox.Text);
+            file.WriteLine("Mobile Number: " + MobNoTxtBox.Text);
             file.WriteLine("Are you currently experiencing any type of the  following symptoms:sore throat, body pains, headache and fever?");
-            file.WriteLine(YaorNaTxtBox);
+            file.WriteLine(YaorNaTxtBox.Text);
             file.Close();
+            {
+                try
+                {
+                    DialogResult iSubmit;
+                    iSubmit = MessageBox.Show("TRACE TOGETHER, SAFER TOGETHER.", "Visitor Contact Tracing",
+                        MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    if (iSubmit == DialogResult.OK)
+                    {
+                        MessageBox.Show("Thankyou for doing your part in keeping Philippines Safe", "TRACE TOGETHER Contact Tracing", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        FrstNmeTxtBox.Text = LstNmeTxtBox.Text = CtyTxtBox.Text = MobNoTxtBox.Text = YaorNaTxtBox.Text = "";
+                        this.Close();
+                    }
+
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message, "Contact Tracing", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+            }
+        }
+        private void TraceTogether_Load(object sender, EventArgs e)
+        {
+            Do_Checked();
+        }
+        private void ChckBox_CheckedChanged(object sender, EventArgs e)
+        {
+            Do_Checked();
+        }
+        private void Do_Checked()
+        {
+            SbtBttn.Enabled = ChckBox.Checked;
         }
     }
 }
