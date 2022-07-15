@@ -226,6 +226,8 @@
             this.FrstNmeTxtBox.TabIndex = 96;
             this.FrstNmeTxtBox.Text = "First Name";
             this.FrstNmeTxtBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.FrstNmeTxtBox.Enter += new System.EventHandler(this.FrstNmeTxtBox_Enter);
+            this.FrstNmeTxtBox.Leave += new System.EventHandler(this.FrstNmeTxtBox_Leave);
             // 
             // LstNmeTxtBox
             // 
@@ -239,6 +241,8 @@
             this.LstNmeTxtBox.TabIndex = 97;
             this.LstNmeTxtBox.Text = "Last Name";
             this.LstNmeTxtBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.LstNmeTxtBox.Enter += new System.EventHandler(this.LstNmeTxtBox_Enter);
+            this.LstNmeTxtBox.Leave += new System.EventHandler(this.LstNmeTxtBox_Leave);
             // 
             // CtyTxtBox
             // 
@@ -252,6 +256,8 @@
             this.CtyTxtBox.TabIndex = 98;
             this.CtyTxtBox.Text = "City";
             this.CtyTxtBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.CtyTxtBox.Enter += new System.EventHandler(this.CtyTxtBox_Enter);
+            this.CtyTxtBox.Leave += new System.EventHandler(this.CtyTxtBox_Leave);
             // 
             // MobNoTxtBox
             // 
@@ -265,6 +271,8 @@
             this.MobNoTxtBox.TabIndex = 99;
             this.MobNoTxtBox.Text = "Mobile Number";
             this.MobNoTxtBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.MobNoTxtBox.Enter += new System.EventHandler(this.MobNoTxtBox_Enter);
+            this.MobNoTxtBox.Leave += new System.EventHandler(this.MobNoTxtBox_Leave);
             // 
             // YaorNaTxtBox
             // 
@@ -278,6 +286,8 @@
             this.YaorNaTxtBox.TabIndex = 100;
             this.YaorNaTxtBox.Text = "Yes or No";
             this.YaorNaTxtBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.YaorNaTxtBox.Enter += new System.EventHandler(this.YaorNaTxtBox_Enter);
+            this.YaorNaTxtBox.Leave += new System.EventHandler(this.YaorNaTxtBox_Leave);
             // 
             // SympLbl
             // 

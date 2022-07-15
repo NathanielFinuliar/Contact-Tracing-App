@@ -133,5 +133,95 @@ namespace Contact_Tracing_App
         {
             SbtBttn.Enabled = ChckBox.Checked;
         }
+
+        private void FrstNmeTxtBox_Leave(object sender, EventArgs e)
+        {
+            if (FrstNmeTxtBox.Text == "")
+            {
+                FrstNmeTxtBox.Text = "First Name";
+                FrstNmeTxtBox.ForeColor = Color.DarkGray;
+            }
+        }
+
+        private void FrstNmeTxtBox_Enter(object sender, EventArgs e)
+        {
+            if (FrstNmeTxtBox.Text == "First Name")
+            {
+                FrstNmeTxtBox.Text = null;
+                FrstNmeTxtBox.ForeColor = Color.Black;
+            }
+        }
+
+        private void LstNmeTxtBox_Leave(object sender, EventArgs e)
+        {
+            if (LstNmeTxtBox.Text == "")
+            {
+                LstNmeTxtBox.Text = "Last Name";
+                LstNmeTxtBox.ForeColor = Color.DarkGray;
+            }
+        }
+
+        private void LstNmeTxtBox_Enter(object sender, EventArgs e)
+        {
+            if (LstNmeTxtBox.Text == "Last Name")
+            {
+                LstNmeTxtBox.Text = null;
+                LstNmeTxtBox.ForeColor = Color.Black;
+            }
+        }
+
+        private void CtyTxtBox_Leave(object sender, EventArgs e)
+        {
+            if (CtyTxtBox.Text == "")
+            {
+                CtyTxtBox.Text = "City";
+                CtyTxtBox.ForeColor = Color.DarkGray;
+            }
+        }
+
+        private void CtyTxtBox_Enter(object sender, EventArgs e)
+        {
+            if (CtyTxtBox.Text == "City")
+            {
+                CtyTxtBox.Text = null;
+                CtyTxtBox.ForeColor = Color.Black;
+            }
+        }
+
+        private void MobNoTxtBox_Leave(object sender, EventArgs e)
+        {
+            if (MobNoTxtBox.Text == "")
+            {
+                MobNoTxtBox.Text = "Mobile Number";
+                MobNoTxtBox.ForeColor = Color.DarkGray;
+            }
+        }
+
+        private void MobNoTxtBox_Enter(object sender, EventArgs e)
+        {
+            if (MobNoTxtBox.Text == "Mobile Number")
+            {
+                MobNoTxtBox.Text = null;
+                MobNoTxtBox.ForeColor = Color.Black;
+            }
+        }
+
+        private void YaorNaTxtBox_Leave(object sender, EventArgs e)
+        {
+            if (YaorNaTxtBox.Text == "")
+            {
+                YaorNaTxtBox.Text = "Yes or No";
+                YaorNaTxtBox.ForeColor = Color.DarkGray;
+            }
+        }
+
+        private void YaorNaTxtBox_Enter(object sender, EventArgs e)
+        {
+            if (YaorNaTxtBox.Text == "Yes or No")
+            {
+                YaorNaTxtBox.Text = null;
+                YaorNaTxtBox.ForeColor = Color.Black;
+            }
+        }
     }
 }
