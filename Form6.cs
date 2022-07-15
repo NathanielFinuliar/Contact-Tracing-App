@@ -79,20 +79,33 @@ namespace Contact_Tracing_App
                 }
             }
         }
-
         private void OpFlbttn_Click(object sender, EventArgs e)
         {
             Stream myStream;
             OpenFileDialog openFileDialog1 = new OpenFileDialog();
             if (openFileDialog1.ShowDialog() == System.Windows.Forms.DialogResult.OK)
             {
-                if ((myStream = openFileDialog1.OpenFile()) !=null)
+                if ((myStream = openFileDialog1.OpenFile()) != null)
                 {
                     string strfilename = openFileDialog1.FileName;
                     string filetext = File.ReadAllText(strfilename);
-                    RecrdPicRchTxtBox.Text = filetext;  
+                    RecrdPicRchTxtBox.Text = filetext;
                 }
             }
+        }
+
+        private void SbtBttn_Click(object sender, EventArgs e)
+        {
+            StreamWriter file = new StreamWriter(@"C:\Users\nathan\contact-tracing\Mall Visit Report\QR Code Report\" + FrstNmeTxtBox.Text + LstNmeTxtBox.Text + ".txt", true);
+            file.WriteLine("TRACE TOGETHER");
+            file.WriteLine("");
+            file.WriteLine("First Name: " + FrstNmeTxtBox.Text);
+            file.WriteLine("last Name: " + LstNmeTxtBox);
+            file.WriteLine("City: " + CtyTxtBox);
+            file.WriteLine("Mobile Number: " + MobNoTxtBox);
+            file.WriteLine("Are you currently experiencing any type of the  following symptoms:sore throat, body pains, headache and fever?");
+            file.WriteLine(YaorNaTxtBox);
+            file.Close();
         }
     }
 }

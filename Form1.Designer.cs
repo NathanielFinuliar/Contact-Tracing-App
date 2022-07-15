@@ -121,7 +121,7 @@
             // 
             this.FNTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FNTxtBox.ForeColor = System.Drawing.Color.DarkGray;
-            this.FNTxtBox.Location = new System.Drawing.Point(47, 399);
+            this.FNTxtBox.Location = new System.Drawing.Point(47, 379);
             this.FNTxtBox.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.FNTxtBox.Multiline = true;
             this.FNTxtBox.Name = "FNTxtBox";
@@ -136,7 +136,7 @@
             // 
             this.MITxtBox.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MITxtBox.ForeColor = System.Drawing.Color.DarkGray;
-            this.MITxtBox.Location = new System.Drawing.Point(243, 399);
+            this.MITxtBox.Location = new System.Drawing.Point(243, 379);
             this.MITxtBox.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.MITxtBox.Multiline = true;
             this.MITxtBox.Name = "MITxtBox";
@@ -151,7 +151,7 @@
             // 
             this.LNTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LNTxtBox.ForeColor = System.Drawing.Color.DarkGray;
-            this.LNTxtBox.Location = new System.Drawing.Point(304, 399);
+            this.LNTxtBox.Location = new System.Drawing.Point(304, 379);
             this.LNTxtBox.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.LNTxtBox.Multiline = true;
             this.LNTxtBox.Name = "LNTxtBox";
@@ -169,7 +169,7 @@
             this.VCTFLabl.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.VCTFLabl.Font = new System.Drawing.Font("Alphakind", 31F);
             this.VCTFLabl.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.VCTFLabl.Location = new System.Drawing.Point(60, 134);
+            this.VCTFLabl.Location = new System.Drawing.Point(60, 114);
             this.VCTFLabl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.VCTFLabl.Name = "VCTFLabl";
             this.VCTFLabl.Size = new System.Drawing.Size(664, 52);
@@ -182,7 +182,7 @@
             this.FNLabl.BackColor = System.Drawing.Color.Transparent;
             this.FNLabl.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FNLabl.ForeColor = System.Drawing.Color.Black;
-            this.FNLabl.Location = new System.Drawing.Point(92, 433);
+            this.FNLabl.Location = new System.Drawing.Point(92, 413);
             this.FNLabl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.FNLabl.Name = "FNLabl";
             this.FNLabl.Size = new System.Drawing.Size(107, 24);
@@ -195,7 +195,7 @@
             this.MNLabl.BackColor = System.Drawing.Color.Transparent;
             this.MNLabl.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MNLabl.ForeColor = System.Drawing.Color.Black;
-            this.MNLabl.Location = new System.Drawing.Point(246, 434);
+            this.MNLabl.Location = new System.Drawing.Point(246, 414);
             this.MNLabl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.MNLabl.Name = "MNLabl";
             this.MNLabl.Size = new System.Drawing.Size(46, 24);
@@ -208,7 +208,7 @@
             this.LNLabl.BackColor = System.Drawing.Color.Transparent;
             this.LNLabl.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LNLabl.ForeColor = System.Drawing.Color.Black;
-            this.LNLabl.Location = new System.Drawing.Point(338, 434);
+            this.LNLabl.Location = new System.Drawing.Point(338, 414);
             this.LNLabl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LNLabl.Name = "LNLabl";
             this.LNLabl.Size = new System.Drawing.Size(105, 24);
@@ -221,7 +221,7 @@
             this.DtVstLabl.BackColor = System.Drawing.Color.Transparent;
             this.DtVstLabl.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DtVstLabl.ForeColor = System.Drawing.Color.Crimson;
-            this.DtVstLabl.Location = new System.Drawing.Point(56, 208);
+            this.DtVstLabl.Location = new System.Drawing.Point(56, 188);
             this.DtVstLabl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.DtVstLabl.Name = "DtVstLabl";
             this.DtVstLabl.Size = new System.Drawing.Size(125, 24);
@@ -234,7 +234,7 @@
             this.tmvstLabl.BackColor = System.Drawing.Color.Transparent;
             this.tmvstLabl.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tmvstLabl.ForeColor = System.Drawing.Color.Crimson;
-            this.tmvstLabl.Location = new System.Drawing.Point(56, 284);
+            this.tmvstLabl.Location = new System.Drawing.Point(56, 264);
             this.tmvstLabl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.tmvstLabl.Name = "tmvstLabl";
             this.tmvstLabl.Size = new System.Drawing.Size(128, 24);
@@ -245,7 +245,7 @@
             // 
             this.HrsTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 20F, System.Drawing.FontStyle.Bold);
             this.HrsTxtBox.ForeColor = System.Drawing.Color.DarkGray;
-            this.HrsTxtBox.Location = new System.Drawing.Point(40, 312);
+            this.HrsTxtBox.Location = new System.Drawing.Point(40, 292);
             this.HrsTxtBox.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.HrsTxtBox.Multiline = true;
             this.HrsTxtBox.Name = "HrsTxtBox";
@@ -260,7 +260,7 @@
             // 
             this.StrtTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.StrtTxtBox.ForeColor = System.Drawing.Color.DarkGray;
-            this.StrtTxtBox.Location = new System.Drawing.Point(139, 526);
+            this.StrtTxtBox.Location = new System.Drawing.Point(139, 506);
             this.StrtTxtBox.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.StrtTxtBox.Multiline = true;
             this.StrtTxtBox.Name = "StrtTxtBox";
@@ -277,7 +277,7 @@
             this.BrgyLabl.BackColor = System.Drawing.Color.Transparent;
             this.BrgyLabl.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold);
             this.BrgyLabl.ForeColor = System.Drawing.Color.Black;
-            this.BrgyLabl.Location = new System.Drawing.Point(328, 558);
+            this.BrgyLabl.Location = new System.Drawing.Point(328, 538);
             this.BrgyLabl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.BrgyLabl.Name = "BrgyLabl";
             this.BrgyLabl.Size = new System.Drawing.Size(55, 24);
@@ -288,7 +288,7 @@
             // 
             this.CityTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CityTxtBox.ForeColor = System.Drawing.Color.DarkGray;
-            this.CityTxtBox.Location = new System.Drawing.Point(435, 526);
+            this.CityTxtBox.Location = new System.Drawing.Point(435, 506);
             this.CityTxtBox.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.CityTxtBox.Multiline = true;
             this.CityTxtBox.Name = "CityTxtBox";
@@ -305,7 +305,7 @@
             this.CityLabl.BackColor = System.Drawing.Color.Transparent;
             this.CityLabl.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold);
             this.CityLabl.ForeColor = System.Drawing.Color.Black;
-            this.CityLabl.Location = new System.Drawing.Point(431, 558);
+            this.CityLabl.Location = new System.Drawing.Point(431, 538);
             this.CityLabl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.CityLabl.Name = "CityLabl";
             this.CityLabl.Size = new System.Drawing.Size(165, 24);
@@ -316,7 +316,7 @@
             // 
             this.PrvnceTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PrvnceTxtBox.ForeColor = System.Drawing.Color.DarkGray;
-            this.PrvnceTxtBox.Location = new System.Drawing.Point(609, 526);
+            this.PrvnceTxtBox.Location = new System.Drawing.Point(609, 506);
             this.PrvnceTxtBox.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.PrvnceTxtBox.Multiline = true;
             this.PrvnceTxtBox.Name = "PrvnceTxtBox";
@@ -333,7 +333,7 @@
             this.ProvLabl.BackColor = System.Drawing.Color.Transparent;
             this.ProvLabl.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold);
             this.ProvLabl.ForeColor = System.Drawing.Color.Black;
-            this.ProvLabl.Location = new System.Drawing.Point(625, 558);
+            this.ProvLabl.Location = new System.Drawing.Point(625, 538);
             this.ProvLabl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.ProvLabl.Name = "ProvLabl";
             this.ProvLabl.Size = new System.Drawing.Size(87, 24);
@@ -344,7 +344,7 @@
             // 
             this.PhnNTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold);
             this.PhnNTxtBox.ForeColor = System.Drawing.Color.DarkGray;
-            this.PhnNTxtBox.Location = new System.Drawing.Point(52, 648);
+            this.PhnNTxtBox.Location = new System.Drawing.Point(52, 628);
             this.PhnNTxtBox.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.PhnNTxtBox.Multiline = true;
             this.PhnNTxtBox.Name = "PhnNTxtBox";
@@ -361,7 +361,7 @@
             this.PhonenoLabl.BackColor = System.Drawing.Color.Transparent;
             this.PhonenoLabl.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PhonenoLabl.ForeColor = System.Drawing.Color.Black;
-            this.PhonenoLabl.Location = new System.Drawing.Point(68, 680);
+            this.PhonenoLabl.Location = new System.Drawing.Point(68, 660);
             this.PhonenoLabl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.PhonenoLabl.Name = "PhonenoLabl";
             this.PhonenoLabl.Size = new System.Drawing.Size(103, 24);
@@ -374,7 +374,7 @@
             this.LocationLabl.BackColor = System.Drawing.Color.Transparent;
             this.LocationLabl.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LocationLabl.ForeColor = System.Drawing.Color.Crimson;
-            this.LocationLabl.Location = new System.Drawing.Point(253, 284);
+            this.LocationLabl.Location = new System.Drawing.Point(253, 264);
             this.LocationLabl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LocationLabl.Name = "LocationLabl";
             this.LocationLabl.Size = new System.Drawing.Size(92, 24);
@@ -386,7 +386,7 @@
             // 
             this.BodTempTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 20F, System.Drawing.FontStyle.Bold);
             this.BodTempTxtBox.ForeColor = System.Drawing.Color.DarkGray;
-            this.BodTempTxtBox.Location = new System.Drawing.Point(274, 240);
+            this.BodTempTxtBox.Location = new System.Drawing.Point(274, 220);
             this.BodTempTxtBox.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.BodTempTxtBox.Multiline = true;
             this.BodTempTxtBox.Name = "BodTempTxtBox";
@@ -403,7 +403,7 @@
             this.BdTemptLabl.BackColor = System.Drawing.Color.Transparent;
             this.BdTemptLabl.Font = new System.Drawing.Font("Circular Std Bold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BdTemptLabl.ForeColor = System.Drawing.Color.Crimson;
-            this.BdTemptLabl.Location = new System.Drawing.Point(247, 210);
+            this.BdTemptLabl.Location = new System.Drawing.Point(247, 190);
             this.BdTemptLabl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.BdTemptLabl.Name = "BdTemptLabl";
             this.BdTemptLabl.Size = new System.Drawing.Size(137, 25);
@@ -415,7 +415,7 @@
             this.AthrzeLabl.BackColor = System.Drawing.Color.PaleTurquoise;
             this.AthrzeLabl.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.AthrzeLabl.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AthrzeLabl.Location = new System.Drawing.Point(435, 782);
+            this.AthrzeLabl.Location = new System.Drawing.Point(435, 762);
             this.AthrzeLabl.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.AthrzeLabl.Name = "AthrzeLabl";
             this.AthrzeLabl.ReadOnly = true;
@@ -427,7 +427,7 @@
             // 
             this.ChckBx.AutoSize = true;
             this.ChckBx.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.ChckBx.Location = new System.Drawing.Point(412, 782);
+            this.ChckBx.Location = new System.Drawing.Point(412, 762);
             this.ChckBx.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.ChckBx.Name = "ChckBx";
             this.ChckBx.Size = new System.Drawing.Size(15, 14);
@@ -442,7 +442,7 @@
             this.SbmtBttn.Font = new System.Drawing.Font("Circular Std Black", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SbmtBttn.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.SbmtBttn.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.SbmtBttn.Location = new System.Drawing.Point(526, 926);
+            this.SbmtBttn.Location = new System.Drawing.Point(543, 906);
             this.SbmtBttn.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.SbmtBttn.Name = "SbmtBttn";
             this.SbmtBttn.Size = new System.Drawing.Size(119, 41);
@@ -454,7 +454,7 @@
             // pcbx1
             // 
             this.pcbx1.Image = ((System.Drawing.Image)(resources.GetObject("pcbx1.Image")));
-            this.pcbx1.Location = new System.Drawing.Point(162, 39);
+            this.pcbx1.Location = new System.Drawing.Point(162, 19);
             this.pcbx1.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.pcbx1.Name = "pcbx1";
             this.pcbx1.Size = new System.Drawing.Size(79, 72);
@@ -465,7 +465,7 @@
             // pcbx2
             // 
             this.pcbx2.Image = ((System.Drawing.Image)(resources.GetObject("pcbx2.Image")));
-            this.pcbx2.Location = new System.Drawing.Point(246, 39);
+            this.pcbx2.Location = new System.Drawing.Point(246, 19);
             this.pcbx2.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.pcbx2.Name = "pcbx2";
             this.pcbx2.Size = new System.Drawing.Size(77, 72);
@@ -476,7 +476,7 @@
             // pcbx3
             // 
             this.pcbx3.Image = ((System.Drawing.Image)(resources.GetObject("pcbx3.Image")));
-            this.pcbx3.Location = new System.Drawing.Point(328, 39);
+            this.pcbx3.Location = new System.Drawing.Point(328, 19);
             this.pcbx3.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.pcbx3.Name = "pcbx3";
             this.pcbx3.Size = new System.Drawing.Size(80, 72);
@@ -487,7 +487,7 @@
             // pcbx4
             // 
             this.pcbx4.Image = ((System.Drawing.Image)(resources.GetObject("pcbx4.Image")));
-            this.pcbx4.Location = new System.Drawing.Point(418, 39);
+            this.pcbx4.Location = new System.Drawing.Point(418, 19);
             this.pcbx4.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.pcbx4.Name = "pcbx4";
             this.pcbx4.Size = new System.Drawing.Size(80, 72);
@@ -498,7 +498,7 @@
             // pcbx5
             // 
             this.pcbx5.Image = ((System.Drawing.Image)(resources.GetObject("pcbx5.Image")));
-            this.pcbx5.Location = new System.Drawing.Point(507, 39);
+            this.pcbx5.Location = new System.Drawing.Point(507, 19);
             this.pcbx5.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.pcbx5.Name = "pcbx5";
             this.pcbx5.Size = new System.Drawing.Size(80, 72);
@@ -512,7 +512,7 @@
             this.AgeLabl.BackColor = System.Drawing.Color.Transparent;
             this.AgeLabl.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AgeLabl.ForeColor = System.Drawing.Color.Black;
-            this.AgeLabl.Location = new System.Drawing.Point(496, 380);
+            this.AgeLabl.Location = new System.Drawing.Point(496, 360);
             this.AgeLabl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.AgeLabl.Name = "AgeLabl";
             this.AgeLabl.Size = new System.Drawing.Size(52, 24);
@@ -523,7 +523,7 @@
             // 
             this.EMTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold);
             this.EMTxtBox.ForeColor = System.Drawing.Color.DarkGray;
-            this.EMTxtBox.Location = new System.Drawing.Point(203, 648);
+            this.EMTxtBox.Location = new System.Drawing.Point(203, 628);
             this.EMTxtBox.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.EMTxtBox.Multiline = true;
             this.EMTxtBox.Name = "EMTxtBox";
@@ -541,7 +541,7 @@
             this.AbtBttn.Font = new System.Drawing.Font("Circular Std Black", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AbtBttn.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.AbtBttn.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.AbtBttn.Location = new System.Drawing.Point(27, 59);
+            this.AbtBttn.Location = new System.Drawing.Point(27, 39);
             this.AbtBttn.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.AbtBttn.Name = "AbtBttn";
             this.AbtBttn.Size = new System.Drawing.Size(105, 36);
@@ -556,7 +556,7 @@
             this.DteTmePcker.CustomFormat = "";
             this.DteTmePcker.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DteTmePcker.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.DteTmePcker.Location = new System.Drawing.Point(48, 236);
+            this.DteTmePcker.Location = new System.Drawing.Point(48, 216);
             this.DteTmePcker.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.DteTmePcker.Name = "DteTmePcker";
             this.DteTmePcker.Size = new System.Drawing.Size(154, 30);
@@ -570,7 +570,7 @@
             this.VacStatusGrpBox.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.VacStatusGrpBox.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.VacStatusGrpBox.ForeColor = System.Drawing.Color.Crimson;
-            this.VacStatusGrpBox.Location = new System.Drawing.Point(479, 208);
+            this.VacStatusGrpBox.Location = new System.Drawing.Point(479, 188);
             this.VacStatusGrpBox.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.VacStatusGrpBox.Name = "VacStatusGrpBox";
             this.VacStatusGrpBox.Padding = new System.Windows.Forms.Padding(4, 2, 4, 2);
@@ -621,7 +621,7 @@
             // 
             this.MinTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 20F, System.Drawing.FontStyle.Bold);
             this.MinTxtBox.ForeColor = System.Drawing.Color.DarkGray;
-            this.MinTxtBox.Location = new System.Drawing.Point(113, 313);
+            this.MinTxtBox.Location = new System.Drawing.Point(113, 293);
             this.MinTxtBox.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.MinTxtBox.Multiline = true;
             this.MinTxtBox.Name = "MinTxtBox";
@@ -636,7 +636,7 @@
             // 
             this.AMPMTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 20F, System.Drawing.FontStyle.Bold);
             this.AMPMTxtBox.ForeColor = System.Drawing.Color.DarkGray;
-            this.AMPMTxtBox.Location = new System.Drawing.Point(169, 313);
+            this.AMPMTxtBox.Location = new System.Drawing.Point(169, 293);
             this.AMPMTxtBox.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.AMPMTxtBox.Multiline = true;
             this.AMPMTxtBox.Name = "AMPMTxtBox";
@@ -651,7 +651,7 @@
             // 
             this.ColonLbl.AutoSize = true;
             this.ColonLbl.Font = new System.Drawing.Font("Circular Std Bold", 20F, System.Drawing.FontStyle.Bold);
-            this.ColonLbl.Location = new System.Drawing.Point(90, 312);
+            this.ColonLbl.Location = new System.Drawing.Point(90, 292);
             this.ColonLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.ColonLbl.Name = "ColonLbl";
             this.ColonLbl.Size = new System.Drawing.Size(23, 34);
@@ -664,7 +664,7 @@
             this.DegreesCelciusLbl.BackColor = System.Drawing.Color.Transparent;
             this.DegreesCelciusLbl.Font = new System.Drawing.Font("Circular Std Bold", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DegreesCelciusLbl.ForeColor = System.Drawing.Color.Black;
-            this.DegreesCelciusLbl.Location = new System.Drawing.Point(326, 243);
+            this.DegreesCelciusLbl.Location = new System.Drawing.Point(326, 223);
             this.DegreesCelciusLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.DegreesCelciusLbl.Name = "DegreesCelciusLbl";
             this.DegreesCelciusLbl.Size = new System.Drawing.Size(46, 34);
@@ -675,7 +675,7 @@
             // 
             this.LcnTxtbox.Font = new System.Drawing.Font("Circular Std Bold", 20F, System.Drawing.FontStyle.Bold);
             this.LcnTxtbox.ForeColor = System.Drawing.Color.DarkGray;
-            this.LcnTxtbox.Location = new System.Drawing.Point(252, 313);
+            this.LcnTxtbox.Location = new System.Drawing.Point(252, 293);
             this.LcnTxtbox.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.LcnTxtbox.Multiline = true;
             this.LcnTxtbox.Name = "LcnTxtbox";
@@ -692,7 +692,7 @@
             this.EmailLbl.BackColor = System.Drawing.Color.Transparent;
             this.EmailLbl.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.EmailLbl.ForeColor = System.Drawing.Color.Black;
-            this.EmailLbl.Location = new System.Drawing.Point(254, 680);
+            this.EmailLbl.Location = new System.Drawing.Point(254, 660);
             this.EmailLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.EmailLbl.Name = "EmailLbl";
             this.EmailLbl.Size = new System.Drawing.Size(137, 24);
@@ -705,7 +705,7 @@
             this.SexGrpBox.Controls.Add(this.Malerb);
             this.SexGrpBox.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.SexGrpBox.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SexGrpBox.Location = new System.Drawing.Point(563, 372);
+            this.SexGrpBox.Location = new System.Drawing.Point(563, 352);
             this.SexGrpBox.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.SexGrpBox.Name = "SexGrpBox";
             this.SexGrpBox.Padding = new System.Windows.Forms.Padding(4, 2, 4, 2);
@@ -744,7 +744,7 @@
             this.StrtLabl.BackColor = System.Drawing.Color.Transparent;
             this.StrtLabl.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold);
             this.StrtLabl.ForeColor = System.Drawing.Color.Black;
-            this.StrtLabl.Location = new System.Drawing.Point(179, 558);
+            this.StrtLabl.Location = new System.Drawing.Point(179, 538);
             this.StrtLabl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.StrtLabl.Name = "StrtLabl";
             this.StrtLabl.Size = new System.Drawing.Size(64, 24);
@@ -757,7 +757,7 @@
             this.HNLabl.BackColor = System.Drawing.Color.Transparent;
             this.HNLabl.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold);
             this.HNLabl.ForeColor = System.Drawing.Color.Black;
-            this.HNLabl.Location = new System.Drawing.Point(43, 558);
+            this.HNLabl.Location = new System.Drawing.Point(43, 538);
             this.HNLabl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.HNLabl.Name = "HNLabl";
             this.HNLabl.Size = new System.Drawing.Size(103, 24);
@@ -768,7 +768,7 @@
             // 
             this.HNTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.HNTxtBox.ForeColor = System.Drawing.Color.DarkGray;
-            this.HNTxtBox.Location = new System.Drawing.Point(70, 526);
+            this.HNTxtBox.Location = new System.Drawing.Point(70, 506);
             this.HNTxtBox.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.HNTxtBox.Multiline = true;
             this.HNTxtBox.Name = "HNTxtBox";
@@ -783,7 +783,7 @@
             // 
             this.BrgyTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BrgyTxtBox.ForeColor = System.Drawing.Color.DarkGray;
-            this.BrgyTxtBox.Location = new System.Drawing.Point(308, 526);
+            this.BrgyTxtBox.Location = new System.Drawing.Point(308, 506);
             this.BrgyTxtBox.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.BrgyTxtBox.Multiline = true;
             this.BrgyTxtBox.Name = "BrgyTxtBox";
@@ -800,7 +800,7 @@
             this.HlthQst2lbl.BackColor = System.Drawing.Color.Transparent;
             this.HlthQst2lbl.Font = new System.Drawing.Font("Circular Std Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.HlthQst2lbl.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.HlthQst2lbl.Location = new System.Drawing.Point(36, 818);
+            this.HlthQst2lbl.Location = new System.Drawing.Point(36, 798);
             this.HlthQst2lbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.HlthQst2lbl.Name = "HlthQst2lbl";
             this.HlthQst2lbl.Size = new System.Drawing.Size(336, 60);
@@ -814,7 +814,7 @@
             this.Yesrb.AutoSize = true;
             this.Yesrb.Checked = true;
             this.Yesrb.Font = new System.Drawing.Font("Circular Std Bold", 12F, System.Drawing.FontStyle.Bold);
-            this.Yesrb.Location = new System.Drawing.Point(128, 893);
+            this.Yesrb.Location = new System.Drawing.Point(125, 862);
             this.Yesrb.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.Yesrb.Name = "Yesrb";
             this.Yesrb.Size = new System.Drawing.Size(51, 24);
@@ -827,7 +827,7 @@
             // 
             this.Norb.AutoSize = true;
             this.Norb.Font = new System.Drawing.Font("Circular Std Bold", 12F, System.Drawing.FontStyle.Bold);
-            this.Norb.Location = new System.Drawing.Point(214, 893);
+            this.Norb.Location = new System.Drawing.Point(211, 862);
             this.Norb.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.Norb.Name = "Norb";
             this.Norb.Size = new System.Drawing.Size(48, 24);
@@ -841,7 +841,7 @@
             this.HlthQst1lbl.BackColor = System.Drawing.Color.Transparent;
             this.HlthQst1lbl.Font = new System.Drawing.Font("Circular Std Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.HlthQst1lbl.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.HlthQst1lbl.Location = new System.Drawing.Point(46, 732);
+            this.HlthQst1lbl.Location = new System.Drawing.Point(46, 712);
             this.HlthQst1lbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.HlthQst1lbl.Name = "HlthQst1lbl";
             this.HlthQst1lbl.Size = new System.Drawing.Size(317, 40);
@@ -852,7 +852,7 @@
             // AgeNmericUpDwn
             // 
             this.AgeNmericUpDwn.Font = new System.Drawing.Font("Circular Std Bold", 20F, System.Drawing.FontStyle.Bold);
-            this.AgeNmericUpDwn.Location = new System.Drawing.Point(498, 407);
+            this.AgeNmericUpDwn.Location = new System.Drawing.Point(498, 387);
             this.AgeNmericUpDwn.Name = "AgeNmericUpDwn";
             this.AgeNmericUpDwn.Size = new System.Drawing.Size(51, 39);
             this.AgeNmericUpDwn.TabIndex = 10;
@@ -861,7 +861,7 @@
             // 
             this.YesNoMybeTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold);
             this.YesNoMybeTxtBox.ForeColor = System.Drawing.Color.DarkGray;
-            this.YesNoMybeTxtBox.Location = new System.Drawing.Point(83, 774);
+            this.YesNoMybeTxtBox.Location = new System.Drawing.Point(83, 754);
             this.YesNoMybeTxtBox.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.YesNoMybeTxtBox.Multiline = true;
             this.YesNoMybeTxtBox.Name = "YesNoMybeTxtBox";
@@ -876,7 +876,7 @@
             // 
             this.YPOPpic.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.YPOPpic.Image = ((System.Drawing.Image)(resources.GetObject("YPOPpic.Image")));
-            this.YPOPpic.Location = new System.Drawing.Point(509, 604);
+            this.YPOPpic.Location = new System.Drawing.Point(509, 584);
             this.YPOPpic.Name = "YPOPpic";
             this.YPOPpic.Size = new System.Drawing.Size(173, 129);
             this.YPOPpic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -889,7 +889,7 @@
             this.ConsentLbl.BackColor = System.Drawing.Color.Transparent;
             this.ConsentLbl.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ConsentLbl.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.ConsentLbl.Location = new System.Drawing.Point(452, 736);
+            this.ConsentLbl.Location = new System.Drawing.Point(452, 716);
             this.ConsentLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.ConsentLbl.Name = "ConsentLbl";
             this.ConsentLbl.Size = new System.Drawing.Size(296, 36);
@@ -903,7 +903,7 @@
             this.PrsnlINFOLbl.BackColor = System.Drawing.Color.Transparent;
             this.PrsnlINFOLbl.Font = new System.Drawing.Font("Circular Std Bold", 18F, System.Drawing.FontStyle.Bold);
             this.PrsnlINFOLbl.ForeColor = System.Drawing.Color.Crimson;
-            this.PrsnlINFOLbl.Location = new System.Drawing.Point(42, 367);
+            this.PrsnlINFOLbl.Location = new System.Drawing.Point(42, 347);
             this.PrsnlINFOLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.PrsnlINFOLbl.Name = "PrsnlINFOLbl";
             this.PrsnlINFOLbl.Size = new System.Drawing.Size(201, 30);
@@ -916,7 +916,7 @@
             this.CrrntADDLbl.BackColor = System.Drawing.Color.Transparent;
             this.CrrntADDLbl.Font = new System.Drawing.Font("Circular Std Bold", 18F, System.Drawing.FontStyle.Bold);
             this.CrrntADDLbl.ForeColor = System.Drawing.Color.Crimson;
-            this.CrrntADDLbl.Location = new System.Drawing.Point(43, 483);
+            this.CrrntADDLbl.Location = new System.Drawing.Point(43, 463);
             this.CrrntADDLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.CrrntADDLbl.Name = "CrrntADDLbl";
             this.CrrntADDLbl.Size = new System.Drawing.Size(239, 30);
@@ -929,7 +929,7 @@
             this.CntctInfoLbl.BackColor = System.Drawing.Color.Transparent;
             this.CntctInfoLbl.Font = new System.Drawing.Font("Circular Std Bold", 18F, System.Drawing.FontStyle.Bold);
             this.CntctInfoLbl.ForeColor = System.Drawing.Color.Crimson;
-            this.CntctInfoLbl.Location = new System.Drawing.Point(43, 604);
+            this.CntctInfoLbl.Location = new System.Drawing.Point(43, 584);
             this.CntctInfoLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.CntctInfoLbl.Name = "CntctInfoLbl";
             this.CntctInfoLbl.Size = new System.Drawing.Size(193, 30);
@@ -941,7 +941,7 @@
             this.AdmnBttn.BackColor = System.Drawing.Color.DarkSlateGray;
             this.AdmnBttn.Font = new System.Drawing.Font("Circular Std Bold", 14F, System.Drawing.FontStyle.Bold);
             this.AdmnBttn.ForeColor = System.Drawing.Color.Cornsilk;
-            this.AdmnBttn.Location = new System.Drawing.Point(609, 59);
+            this.AdmnBttn.Location = new System.Drawing.Point(609, 39);
             this.AdmnBttn.Name = "AdmnBttn";
             this.AdmnBttn.Size = new System.Drawing.Size(136, 36);
             this.AdmnBttn.TabIndex = 80;
@@ -955,7 +955,7 @@
             this.QRCBttn.Font = new System.Drawing.Font("Games", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.QRCBttn.ForeColor = System.Drawing.Color.Crimson;
             this.QRCBttn.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.QRCBttn.Location = new System.Drawing.Point(159, 930);
+            this.QRCBttn.Location = new System.Drawing.Point(156, 899);
             this.QRCBttn.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.QRCBttn.Name = "QRCBttn";
             this.QRCBttn.Size = new System.Drawing.Size(186, 47);
@@ -967,7 +967,7 @@
             // ScanPcBox
             // 
             this.ScanPcBox.Image = ((System.Drawing.Image)(resources.GetObject("ScanPcBox.Image")));
-            this.ScanPcBox.Location = new System.Drawing.Point(342, 881);
+            this.ScanPcBox.Location = new System.Drawing.Point(339, 850);
             this.ScanPcBox.Name = "ScanPcBox";
             this.ScanPcBox.Size = new System.Drawing.Size(69, 97);
             this.ScanPcBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -980,7 +980,7 @@
             this.ClickLbl.BackColor = System.Drawing.Color.Transparent;
             this.ClickLbl.Font = new System.Drawing.Font("Games", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ClickLbl.ForeColor = System.Drawing.Color.Crimson;
-            this.ClickLbl.Location = new System.Drawing.Point(36, 932);
+            this.ClickLbl.Location = new System.Drawing.Point(33, 901);
             this.ClickLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.ClickLbl.Name = "ClickLbl";
             this.ClickLbl.Size = new System.Drawing.Size(120, 46);
@@ -992,9 +992,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(23F, 30F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.BackColor = System.Drawing.Color.AntiqueWhite;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(779, 995);
+            this.ClientSize = new System.Drawing.Size(779, 957);
             this.Controls.Add(this.ClickLbl);
             this.Controls.Add(this.ScanPcBox);
             this.Controls.Add(this.QRCBttn);

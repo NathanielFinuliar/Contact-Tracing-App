@@ -41,20 +41,20 @@
             this.infoslabel = new System.Windows.Forms.Label();
             this.OpFlbttn = new System.Windows.Forms.Button();
             this.RecrdPicRchTxtBox = new System.Windows.Forms.RichTextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.FNTxtBox = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.label5 = new System.Windows.Forms.Label();
+            this.PicBox4 = new System.Windows.Forms.PictureBox();
+            this.HelpLbl = new System.Windows.Forms.Label();
+            this.FrstNmeTxtBox = new System.Windows.Forms.TextBox();
+            this.LstNmeTxtBox = new System.Windows.Forms.TextBox();
+            this.CtyTxtBox = new System.Windows.Forms.TextBox();
+            this.MobNoTxtBox = new System.Windows.Forms.TextBox();
+            this.YaorNaTxtBox = new System.Windows.Forms.TextBox();
+            this.SympLbl = new System.Windows.Forms.Label();
+            this.PolicyLbl = new System.Windows.Forms.Label();
+            this.ChckBox = new System.Windows.Forms.CheckBox();
+            this.PicBox3 = new System.Windows.Forms.PictureBox();
+            this.PicBox1 = new System.Windows.Forms.PictureBox();
+            this.PicBox2 = new System.Windows.Forms.PictureBox();
+            this.YatLbl = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -62,12 +62,13 @@
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
+            this.SbtBttn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.ScanPicBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.QrCdePcBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PicBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PicBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PicBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PicBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // CamLbl
@@ -162,7 +163,7 @@
             // infoslabel
             // 
             this.infoslabel.AutoSize = true;
-            this.infoslabel.Location = new System.Drawing.Point(461, 513);
+            this.infoslabel.Location = new System.Drawing.Point(459, 487);
             this.infoslabel.Name = "infoslabel";
             this.infoslabel.Size = new System.Drawing.Size(0, 13);
             this.infoslabel.TabIndex = 88;
@@ -188,172 +189,172 @@
             this.RecrdPicRchTxtBox.TabIndex = 90;
             this.RecrdPicRchTxtBox.Text = "";
             // 
-            // pictureBox1
+            // PicBox4
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(192, 281);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(91, 80);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 91;
-            this.pictureBox1.TabStop = false;
+            this.PicBox4.Image = ((System.Drawing.Image)(resources.GetObject("PicBox4.Image")));
+            this.PicBox4.Location = new System.Drawing.Point(190, 255);
+            this.PicBox4.Name = "PicBox4";
+            this.PicBox4.Size = new System.Drawing.Size(91, 80);
+            this.PicBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PicBox4.TabIndex = 91;
+            this.PicBox4.TabStop = false;
             // 
-            // label2
+            // HelpLbl
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Circular Std Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(107, 364);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(291, 40);
-            this.label2.TabIndex = 94;
-            this.label2.Text = "Help the community safe by declaring\r\nif you have visited Harbor Point Mall";
+            this.HelpLbl.AutoSize = true;
+            this.HelpLbl.BackColor = System.Drawing.Color.Transparent;
+            this.HelpLbl.Font = new System.Drawing.Font("Circular Std Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HelpLbl.ForeColor = System.Drawing.Color.Black;
+            this.HelpLbl.Location = new System.Drawing.Point(105, 338);
+            this.HelpLbl.Name = "HelpLbl";
+            this.HelpLbl.Size = new System.Drawing.Size(291, 40);
+            this.HelpLbl.TabIndex = 94;
+            this.HelpLbl.Text = "Help the community safe by declaring\r\nif you have visited Harbor Point Mall";
             // 
-            // FNTxtBox
+            // FrstNmeTxtBox
             // 
-            this.FNTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FNTxtBox.ForeColor = System.Drawing.Color.DarkGray;
-            this.FNTxtBox.Location = new System.Drawing.Point(88, 409);
-            this.FNTxtBox.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.FNTxtBox.Multiline = true;
-            this.FNTxtBox.Name = "FNTxtBox";
-            this.FNTxtBox.Size = new System.Drawing.Size(324, 32);
-            this.FNTxtBox.TabIndex = 96;
-            this.FNTxtBox.Text = "First Name";
-            this.FNTxtBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.FrstNmeTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FrstNmeTxtBox.ForeColor = System.Drawing.Color.DarkGray;
+            this.FrstNmeTxtBox.Location = new System.Drawing.Point(86, 383);
+            this.FrstNmeTxtBox.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.FrstNmeTxtBox.Multiline = true;
+            this.FrstNmeTxtBox.Name = "FrstNmeTxtBox";
+            this.FrstNmeTxtBox.Size = new System.Drawing.Size(324, 32);
+            this.FrstNmeTxtBox.TabIndex = 96;
+            this.FrstNmeTxtBox.Text = "First Name";
+            this.FrstNmeTxtBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox1
+            // LstNmeTxtBox
             // 
-            this.textBox1.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.Color.DarkGray;
-            this.textBox1.Location = new System.Drawing.Point(88, 447);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(324, 32);
-            this.textBox1.TabIndex = 97;
-            this.textBox1.Text = "Last Name";
-            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.LstNmeTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LstNmeTxtBox.ForeColor = System.Drawing.Color.DarkGray;
+            this.LstNmeTxtBox.Location = new System.Drawing.Point(86, 421);
+            this.LstNmeTxtBox.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.LstNmeTxtBox.Multiline = true;
+            this.LstNmeTxtBox.Name = "LstNmeTxtBox";
+            this.LstNmeTxtBox.Size = new System.Drawing.Size(324, 32);
+            this.LstNmeTxtBox.TabIndex = 97;
+            this.LstNmeTxtBox.Text = "Last Name";
+            this.LstNmeTxtBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox2
+            // CtyTxtBox
             // 
-            this.textBox2.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.ForeColor = System.Drawing.Color.DarkGray;
-            this.textBox2.Location = new System.Drawing.Point(88, 483);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(324, 32);
-            this.textBox2.TabIndex = 98;
-            this.textBox2.Text = "City";
-            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.CtyTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CtyTxtBox.ForeColor = System.Drawing.Color.DarkGray;
+            this.CtyTxtBox.Location = new System.Drawing.Point(86, 457);
+            this.CtyTxtBox.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.CtyTxtBox.Multiline = true;
+            this.CtyTxtBox.Name = "CtyTxtBox";
+            this.CtyTxtBox.Size = new System.Drawing.Size(324, 32);
+            this.CtyTxtBox.TabIndex = 98;
+            this.CtyTxtBox.Text = "City";
+            this.CtyTxtBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox3
+            // MobNoTxtBox
             // 
-            this.textBox3.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.ForeColor = System.Drawing.Color.DarkGray;
-            this.textBox3.Location = new System.Drawing.Point(88, 519);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(324, 32);
-            this.textBox3.TabIndex = 99;
-            this.textBox3.Text = "Mobile Number";
-            this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.MobNoTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MobNoTxtBox.ForeColor = System.Drawing.Color.DarkGray;
+            this.MobNoTxtBox.Location = new System.Drawing.Point(86, 493);
+            this.MobNoTxtBox.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.MobNoTxtBox.Multiline = true;
+            this.MobNoTxtBox.Name = "MobNoTxtBox";
+            this.MobNoTxtBox.Size = new System.Drawing.Size(324, 32);
+            this.MobNoTxtBox.TabIndex = 99;
+            this.MobNoTxtBox.Text = "Mobile Number";
+            this.MobNoTxtBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox4
+            // YaorNaTxtBox
             // 
-            this.textBox4.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.ForeColor = System.Drawing.Color.DarkGray;
-            this.textBox4.Location = new System.Drawing.Point(181, 604);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(126, 32);
-            this.textBox4.TabIndex = 100;
-            this.textBox4.Text = "Yes or No";
-            this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.YaorNaTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.YaorNaTxtBox.ForeColor = System.Drawing.Color.DarkGray;
+            this.YaorNaTxtBox.Location = new System.Drawing.Point(179, 578);
+            this.YaorNaTxtBox.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.YaorNaTxtBox.Multiline = true;
+            this.YaorNaTxtBox.Name = "YaorNaTxtBox";
+            this.YaorNaTxtBox.Size = new System.Drawing.Size(126, 32);
+            this.YaorNaTxtBox.TabIndex = 100;
+            this.YaorNaTxtBox.Text = "Yes or No";
+            this.YaorNaTxtBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // label3
+            // SympLbl
             // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Circular Std Bold", 11F, System.Drawing.FontStyle.Bold);
-            this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(9, 564);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(489, 38);
-            this.label3.TabIndex = 101;
-            this.label3.Text = "Are you currently experiencing any type of the  following symptoms:\r\nsore throat," +
+            this.SympLbl.AutoSize = true;
+            this.SympLbl.BackColor = System.Drawing.Color.Transparent;
+            this.SympLbl.Font = new System.Drawing.Font("Circular Std Bold", 11F, System.Drawing.FontStyle.Bold);
+            this.SympLbl.ForeColor = System.Drawing.Color.Black;
+            this.SympLbl.Location = new System.Drawing.Point(7, 538);
+            this.SympLbl.Name = "SympLbl";
+            this.SympLbl.Size = new System.Drawing.Size(489, 38);
+            this.SympLbl.TabIndex = 101;
+            this.SympLbl.Text = "Are you currently experiencing any type of the  following symptoms:\r\nsore throat," +
     " body pains, headache and fever.";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.SympLbl.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
-            // label4
+            // PolicyLbl
             // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Circular Std Bold", 10F, System.Drawing.FontStyle.Bold);
-            this.label4.ForeColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(85, 656);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(347, 36);
-            this.label4.TabIndex = 102;
-            this.label4.Text = "I understand that by clicking the submit button, I am \r\nagreeing to the Harbor Po" +
+            this.PolicyLbl.AutoSize = true;
+            this.PolicyLbl.BackColor = System.Drawing.Color.Transparent;
+            this.PolicyLbl.Font = new System.Drawing.Font("Circular Std Bold", 10F, System.Drawing.FontStyle.Bold);
+            this.PolicyLbl.ForeColor = System.Drawing.Color.Black;
+            this.PolicyLbl.Location = new System.Drawing.Point(83, 628);
+            this.PolicyLbl.Name = "PolicyLbl";
+            this.PolicyLbl.Size = new System.Drawing.Size(347, 36);
+            this.PolicyLbl.TabIndex = 102;
+            this.PolicyLbl.Text = "I understand that by clicking the submit button, I am \r\nagreeing to the Harbor Po" +
     "int Mall Privacy Policy.";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.PolicyLbl.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // checkBox1
+            // ChckBox
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(64, 668);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(15, 14);
-            this.checkBox1.TabIndex = 103;
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.ChckBox.AutoSize = true;
+            this.ChckBox.Location = new System.Drawing.Point(62, 628);
+            this.ChckBox.Name = "ChckBox";
+            this.ChckBox.Size = new System.Drawing.Size(15, 14);
+            this.ChckBox.TabIndex = 103;
+            this.ChckBox.UseVisualStyleBackColor = true;
             // 
-            // pictureBox4
+            // PicBox3
             // 
-            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(47, 108);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(403, 147);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 110;
-            this.pictureBox4.TabStop = false;
+            this.PicBox3.BackColor = System.Drawing.Color.Transparent;
+            this.PicBox3.Image = ((System.Drawing.Image)(resources.GetObject("PicBox3.Image")));
+            this.PicBox3.Location = new System.Drawing.Point(45, 82);
+            this.PicBox3.Name = "PicBox3";
+            this.PicBox3.Size = new System.Drawing.Size(403, 147);
+            this.PicBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.PicBox3.TabIndex = 110;
+            this.PicBox3.TabStop = false;
             // 
-            // pictureBox2
+            // PicBox1
             // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(144, 38);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(91, 80);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 111;
-            this.pictureBox2.TabStop = false;
+            this.PicBox1.Image = ((System.Drawing.Image)(resources.GetObject("PicBox1.Image")));
+            this.PicBox1.Location = new System.Drawing.Point(142, 12);
+            this.PicBox1.Name = "PicBox1";
+            this.PicBox1.Size = new System.Drawing.Size(91, 80);
+            this.PicBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PicBox1.TabIndex = 111;
+            this.PicBox1.TabStop = false;
             // 
-            // pictureBox3
+            // PicBox2
             // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(232, 38);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(91, 80);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 112;
-            this.pictureBox3.TabStop = false;
+            this.PicBox2.Image = ((System.Drawing.Image)(resources.GetObject("PicBox2.Image")));
+            this.PicBox2.Location = new System.Drawing.Point(230, 12);
+            this.PicBox2.Name = "PicBox2";
+            this.PicBox2.Size = new System.Drawing.Size(91, 80);
+            this.PicBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PicBox2.TabIndex = 112;
+            this.PicBox2.TabStop = false;
             // 
-            // label5
+            // YatLbl
             // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("Circular Std Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.Black;
-            this.label5.Location = new System.Drawing.Point(201, 258);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(82, 20);
-            this.label5.TabIndex = 114;
-            this.label5.Text = "You are at";
+            this.YatLbl.AutoSize = true;
+            this.YatLbl.BackColor = System.Drawing.Color.Transparent;
+            this.YatLbl.Font = new System.Drawing.Font("Circular Std Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.YatLbl.ForeColor = System.Drawing.Color.Black;
+            this.YatLbl.Location = new System.Drawing.Point(199, 232);
+            this.YatLbl.Name = "YatLbl";
+            this.YatLbl.Size = new System.Drawing.Size(82, 20);
+            this.YatLbl.TabIndex = 114;
+            this.YatLbl.Text = "You are at";
             // 
             // label1
             // 
@@ -439,6 +440,22 @@
             this.label9.TabIndex = 122;
             this.label9.Text = "1";
             // 
+            // SbtBttn
+            // 
+            this.SbtBttn.BackColor = System.Drawing.Color.NavajoWhite;
+            this.SbtBttn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.SbtBttn.Font = new System.Drawing.Font("Circular Std Black", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SbtBttn.ForeColor = System.Drawing.Color.DarkSlateGray;
+            this.SbtBttn.ImageAlign = System.Drawing.ContentAlignment.TopRight;
+            this.SbtBttn.Location = new System.Drawing.Point(179, 677);
+            this.SbtBttn.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.SbtBttn.Name = "SbtBttn";
+            this.SbtBttn.Size = new System.Drawing.Size(126, 41);
+            this.SbtBttn.TabIndex = 123;
+            this.SbtBttn.Text = "SUBMIT";
+            this.SbtBttn.UseVisualStyleBackColor = false;
+            this.SbtBttn.Click += new System.EventHandler(this.SbtBttn_Click);
+            // 
             // Form6
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -446,6 +463,7 @@
             this.BackColor = System.Drawing.Color.AntiqueWhite;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1048, 745);
+            this.Controls.Add(this.SbtBttn);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
@@ -453,20 +471,20 @@
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.checkBox1);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.FNTxtBox);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.YatLbl);
+            this.Controls.Add(this.PicBox2);
+            this.Controls.Add(this.PicBox1);
+            this.Controls.Add(this.PicBox3);
+            this.Controls.Add(this.ChckBox);
+            this.Controls.Add(this.PolicyLbl);
+            this.Controls.Add(this.SympLbl);
+            this.Controls.Add(this.YaorNaTxtBox);
+            this.Controls.Add(this.MobNoTxtBox);
+            this.Controls.Add(this.CtyTxtBox);
+            this.Controls.Add(this.LstNmeTxtBox);
+            this.Controls.Add(this.FrstNmeTxtBox);
+            this.Controls.Add(this.HelpLbl);
+            this.Controls.Add(this.PicBox4);
             this.Controls.Add(this.RecrdPicRchTxtBox);
             this.Controls.Add(this.OpFlbttn);
             this.Controls.Add(this.infoslabel);
@@ -484,10 +502,10 @@
             this.Load += new System.EventHandler(this.Form6_Load);
             ((System.ComponentModel.ISupportInitialize)(this.ScanPicBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.QrCdePcBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PicBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PicBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PicBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PicBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -506,20 +524,20 @@
         private System.Windows.Forms.Label infoslabel;
         private System.Windows.Forms.Button OpFlbttn;
         private System.Windows.Forms.RichTextBox RecrdPicRchTxtBox;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox FNTxtBox;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.PictureBox PicBox4;
+        private System.Windows.Forms.Label HelpLbl;
+        private System.Windows.Forms.TextBox FrstNmeTxtBox;
+        private System.Windows.Forms.TextBox LstNmeTxtBox;
+        private System.Windows.Forms.TextBox CtyTxtBox;
+        private System.Windows.Forms.TextBox MobNoTxtBox;
+        private System.Windows.Forms.TextBox YaorNaTxtBox;
+        private System.Windows.Forms.Label SympLbl;
+        private System.Windows.Forms.Label PolicyLbl;
+        private System.Windows.Forms.CheckBox ChckBox;
+        private System.Windows.Forms.PictureBox PicBox3;
+        private System.Windows.Forms.PictureBox PicBox1;
+        private System.Windows.Forms.PictureBox PicBox2;
+        private System.Windows.Forms.Label YatLbl;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
@@ -527,5 +545,6 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Button SbtBttn;
     }
 }
