@@ -54,17 +54,16 @@ namespace Contact_Tracing_App
             StreamWriter file = new StreamWriter(@"C:\Users\nathan\contact-tracing\Mall Visit Report\QR Code Report\" + FrstNmeTxtBox.Text + LstNmeTxtBox.Text + ".txt");
             file.WriteLine("TRACE TOGETHER");
             file.WriteLine("");
-            file.WriteLine("Check In: ");
-            file.WriteLine("   " + DtePcker.Text);
-            file.WriteLine("   " + TmePcker.Text);
+            file.WriteLine("Date Check-In: " + DtePcker.Text + CommaLbl.Text);
+            file.WriteLine("Time Check-In: " + TmePcker.Text + CommaLbl.Text);
             file.WriteLine("");
-            file.WriteLine("First Name: " + FrstNmeTxtBox.Text);
-            file.WriteLine("last Name: " + LstNmeTxtBox.Text);
-            file.WriteLine("City: " + CtyTxtBox.Text);
-            file.WriteLine("Mobile Number: " + MobNoTxtBox.Text);
+            file.WriteLine("First Name: " + FrstNmeTxtBox.Text + CommaLbl.Text);
+            file.WriteLine("Last Name: " + LstNmeTxtBox.Text + CommaLbl.Text);
+            file.WriteLine("City: " + CtyTxtBox.Text + CommaLbl.Text);
+            file.WriteLine("Mobile Number: " + MobNoTxtBox.Text + CommaLbl.Text);
             file.WriteLine("");
-            file.WriteLine("Are you currently experiencing any type of the  following symptoms:sore throat, body pains, headache and fever?");
-            file.WriteLine(YaorNaTxtBox.Text);
+            file.WriteLine("Are you currently experiencing any type of symptomps like sore throat/ body pains/ headache and fever?: " + YaorNaTxtBox.Text);
+
             file.Close();
             {
                 try
@@ -86,10 +85,7 @@ namespace Contact_Tracing_App
                 }
             }
         }
-        private void TraceTogether_Load(object sender, EventArgs e)
-        {
-            Do_Checked();
-        }
+
         private void ChckBox_CheckedChanged(object sender, EventArgs e)
         {
             Do_Checked();
@@ -191,6 +187,8 @@ namespace Contact_Tracing_App
 
         private void Form6_Load(object sender, EventArgs e)
         {
+            Do_Checked();
+
             filterInfoCollection = new FilterInfoCollection(FilterCategory.VideoInputDevice);
             foreach (FilterInfo filterInfo in filterInfoCollection)
                 CmboBox.Items.Add(filterInfo.Name);
@@ -226,11 +224,27 @@ namespace Contact_Tracing_App
                 if (result != null)
                 {
                     QrCTxtBox.Text = result.ToString();
-                    Tmer.Stop();
+                    Tmer.Stop(); 
                     if (captureDevice.IsRunning)
                         captureDevice.Stop();
                 }
             }  
+        }
+
+        private void SbmitBttn_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Keep Safe Distance and Always Wear your Face Mask", "TRACE TOGETHER", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Welcome to Harbor Point Mall!", "TRACE TOGETHER", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            string myString = QrCTxtBox.Text;
+            string[] str = myString.Split(',');
+            DtePcker.Text = str[0].Substring(str[0].IndexOf(':') + 1);
+            TmePcker.Text = str[1].Substring(str[1].IndexOf(':') + 1);
+            FrstNmeTxtBox.Text = str[2].Substring(str[2].IndexOf(':') + 1);
+            LstNmeTxtBox.Text = str[3].Substring(str[3].IndexOf(':') + 1);
+            CtyTxtBox.Text = str[4].Substring(str[4].IndexOf(':') + 1);
+            MobNoTxtBox.Text = str[5].Substring(str[5].IndexOf(':') + 1);
+            YaorNaTxtBox.Text = str[6].Substring(str[6].IndexOf(':') + 1);
         }
     }
 }

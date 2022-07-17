@@ -56,16 +56,18 @@
             this.PicBox2 = new System.Windows.Forms.PictureBox();
             this.YatLbl = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
+            this.filllbl = new System.Windows.Forms.Label();
+            this.genlbl = new System.Windows.Forms.Label();
+            this.scanlbl = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.SbtBttn = new System.Windows.Forms.Button();
-            this.DtePcker = new System.Windows.Forms.DateTimePicker();
-            this.TmePcker = new System.Windows.Forms.DateTimePicker();
+            this.SbmitBttn = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
+            this.TmePcker = new System.Windows.Forms.DateTimePicker();
+            this.DtePcker = new System.Windows.Forms.DateTimePicker();
+            this.CommaLbl = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.ScanPicBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.QrCdePcBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PicBox4)).BeginInit();
@@ -125,10 +127,10 @@
             // QrCTxtBox
             // 
             this.QrCTxtBox.BackColor = System.Drawing.Color.White;
-            this.QrCTxtBox.Location = new System.Drawing.Point(752, 527);
+            this.QrCTxtBox.Location = new System.Drawing.Point(748, 527);
             this.QrCTxtBox.Multiline = true;
             this.QrCTxtBox.Name = "QrCTxtBox";
-            this.QrCTxtBox.Size = new System.Drawing.Size(270, 170);
+            this.QrCTxtBox.Size = new System.Drawing.Size(276, 170);
             this.QrCTxtBox.TabIndex = 83;
             // 
             // Tmer
@@ -166,7 +168,7 @@
             // infoslabel
             // 
             this.infoslabel.AutoSize = true;
-            this.infoslabel.Location = new System.Drawing.Point(458, 513);
+            this.infoslabel.Location = new System.Drawing.Point(467, 525);
             this.infoslabel.Name = "infoslabel";
             this.infoslabel.Size = new System.Drawing.Size(0, 13);
             this.infoslabel.TabIndex = 88;
@@ -195,7 +197,7 @@
             // PicBox4
             // 
             this.PicBox4.Image = ((System.Drawing.Image)(resources.GetObject("PicBox4.Image")));
-            this.PicBox4.Location = new System.Drawing.Point(192, 225);
+            this.PicBox4.Location = new System.Drawing.Point(201, 248);
             this.PicBox4.Name = "PicBox4";
             this.PicBox4.Size = new System.Drawing.Size(91, 80);
             this.PicBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -208,7 +210,7 @@
             this.HelpLbl.BackColor = System.Drawing.Color.Transparent;
             this.HelpLbl.Font = new System.Drawing.Font("Circular Std Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.HelpLbl.ForeColor = System.Drawing.Color.Black;
-            this.HelpLbl.Location = new System.Drawing.Point(103, 308);
+            this.HelpLbl.Location = new System.Drawing.Point(112, 320);
             this.HelpLbl.Name = "HelpLbl";
             this.HelpLbl.Size = new System.Drawing.Size(291, 40);
             this.HelpLbl.TabIndex = 94;
@@ -218,12 +220,12 @@
             // 
             this.FrstNmeTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FrstNmeTxtBox.ForeColor = System.Drawing.Color.DarkGray;
-            this.FrstNmeTxtBox.Location = new System.Drawing.Point(85, 396);
+            this.FrstNmeTxtBox.Location = new System.Drawing.Point(94, 408);
             this.FrstNmeTxtBox.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.FrstNmeTxtBox.Multiline = true;
             this.FrstNmeTxtBox.Name = "FrstNmeTxtBox";
             this.FrstNmeTxtBox.Size = new System.Drawing.Size(324, 32);
-            this.FrstNmeTxtBox.TabIndex = 96;
+            this.FrstNmeTxtBox.TabIndex = 3;
             this.FrstNmeTxtBox.Text = "First Name";
             this.FrstNmeTxtBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.FrstNmeTxtBox.Enter += new System.EventHandler(this.FrstNmeTxtBox_Enter);
@@ -233,12 +235,12 @@
             // 
             this.LstNmeTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LstNmeTxtBox.ForeColor = System.Drawing.Color.DarkGray;
-            this.LstNmeTxtBox.Location = new System.Drawing.Point(85, 434);
+            this.LstNmeTxtBox.Location = new System.Drawing.Point(94, 446);
             this.LstNmeTxtBox.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.LstNmeTxtBox.Multiline = true;
             this.LstNmeTxtBox.Name = "LstNmeTxtBox";
             this.LstNmeTxtBox.Size = new System.Drawing.Size(324, 32);
-            this.LstNmeTxtBox.TabIndex = 97;
+            this.LstNmeTxtBox.TabIndex = 4;
             this.LstNmeTxtBox.Text = "Last Name";
             this.LstNmeTxtBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.LstNmeTxtBox.Enter += new System.EventHandler(this.LstNmeTxtBox_Enter);
@@ -248,12 +250,12 @@
             // 
             this.CtyTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CtyTxtBox.ForeColor = System.Drawing.Color.DarkGray;
-            this.CtyTxtBox.Location = new System.Drawing.Point(85, 470);
+            this.CtyTxtBox.Location = new System.Drawing.Point(94, 482);
             this.CtyTxtBox.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.CtyTxtBox.Multiline = true;
             this.CtyTxtBox.Name = "CtyTxtBox";
             this.CtyTxtBox.Size = new System.Drawing.Size(324, 32);
-            this.CtyTxtBox.TabIndex = 98;
+            this.CtyTxtBox.TabIndex = 5;
             this.CtyTxtBox.Text = "City";
             this.CtyTxtBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.CtyTxtBox.Enter += new System.EventHandler(this.CtyTxtBox_Enter);
@@ -263,12 +265,12 @@
             // 
             this.MobNoTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MobNoTxtBox.ForeColor = System.Drawing.Color.DarkGray;
-            this.MobNoTxtBox.Location = new System.Drawing.Point(85, 506);
+            this.MobNoTxtBox.Location = new System.Drawing.Point(94, 518);
             this.MobNoTxtBox.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.MobNoTxtBox.Multiline = true;
             this.MobNoTxtBox.Name = "MobNoTxtBox";
             this.MobNoTxtBox.Size = new System.Drawing.Size(324, 32);
-            this.MobNoTxtBox.TabIndex = 99;
+            this.MobNoTxtBox.TabIndex = 6;
             this.MobNoTxtBox.Text = "Mobile Number";
             this.MobNoTxtBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.MobNoTxtBox.Enter += new System.EventHandler(this.MobNoTxtBox_Enter);
@@ -278,12 +280,12 @@
             // 
             this.YaorNaTxtBox.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.YaorNaTxtBox.ForeColor = System.Drawing.Color.DarkGray;
-            this.YaorNaTxtBox.Location = new System.Drawing.Point(178, 589);
+            this.YaorNaTxtBox.Location = new System.Drawing.Point(187, 601);
             this.YaorNaTxtBox.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.YaorNaTxtBox.Multiline = true;
             this.YaorNaTxtBox.Name = "YaorNaTxtBox";
             this.YaorNaTxtBox.Size = new System.Drawing.Size(126, 32);
-            this.YaorNaTxtBox.TabIndex = 100;
+            this.YaorNaTxtBox.TabIndex = 7;
             this.YaorNaTxtBox.Text = "Yes or No";
             this.YaorNaTxtBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.YaorNaTxtBox.Enter += new System.EventHandler(this.YaorNaTxtBox_Enter);
@@ -295,12 +297,12 @@
             this.SympLbl.BackColor = System.Drawing.Color.Transparent;
             this.SympLbl.Font = new System.Drawing.Font("Circular Std Bold", 11F, System.Drawing.FontStyle.Bold);
             this.SympLbl.ForeColor = System.Drawing.Color.Black;
-            this.SympLbl.Location = new System.Drawing.Point(12, 549);
+            this.SympLbl.Location = new System.Drawing.Point(88, 561);
             this.SympLbl.Name = "SympLbl";
-            this.SympLbl.Size = new System.Drawing.Size(489, 38);
+            this.SympLbl.Size = new System.Drawing.Size(330, 38);
             this.SympLbl.TabIndex = 101;
-            this.SympLbl.Text = "Are you currently experiencing any type of the  following symptoms:\r\nsore throat," +
-    " body pains, headache and fever.";
+            this.SympLbl.Text = "Are you currently experiencing symptoms like\r\nsore throat, body pain, headache an" +
+    "d fever?";
             this.SympLbl.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // PolicyLbl
@@ -309,7 +311,7 @@
             this.PolicyLbl.BackColor = System.Drawing.Color.Transparent;
             this.PolicyLbl.Font = new System.Drawing.Font("Circular Std Bold", 10F, System.Drawing.FontStyle.Bold);
             this.PolicyLbl.ForeColor = System.Drawing.Color.Black;
-            this.PolicyLbl.Location = new System.Drawing.Point(82, 644);
+            this.PolicyLbl.Location = new System.Drawing.Point(89, 661);
             this.PolicyLbl.Name = "PolicyLbl";
             this.PolicyLbl.Size = new System.Drawing.Size(347, 36);
             this.PolicyLbl.TabIndex = 102;
@@ -320,10 +322,10 @@
             // ChckBox
             // 
             this.ChckBox.AutoSize = true;
-            this.ChckBox.Location = new System.Drawing.Point(61, 644);
+            this.ChckBox.Location = new System.Drawing.Point(68, 661);
             this.ChckBox.Name = "ChckBox";
             this.ChckBox.Size = new System.Drawing.Size(15, 14);
-            this.ChckBox.TabIndex = 103;
+            this.ChckBox.TabIndex = 8;
             this.ChckBox.UseVisualStyleBackColor = true;
             this.ChckBox.CheckedChanged += new System.EventHandler(this.ChckBox_CheckedChanged);
             // 
@@ -331,7 +333,7 @@
             // 
             this.PicBox3.BackColor = System.Drawing.Color.Transparent;
             this.PicBox3.Image = ((System.Drawing.Image)(resources.GetObject("PicBox3.Image")));
-            this.PicBox3.Location = new System.Drawing.Point(47, 79);
+            this.PicBox3.Location = new System.Drawing.Point(56, 91);
             this.PicBox3.Name = "PicBox3";
             this.PicBox3.Size = new System.Drawing.Size(403, 147);
             this.PicBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -341,7 +343,7 @@
             // PicBox1
             // 
             this.PicBox1.Image = ((System.Drawing.Image)(resources.GetObject("PicBox1.Image")));
-            this.PicBox1.Location = new System.Drawing.Point(144, 9);
+            this.PicBox1.Location = new System.Drawing.Point(153, 21);
             this.PicBox1.Name = "PicBox1";
             this.PicBox1.Size = new System.Drawing.Size(91, 80);
             this.PicBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -351,7 +353,7 @@
             // PicBox2
             // 
             this.PicBox2.Image = ((System.Drawing.Image)(resources.GetObject("PicBox2.Image")));
-            this.PicBox2.Location = new System.Drawing.Point(232, 9);
+            this.PicBox2.Location = new System.Drawing.Point(241, 21);
             this.PicBox2.Name = "PicBox2";
             this.PicBox2.Size = new System.Drawing.Size(91, 80);
             this.PicBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -364,7 +366,7 @@
             this.YatLbl.BackColor = System.Drawing.Color.Transparent;
             this.YatLbl.Font = new System.Drawing.Font("Circular Std Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.YatLbl.ForeColor = System.Drawing.Color.Black;
-            this.YatLbl.Location = new System.Drawing.Point(201, 213);
+            this.YatLbl.Location = new System.Drawing.Point(210, 225);
             this.YatLbl.Name = "YatLbl";
             this.YatLbl.Size = new System.Drawing.Size(82, 20);
             this.YatLbl.TabIndex = 114;
@@ -382,41 +384,41 @@
             this.label1.TabIndex = 115;
             this.label1.Text = "HOW TO TRACE TOGETHER?";
             // 
-            // label6
+            // filllbl
             // 
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.MidnightBlue;
-            this.label6.Font = new System.Drawing.Font("Circular Std Bold", 14F, System.Drawing.FontStyle.Bold);
-            this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(547, 56);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(444, 24);
-            this.label6.TabIndex = 116;
-            this.label6.Text = "FILL UP the form and declare your health at once";
+            this.filllbl.AutoSize = true;
+            this.filllbl.BackColor = System.Drawing.Color.MidnightBlue;
+            this.filllbl.Font = new System.Drawing.Font("Circular Std Bold", 14F, System.Drawing.FontStyle.Bold);
+            this.filllbl.ForeColor = System.Drawing.Color.White;
+            this.filllbl.Location = new System.Drawing.Point(547, 56);
+            this.filllbl.Name = "filllbl";
+            this.filllbl.Size = new System.Drawing.Size(444, 24);
+            this.filllbl.TabIndex = 116;
+            this.filllbl.Text = "FILL UP the form and declare your health at once";
             // 
-            // label7
+            // genlbl
             // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.SteelBlue;
-            this.label7.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(547, 91);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(435, 24);
-            this.label7.TabIndex = 117;
-            this.label7.Text = "GENERATE Qr Code after you filled up the form";
+            this.genlbl.AutoSize = true;
+            this.genlbl.BackColor = System.Drawing.Color.SteelBlue;
+            this.genlbl.Font = new System.Drawing.Font("Circular Std Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.genlbl.ForeColor = System.Drawing.Color.White;
+            this.genlbl.Location = new System.Drawing.Point(547, 91);
+            this.genlbl.Name = "genlbl";
+            this.genlbl.Size = new System.Drawing.Size(435, 24);
+            this.genlbl.TabIndex = 117;
+            this.genlbl.Text = "GENERATE Qr Code after you filled up the form";
             // 
-            // label8
+            // scanlbl
             // 
-            this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.RoyalBlue;
-            this.label8.Font = new System.Drawing.Font("Circular Std Bold", 14F, System.Drawing.FontStyle.Bold);
-            this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(547, 127);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(318, 24);
-            this.label8.TabIndex = 118;
-            this.label8.Text = "SCAN your Qr Code for easy entry";
+            this.scanlbl.AutoSize = true;
+            this.scanlbl.BackColor = System.Drawing.Color.RoyalBlue;
+            this.scanlbl.Font = new System.Drawing.Font("Circular Std Bold", 14F, System.Drawing.FontStyle.Bold);
+            this.scanlbl.ForeColor = System.Drawing.Color.White;
+            this.scanlbl.Location = new System.Drawing.Point(547, 127);
+            this.scanlbl.Name = "scanlbl";
+            this.scanlbl.Size = new System.Drawing.Size(318, 24);
+            this.scanlbl.TabIndex = 118;
+            this.scanlbl.Text = "SCAN your Qr Code for easy entry";
             // 
             // label10
             // 
@@ -461,34 +463,27 @@
             this.SbtBttn.Font = new System.Drawing.Font("Circular Std Black", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SbtBttn.ForeColor = System.Drawing.Color.White;
             this.SbtBttn.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.SbtBttn.Location = new System.Drawing.Point(178, 692);
+            this.SbtBttn.Location = new System.Drawing.Point(187, 702);
             this.SbtBttn.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.SbtBttn.Name = "SbtBttn";
             this.SbtBttn.Size = new System.Drawing.Size(126, 41);
-            this.SbtBttn.TabIndex = 123;
+            this.SbtBttn.TabIndex = 9;
             this.SbtBttn.Text = "SUBMIT";
             this.SbtBttn.UseVisualStyleBackColor = false;
             this.SbtBttn.Click += new System.EventHandler(this.SbtBttn_Click);
             // 
-            // DtePcker
+            // SbmitBttn
             // 
-            this.DtePcker.Font = new System.Drawing.Font("Circular Std Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DtePcker.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.DtePcker.Location = new System.Drawing.Point(146, 364);
-            this.DtePcker.Name = "DtePcker";
-            this.DtePcker.Size = new System.Drawing.Size(134, 27);
-            this.DtePcker.TabIndex = 124;
-            // 
-            // TmePcker
-            // 
-            this.TmePcker.CustomFormat = "";
-            this.TmePcker.Font = new System.Drawing.Font("Circular Std Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TmePcker.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.TmePcker.Location = new System.Drawing.Point(286, 364);
-            this.TmePcker.Name = "TmePcker";
-            this.TmePcker.Size = new System.Drawing.Size(123, 27);
-            this.TmePcker.TabIndex = 125;
-            this.TmePcker.Value = new System.DateTime(2022, 7, 15, 21, 0, 0, 0);
+            this.SbmitBttn.BackColor = System.Drawing.Color.LightSlateGray;
+            this.SbmitBttn.Font = new System.Drawing.Font("Circular Std Bold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SbmitBttn.ForeColor = System.Drawing.Color.White;
+            this.SbmitBttn.Location = new System.Drawing.Point(827, 483);
+            this.SbmitBttn.Name = "SbmitBttn";
+            this.SbmitBttn.Size = new System.Drawing.Size(129, 38);
+            this.SbmitBttn.TabIndex = 127;
+            this.SbmitBttn.Text = "Auto-Fill";
+            this.SbmitBttn.UseVisualStyleBackColor = false;
+            this.SbmitBttn.Click += new System.EventHandler(this.SbmitBttn_Click);
             // 
             // label2
             // 
@@ -496,12 +491,43 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Circular Std Bold", 12F, System.Drawing.FontStyle.Bold);
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(58, 369);
+            this.label2.Location = new System.Drawing.Point(93, 383);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(82, 20);
             this.label2.TabIndex = 126;
             this.label2.Text = "Check-In:";
             this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // TmePcker
+            // 
+            this.TmePcker.CustomFormat = "";
+            this.TmePcker.Font = new System.Drawing.Font("Circular Std Bold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TmePcker.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.TmePcker.Location = new System.Drawing.Point(305, 379);
+            this.TmePcker.Name = "TmePcker";
+            this.TmePcker.Size = new System.Drawing.Size(113, 25);
+            this.TmePcker.TabIndex = 2;
+            this.TmePcker.Value = new System.DateTime(2022, 7, 17, 21, 0, 0, 0);
+            // 
+            // DtePcker
+            // 
+            this.DtePcker.Font = new System.Drawing.Font("Circular Std Bold", 11.25F, System.Drawing.FontStyle.Bold);
+            this.DtePcker.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.DtePcker.Location = new System.Drawing.Point(181, 379);
+            this.DtePcker.Name = "DtePcker";
+            this.DtePcker.Size = new System.Drawing.Size(118, 25);
+            this.DtePcker.TabIndex = 1;
+            // 
+            // CommaLbl
+            // 
+            this.CommaLbl.AutoSize = true;
+            this.CommaLbl.Font = new System.Drawing.Font("Circular Std Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CommaLbl.ForeColor = System.Drawing.Color.AntiqueWhite;
+            this.CommaLbl.Location = new System.Drawing.Point(425, 408);
+            this.CommaLbl.Name = "CommaLbl";
+            this.CommaLbl.Size = new System.Drawing.Size(14, 20);
+            this.CommaLbl.TabIndex = 128;
+            this.CommaLbl.Text = ",";
             // 
             // Form6
             // 
@@ -509,7 +535,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.AntiqueWhite;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1048, 745);
+            this.ClientSize = new System.Drawing.Size(1045, 760);
+            this.Controls.Add(this.CommaLbl);
+            this.Controls.Add(this.SbmitBttn);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.TmePcker);
             this.Controls.Add(this.DtePcker);
@@ -517,9 +545,9 @@
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
+            this.Controls.Add(this.scanlbl);
+            this.Controls.Add(this.genlbl);
+            this.Controls.Add(this.filllbl);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.YatLbl);
             this.Controls.Add(this.PicBox2);
@@ -589,16 +617,18 @@
         private System.Windows.Forms.PictureBox PicBox1;
         private System.Windows.Forms.PictureBox PicBox2;
         private System.Windows.Forms.Label YatLbl;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label filllbl;
+        private System.Windows.Forms.Label genlbl;
+        private System.Windows.Forms.Label scanlbl;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Button SbtBttn;
-        private System.Windows.Forms.DateTimePicker DtePcker;
+        private System.Windows.Forms.Button SbmitBttn;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.DateTimePicker TmePcker;
+        private System.Windows.Forms.DateTimePicker DtePcker;
+        private System.Windows.Forms.Label CommaLbl;
     }
 }
