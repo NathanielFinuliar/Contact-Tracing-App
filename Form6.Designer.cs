@@ -574,6 +574,7 @@
             this.Controls.Add(this.CmboBox);
             this.Controls.Add(this.CamLbl);
             this.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form6";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TRACE TOGETHER";
