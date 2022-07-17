@@ -550,7 +550,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TRACE TOGETHER";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form6_FormClosing);
-            this.Load += new System.EventHandler(this.TraceTogether_Load);
+            this.Load += new System.EventHandler(this.Form6_Load);
             ((System.ComponentModel.ISupportInitialize)(this.ScanPicBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.QrCdePcBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PicBox4)).EndInit();
